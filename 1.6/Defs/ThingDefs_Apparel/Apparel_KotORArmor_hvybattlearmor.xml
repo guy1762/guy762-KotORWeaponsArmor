@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="guy762_armorbase_hard">
+		<defName>guy762_HvyArmor</defName>
+		<label>heavy battle armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>This is the heaviest armor available for the soldier that requires maximum protection from direct damage. Some consider the fit claustrophobic, but that's the tradeoff for safety.</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--shaderType>CutoutComplex</shaderType>
+			<colorTwo>(190,0,0)</colorTwo-->
+		</graphicData>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>5000</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+			<EquipDelay>10</EquipDelay>
+			
+			<WorkToMake>80000</WorkToMake>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+			<MeleeDodgeChance>-0.5</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		
+		<recipeMaker>
+			<researchPrerequisite>guy762_ResearchKotOR_hvyarmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costStuffCount>120</costStuffCount>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		
+		<thingSetMakerTags>
+		  <li>RewardStandardMidFreq</li>
+		  <li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_commando</li>
+				<li>SaV_outfit_elite</li>
+				<li>SWKotORSpecificApparelItem_HeavyBattleArmor</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/Apparel</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORArmor</li>
+			<li>guy762TT_KotORGeneric_rare</li>
+			<li>guy762TT_KotORGeneric_ArmorHvy</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(180,185,185)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_HvyArmor_echani</defName>
+		<label>Echani Heavy Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Echani Heavy Armor is comparable to typical heavy battle armor in terms of protection, but allows for slightly more mobility.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<!--colorTwo>(175,90,85)</colorTwo-->
+		</graphicData>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>7500</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.05</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+			<MeleeDodgeChance>-0.4</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+		  <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_echani</li>
+				<li>KotORRoyaltyTag_AnyHighTier</li>
+				<li>SWKotORSpecificApparelItem_EchaniHeavyBattleArmor</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORArmor</li>
+			<li>guy762TT_KotORArmor_hvy</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(190,170,100)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_hvy</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				  <li>
+					<mountDef>guy762_KotORMount_overlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
+	<ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_HvyArmor_durasteel</defName>
+		<label>Durasteel Heavy Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Battle armor production thrived on Bonadan as the Republic recovered from war. This model heavy durasteel casing provides superior protection when compared to normal Heavy Battle Armor.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>(200,230,220)</colorTwo>
+		</graphicData>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>13000</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.15</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+			<MeleeDodgeChance>-0.5</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+		  <li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_elite</li>
+				<li>SaV_apparel_bountyhunterstrong</li>
+				<li>KotORRoyaltyTag_AnyHighTier</li>
+				<li>SWKotORSpecificApparelItem_DurasteelHeavyBattleArmor</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORArmor</li>
+			<li>guy762TT_KotORArmor_hvy</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<!--li>
+					<weight>15</weight>
+					<only>(185,135,135)</only>
+				</li-->
+				<li>
+					<weight>15</weight>
+					<only>(175,90,110)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_hvy</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				  <li>
+					<mountDef>guy762_KotORMount_overlay_hvy</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_HvyArmor_flex</defName>
+		<label>Flex Heavy Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Flex Heavy Armor allows for greater mobility than even some medium armor. The primary alloy is still durasteel, but it is treated in methods that are poorly understood by most in the Republic. In fact, it is unclear who manufactures these rare suits of armor.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay (heavy)</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<colorTwo>(210,150,60)</colorTwo>
+		</graphicData>
+		<recipeMaker Inherit="False"/>
+		<smeltable>false</smeltable>
+		<statBases>
+			<Mass>10</Mass>
+			<MarketValue>16500</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.15</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.3</MoveSpeed>
+			<MeleeDodgeChance>-0.3</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+		  <li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_elite</li>
+				<li>SaV_apparel_bountyhunterstrong</li>
+				<li>KotORRoyaltyTag_AnyHighTier</li>
+				<li>SWKotORSpecificApparelItem_FlexHeavyBattleArmor</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORElite</li>
+			<li>guy762TT_KotORArmor_hvy</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(125,155,180)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				  <li>
+					<mountDef>guy762_KotORMount_overlay</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_HvyArmor_matrix</defName>
+		<label>Matrix Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Matrix armor is typically used for starship plating. Adapting it to personal use is expensive and technologically difficult. The armor is particularly resistant to blaster fire.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)\n- Armor Tech</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<!--colorTwo>(210,150,60)</colorTwo-->
+		</graphicData>
+		<recipeMaker Inherit="False"/>
+		<smeltable>false</smeltable>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>30000</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.45</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+			<MeleeDodgeChance>-0.5</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+		  <li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_elite</li>
+				<li>SaV_apparel_starbountyhunter</li>
+				<li>KotORRoyaltyTag_AnyHighTier</li>
+				<li>SWKotORSpecificApparelItem_MatrixHeavyBattleArmor</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORElite</li>
+			<li>guy762TT_KotORArmor_exotic</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(190,145,190)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
+				<baseGraphicData>
+					<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</baseGraphicData>
+				<partsMounts>
+				  <li>
+					<mountDef>guy762_KotORMount_underlay_hvy</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				  <li>
+					<mountDef>guy762_KotORMount_overlay_hvy</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				  <li>
+					<mountDef>guy762_KotORMount_armortech</mountDef>
+					<offset>(0,0)</offset>
+					<layerOrder>1</layerOrder>
+				  </li>
+				</partsMounts>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--ThingDef ParentName="KotORArmorModdable_hard">
+		<defName>guy762_HvyArmor_fenelar</defName>
+		<label>Fenelar Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>This flexible armor is made of a variety of exotic minerals. Markings suggest that it was created by a species called the Fenelar.</description>
+		<graphicData>
+			<texPath>Apparel/HeavyBattleArmor/fenelar/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker Inherit="False"/>
+		<smeltable>false</smeltable>
+		<statBases>
+			<Mass>14</Mass>
+			<MarketValue>27500</MarketValue>
+			<MaxHitPoints>475</MaxHitPoints>
+      		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.25</ArmorRating_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
+			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+		  <li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<apparel Inherit="False">
+			<tags>
+				<li>KotORArmor_heavy</li>
+				<li>SaV_outfit_elite</li>
+			</tags>
+			<wornGraphicPath>Apparel/HeavyBattleArmor/fenelar/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<tradeTags>
+			<li>guy762TT_KotORArmor</li>
+			<li>guy762TT_KotORAntique</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>15</weight>
+					<only>(125,155,180)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		
+		<comps>
+		  <li Class="ModularWeapons.CompProperties_ModularParts">
+			<compClass>ModularWeapons.CompModularParts</compClass>
+			<partKinds>
+			  <li>guy762_slot_underlay_hvy</li>
+			  <li>guy762_slot_overlay_hvy</li>
+			</partKinds>
+			<randomizeParts>true</randomizeParts>
+		  </li>
+		</comps>
+	</ThingDef-->
+
+</Defs>

@@ -568,6 +568,7 @@
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
 		<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
 		<ConstructSuccessChance>0.2</ConstructSuccessChance>
+		<ConstructionSpeed>0.2</ConstructionSpeed>
 		<!--WorkTableWorkSpeedFactor>0.2</WorkTableWorkSpeedFactor-->
 		<!--MHC_MechanicalSurgerySuccessChance>0.2</MHC_MechanicalSurgerySuccessChance>
 		<MHC_MechanicalTendQualityOffset>0.2</MHC_MechanicalTendQualityOffset>
@@ -671,6 +672,7 @@
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.4</MechRepairSpeed>
 		<FixBrokenDownBuildingSuccessChance>0.4</FixBrokenDownBuildingSuccessChance>
 		<ConstructSuccessChance>0.4</ConstructSuccessChance>
+		<ConstructionSpeed>0.4</ConstructionSpeed>
 		<!--WorkTableWorkSpeedFactor>0.4</WorkTableWorkSpeedFactor-->
 		<!--MHC_MechanicalSurgerySuccessChanceFactor>0.4</MHC_MechanicalSurgerySuccessChanceFactor>
 		<MHC_MechanicalTendQualityOffset>0.4</MHC_MechanicalTendQualityOffset>

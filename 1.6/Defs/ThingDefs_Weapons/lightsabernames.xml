@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerWeaponLightsaber</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_weapon_name->Terra</li>
+        <li>r_weapon_name->Locke</li>
+        <li>r_weapon_name->Edgar</li>
+		<li>r_weapon_name->Sabin</li>
+		<li>r_weapon_name->Shadow</li>
+		<li>r_weapon_name->Cyan</li>
+		<li>r_weapon_name->Gau</li>
+		<li>r_weapon_name->Celes</li>
+		<li>r_weapon_name->Setzer</li>
+		<li>r_weapon_name->Strago</li>
+		<li>r_weapon_name->Relm</li>
+		<li>r_weapon_name->Mog</li>
+		<li>r_weapon_name->Gogo</li>
+		<li>r_weapon_name->Umaro</li>
+		<li>r_weapon_name->Gestahl</li>
+		<li>r_weapon_name->Kefka</li>
+		
+		<li>r_weapon_name->Maduin</li>
+		<li>r_weapon_name->Siren</li>
+		<li>r_weapon_name->Cait Sith</li>
+		<li>r_weapon_name->Kirin</li>
+		<li>r_weapon_name->Ramuh</li>
+		<li>r_weapon_name->Ifrit</li>
+		<li>r_weapon_name->Shiva</li>
+		<li>r_weapon_name->Carbuncle</li>
+		<li>r_weapon_name->Bismarck</li>
+		<li>r_weapon_name->Phantom</li>
+		<li>r_weapon_name->Unicorn</li>
+		<li>r_weapon_name->Catoblepas</li>
+		<li>r_weapon_name->Golem</li>
+		<li>r_weapon_name->Zona Seeker</li>
+		<li>r_weapon_name->Fenrir</li>
+		<li>r_weapon_name->Lakshmi</li>
+		<li>r_weapon_name->Quetzalli</li>
+		<li>r_weapon_name->Phoenix</li>
+		<li>r_weapon_name->Ragnarok</li>
+		<li>r_weapon_name->Valigarmanda</li>
+		<li>r_weapon_name->Midgarsormr</li>
+		<li>r_weapon_name->Alexander</li>
+		<li>r_weapon_name->Odin</li>
+		<li>r_weapon_name->Raiden</li>
+		<li>r_weapon_name->Bahamut</li>
+		<li>r_weapon_name->Crusader</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

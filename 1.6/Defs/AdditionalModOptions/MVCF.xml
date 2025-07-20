@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <MVCF.ModDef>
+	<defName>guy762_KotORWeapons</defName>
+	<label>KotOR Weapons</label>
+	<description>Adds additional verbs for blasters, inspired by the original KotOR's "feats".</description>
+	<ActivateFeatures>
+		<li>ApparelVerbs</li>
+		<li>ExtraEquipmentVerbs</li>
+		<li>IntegratedToggle</li>
+	</ActivateFeatures>
+  </MVCF.ModDef>
+  
+</Defs>

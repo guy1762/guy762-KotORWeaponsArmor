@@ -109,7 +109,7 @@
     </statBases>
 	<equippedStatOffsets>
 		<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
-		<!--ConstructionSpeedFactor>0.2</ConstructionSpeedFactor-->
+		<ConstructionSpeed>0.2</ConstructionSpeed>
 		<MortarMissRadiusFactor>-0.2</MortarMissRadiusFactor>
 		
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
@@ -177,7 +177,7 @@
     </statBases>
 	<equippedStatOffsets>
 		<PawnTrapSpringChance>-0.3</PawnTrapSpringChance>
-		<!--ConstructionSpeedFactor>0.3</ConstructionSpeedFactor-->
+		<ConstructionSpeed>0.3</ConstructionSpeed>
 		<MortarMissRadiusFactor>-0.3</MortarMissRadiusFactor>
 		
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.3</MechRepairSpeed>
@@ -236,7 +236,7 @@
     </statBases>
 	<equippedStatOffsets>
 		<PawnTrapSpringChance>-0.4</PawnTrapSpringChance>
-		<!--ConstructionSpeedFactor>0.4</ConstructionSpeedFactor-->
+		<ConstructionSpeed>0.4</ConstructionSpeed>
 		<MortarMissRadiusFactor>-0.4</MortarMissRadiusFactor>
 		
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.5</MechRepairSpeed>

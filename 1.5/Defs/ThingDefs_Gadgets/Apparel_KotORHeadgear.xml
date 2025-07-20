@@ -503,6 +503,7 @@
 		<MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
 		<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
 		<ConstructSuccessChance>0.2</ConstructSuccessChance>
+		<ConstructionSpeed>0.2</ConstructionSpeed>
 		
 		<!--MHC_MechanicalSurgerySuccessChance>0.2</MHC_MechanicalSurgerySuccessChance>
 		<MHC_MechanicalTendQualityOffset>0.2</MHC_MechanicalTendQualityOffset>

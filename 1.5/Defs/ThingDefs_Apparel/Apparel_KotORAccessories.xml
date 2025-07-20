@@ -118,11 +118,13 @@
 			<WorkToMake>7500</WorkToMake>
 		</statBases>
 		<equippedStatOffsets>
-		  <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+		  <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+		  <VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		  
+		  <ConstructionSpeed>0.2</ConstructionSpeed>
 		  <MechRepairSpeed MayRequire="Ludeon.RimWorld.Biotech">0.2</MechRepairSpeed>
 		  <FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
 		  <ConstructSuccessChance>0.2</ConstructSuccessChance>
-		  <VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

@@ -919,5 +919,488 @@
 	</comps>
   </ThingDef>
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_soft">
+    <defName>guy762_KreiaRobes_DarthTraya</defName>
+    <label>Darth Traya's Robes</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<Mass>6</Mass>
+		<MarketValue>10000</MarketValue>
+		
+		<MaxHitPoints>1000</MaxHitPoints>
+		<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		<Insulation_Cold>25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>10</EquipDelay>
+		
+		<WorkToMake>14000</WorkToMake>
+	</statBases>
+	<equippedStatOffsets>
+	  <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+	  <PainShockThreshold>0.5</PainShockThreshold>
+	  <MentalBreakThreshold>-1</MentalBreakThreshold>
+    </equippedStatOffsets>
+	
+	<costList Inherit="False">
+		<Hyperweave>80</Hyperweave>
+		<KOTOR_FabricArmorweave>20</KOTOR_FabricArmorweave>
+	  </costList>
+	  <recipeMaker>
+		<researchPrerequisite>guy762_ResearchKotOR_kreia</researchPrerequisite>
+		<skillRequirements>
+		  <Crafting>6</Crafting>
+		</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+			<li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+	  </recipeMaker>
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_apparel_traya</li>
+			<li>KotORRoyaltyTag_DSCharacterApparel</li>
+			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
+		</tags>
+		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</wornGraphicPath>
+    </apparel>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_underlay_robe</li>
+		</partKinds>
+		<randomizeParts>true</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  <HairDef>
+    <defName>guy762_Hair_Traya</defName>
+    <label>Darth Traya</label>
+    <styleGender>Female</styleGender>
+    <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Hair/Traya</texPath>
+	<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <category>Royal</category>
+    <styleTags>
+      <li>guy762_SWHair_Traya</li>
+    </styleTags>
+  </HairDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_hard">
+    <defName>guy762_ExarKunArmor</defName>
+    <label>Exar Kun's light battle suit</label>
+    <description>Attributed to Exar Kun, this armor may well have been one of those worn by the Dark Lord prior to his defeat forty years ago. He was rarely without considerable, yet flexible, personal armor.</description>
+    <graphicData>
+      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<Mass>8</Mass>
+		<MarketValue>15000</MarketValue>
+		
+		<MaxHitPoints>1000</MaxHitPoints>
+		<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.05</ArmorRating_Heat>
+		<Insulation_Cold>25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+		<EquipDelay>10</EquipDelay>
+		
+		<!-- <WorkToMake>16000</WorkToMake> -->
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>-0.2</MoveSpeed>
+		<MeleeDodgeChance>-0.2</MeleeDodgeChance>
+		<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+			
+		<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+		<PsychicSensitivity>0.7</PsychicSensitivity>
+		<MeleeDamageFactor>0.3</MeleeDamageFactor>
+    </equippedStatOffsets>
+	
+	<!-- <costList Inherit="False"> -->
+		<!-- <KOTOR_FabricArmorweave>20</KOTOR_FabricArmorweave> -->
+		<!-- <DevilstrandCloth>80</DevilstrandCloth> -->
+		<!-- <Plasteel>25</Plasteel> -->
+		<!-- VPE_Eltex>6</VPE_Eltex> added w/ patch -->
+	  <!-- </costList> -->
+	  <!-- <recipeMaker> -->
+		<!-- <researchPrerequisite>guy762_ResearchKotOR_malak</researchPrerequisite> -->
+		<!-- <skillRequirements> -->
+		  <!-- <Crafting>8</Crafting> -->
+		<!-- </skillRequirements> -->
+		<!-- <recipeUsers Inherit="False"> -->
+			<!-- <li>HandTailoringBench</li> -->
+			<!-- <li>ElectricTailoringBench</li> -->
+			<!-- <li>guy762_KotORWorkbench</li> -->
+		<!-- </recipeUsers> -->
+	  <!-- </recipeMaker> -->
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_apparel_exarkun</li>
+			<li>KotORRoyaltyTag_DSCharacterApparel</li>
+			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
+		</tags>
+		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</wornGraphicPath>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORCharacterItem</li>
+		<li>guy762TT_KotORLegendary</li>
+	</tradeTags>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_underlay_hvy</li>
+		  <li>guy762_slot_overlay</li>
+		</partKinds>
+		<randomizeParts>true</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="KotORArmorModdable_hard">
+    <defName>guy762_MalgusArmor</defName>
+    <label>Darth Malgus' powered battle armor</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+		<Mass>14</Mass>
+		<MarketValue>100000</MarketValue>
+		
+		<MaxHitPoints>1000</MaxHitPoints>
+		<ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+		<ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+		<ArmorRating_Heat>1.35</ArmorRating_Heat>
+		<Insulation_Cold>75</Insulation_Cold>
+		<Insulation_Heat>75</Insulation_Heat>
+		<EquipDelay>10</EquipDelay>
+		
+		<!-- <WorkToMake>16000</WorkToMake> -->
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>-0.5</MoveSpeed>
+		<MeleeDodgeChance>-0.5</MeleeDodgeChance>
+		<IncomingDamageFactor>-0.15</IncomingDamageFactor>
+		
+		<MeleeDamageFactor>0.2</MeleeDamageFactor>              <!---->
+		<VEF_MassCarryCapacity>20</VEF_MassCarryCapacity>
+		<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			
+		<PsychicSensitivity>0.3</PsychicSensitivity>
+		<MeleeDamageFactor>0.5</MeleeDamageFactor>
+    </equippedStatOffsets>
+	
+	<!-- <costList Inherit="False"> -->
+		<!-- <KOTOR_FabricArmorweave>20</KOTOR_FabricArmorweave> -->
+		<!-- <DevilstrandCloth>80</DevilstrandCloth> -->
+		<!-- <Plasteel>25</Plasteel> -->
+		<!-- VPE_Eltex>6</VPE_Eltex> added w/ patch -->
+	  <!-- </costList> -->
+	  <!-- <recipeMaker> -->
+		<!-- <researchPrerequisite>guy762_ResearchKotOR_malak</researchPrerequisite> -->
+		<!-- <skillRequirements> -->
+		  <!-- <Crafting>8</Crafting> -->
+		<!-- </skillRequirements> -->
+		<!-- <recipeUsers Inherit="False"> -->
+			<!-- <li>HandTailoringBench</li> -->
+			<!-- <li>ElectricTailoringBench</li> -->
+			<!-- <li>guy762_KotORWorkbench</li> -->
+		<!-- </recipeUsers> -->
+	  <!-- </recipeMaker> -->
+	
+    <apparel>
+		<layers>
+			<li>OnSkin</li>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Hands</li>
+			<li>Legs</li>
+			<li>Feet</li>
+		</bodyPartGroups>
+		<tags Inherit="False">
+			<li>SE_apparel_malgus</li>
+			<li>KotORRoyaltyTag_DSCharacterApparel</li>
+			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
+		</tags>
+		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</wornGraphicPath>
+		<useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORCharacterItem</li>
+		<li>guy762TT_KotORLegendary</li>
+	</tradeTags>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_underlay_hvy</li>
+		  <li>guy762_slot_overlay_hvy</li>
+		  <li>guy762_slot_armortech</li>
+		</partKinds>
+		<randomizeParts>true</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_HeadbandBase">
+    <defName>guy762_MalgusMask</defName>
+    <label>Darth Malgus' breath mask</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1000</MarketValue>
+	  
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.3</Mass>
+	  <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.02</ArmorRating_Heat>
+	  <Insulation_Cold>2</Insulation_Cold>
+      <EquipDelay>0.5</EquipDelay>
+	  
+	  <!-- <WorkToMake>1500</WorkToMake> -->
+    </statBases>
+	<equippedStatOffsets>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+	
+	<!-- <recipeMaker> -->
+		<!-- <researchPrerequisite>KOTOR_Research_AdvPhysiology</researchPrerequisite> -->
+		<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+		<!-- </skillRequirements> -->
+	<!-- </recipeMaker> -->
+	<!-- <costList> -->
+		<!-- <Plasteel>10</Plasteel> -->
+		<!-- <ComponentIndustrial>2</ComponentIndustrial> -->
+	<!-- </costList> -->
+	
+    <apparel>
+      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM</wornGraphicPath>
+	  <renderSkipFlags>
+        <li>Beard</li>
+      </renderSkipFlags>
+      <drawData>
+        <defaultData>
+			<layer>85</layer>
+	    </defaultData>
+		<dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <bodyPartGroups>
+        <li>Mouth</li>
+      </bodyPartGroups>
+      <layers>
+		<li>Overhead</li>
+      </layers>
+	  <tags>
+		<li>SE_apparel_malgus</li>
+	  </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+	  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORCharacterItem</li>
+		<li>guy762TT_KotORLegendary</li>
+	</tradeTags>
+	
+	<modExtensions>
+	  <li MayRequire="guy762.StarWarsXenotypes" Class="EBSGFramework.EquipRestrictExtension">
+		<forbiddenGenesToEquip>
+            <li>guy762_HeadAttachment_keldormask</li>
+			<li>guy762_HeadAttachment_gandmask</li>
+         </forbiddenGenesToEquip>
+      </li>
+	</modExtensions>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
+  <ThingDef ParentName="guy762_HeadbandBase">
+    <defName>guy762_MalgusHood</defName>
+    <label>Darth Malgus' masked hood</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM_south</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1000</MarketValue>
+	  
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.3</Mass>
+	  <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.02</ArmorRating_Heat>
+	  <Insulation_Cold>5</Insulation_Cold>
+      <EquipDelay>0.5</EquipDelay>
+	  
+	  <!-- <WorkToMake>1500</WorkToMake> -->
+    </statBases>
+	<equippedStatOffsets>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+	
+	<!-- <recipeMaker> -->
+		<!-- <researchPrerequisite>KOTOR_Research_AdvPhysiology</researchPrerequisite> -->
+		<!-- <skillRequirements> -->
+			<!-- <Crafting>4</Crafting> -->
+		<!-- </skillRequirements> -->
+	<!-- </recipeMaker> -->
+	<!-- <costList> -->
+		<!-- <Plasteel>10</Plasteel> -->
+		<!-- <ComponentIndustrial>2</ComponentIndustrial> -->
+	<!-- </costList> -->
+	
+    <apparel>
+      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM</wornGraphicPath>
+	  
+	  <drawData>
+		<defaultData>
+			<layer>71</layer>
+		</defaultData>
+		<dataNorth>
+		  <layer>90</layer>
+	    </dataNorth>
+	  </drawData>
+	  <renderSkipFlags>
+		<li>Hair</li>
+		<li>Beard</li>
+	  </renderSkipFlags>
+	  
+      <bodyPartGroups>
+		<li>UpperHead</li>
+		<li>Mouth</li>
+      </bodyPartGroups>
+      <layers>
+		<li>Overhead</li>
+      </layers>
+	  
+	  <tags>
+		<li>SE_apparel_malgus</li>
+	  </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+	  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    </apparel>
+	<tradeTags>
+		<li>guy762TT_KotORCharacterItem</li>
+		<li>guy762TT_KotORLegendary</li>
+	</tradeTags>
+	
+	<modExtensions>
+	  <li MayRequire="guy762.StarWarsXenotypes" Class="EBSGFramework.EquipRestrictExtension">
+		<forbiddenGenesToEquip>
+            <li>guy762_HeadAttachment_keldormask</li>
+			<li>guy762_HeadAttachment_gandmask</li>
+         </forbiddenGenesToEquip>
+      </li>
+	</modExtensions>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+  
 
 </Defs>
