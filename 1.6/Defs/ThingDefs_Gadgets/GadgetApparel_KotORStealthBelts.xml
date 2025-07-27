@@ -53,6 +53,7 @@
 	  <tags>
 		<li>KotORStealthBelt_adv</li>
 		<li>SaV_ExchangeGadget</li>
+		<li>SWKotORSpecificGadgetItem_Exchange2MinStealthBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -126,6 +127,7 @@
 		<li>SaV_genoharadan</li>
 		<li>KotORHeroAccessories_mission</li>
 		<li>KotORHeroAccessories_hanharr</li>
+		<li>SWKotORSpecificGadgetItem_GenoHaradan4MinStealthBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>

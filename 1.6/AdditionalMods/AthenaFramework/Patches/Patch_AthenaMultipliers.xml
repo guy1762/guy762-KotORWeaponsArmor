@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="guy762_ThrownGrenade_ion"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_default"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_sniper"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_heavy"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_advheavy"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_mstheavy"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORBlasterBolt_ioncharger"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORIonBolt_baragwinX"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORBlasterBolt_nadd"]</xpath>
+	  <value>
+
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <hediffDefs>
+					<li>PsychicAmplifier</li>
+				  </hediffDefs>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="VanillaExpanded.VPsycastsE">
+				  <hediffDefs>
+					<li>VPE_PsycastAbilityImplant</li>
+				  </hediffDefs>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ThingDef[defName="KotORBlasterBolt_naddheavy"]</xpath>
+	  <value>
+
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <hediffDefs>
+					<li>PsychicAmplifier</li>
+				  </hediffDefs>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="VanillaExpanded.VPsycastsE">
+				  <hediffDefs>
+					<li>VPE_PsycastAbilityImplant</li>
+				  </hediffDefs>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+		 
+	  </value>
+	</Operation>
+	
+	
+	
+
+
+</Patch>

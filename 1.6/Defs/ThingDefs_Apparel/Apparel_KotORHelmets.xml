@@ -467,6 +467,11 @@
 		</equippedStatOffsets>
 		
 		<apparel Inherit="False">
+			<drawData>
+				<defaultData>
+					<layer>84</layer>
+				</defaultData>
+			</drawData>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>OR_apparel_pilot</li>
@@ -572,6 +577,10 @@
 		</costList>
 		
 		<apparel Inherit="False">
+			<renderSkipFlags>
+				<li>Hair</li>
+				<li>Eyes</li>
+			</renderSkipFlags>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
@@ -638,6 +647,10 @@
 		</equippedStatOffsets>
 		
 		<apparel Inherit="False">
+			<renderSkipFlags>
+				<li>Hair</li>
+				<li>Eyes</li>
+			</renderSkipFlags>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_chiss</li>

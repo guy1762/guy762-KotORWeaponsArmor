@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--RecipeDef Name="VPE_CraftEltexGear" Abstract = "True">
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>VPE_Eltex</li>
+		  </thingDefs>
+		  <categories>
+			<li>Textiles</li>
+		  </categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>VPE_EltexGear</researchPrerequisite>
+		<skillRequirements>
+		  <Crafting>6</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+		  <li>HandTailoringBench</li>
+		  <li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<useIngredientsForColor>false</useIngredientsForColor>
+	  </RecipeDef-->
+	
+	
+	<RecipeDef ParentName="VPE_CraftEltexGear">
+		<defName>KotORRecipe_Forceweave</defName>
+		<label>make Forceweave underlay</label>
+		<description>Make Forceweave underlay.</description>
+		<jobString>Making Forceweave underlay.</jobString>
+		<workAmount>20000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Synthread</li>
+			  </thingDefs>
+			</filter>
+			<count>40</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>VPE_Eltex</li>
+			  </thingDefs>
+			</filter>
+			<count>2</count>
+		  </li>
+		</ingredients>
+		<products>
+		  <guy762_underlayitem_force>1</guy762_underlayitem_force>
+		</products>
+		<skillRequirements>
+		  <Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite Inherit="False"/>
+		<researchPrerequisites>
+			<li>VPE_EltexGear</li>
+			<li>guy762_ResearchKotOR_exupgrade</li>
+		</researchPrerequisites>
+		<recipeUsers>
+		  <li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+	  </RecipeDef>
+	
+	
+	
+	
+	<RecipeDef ParentName="VPE_CraftEltexGear">
+		<defName>KotORRecipe_JediArmband</defName>
+		<label>make Jedi armband</label>
+		<description>Make a Jedi armband.</description>
+		<jobString>Making a Jedi armband.</jobString>
+		<workAmount>1000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Synthread</li>
+			  </thingDefs>
+			</filter>
+			<count>20</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>VPE_Eltex</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<skillRequirements>
+		  <Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>guy762_ResearchKotOR_jedi</researchPrerequisite>
+		<products>
+		  <guy762_armband>1</guy762_armband>
+		</products>
+		<recipeUsers>
+		  <li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+	  </RecipeDef>
+	  
+
+	  
+	  
+	
+	
+
+	  <RecipeDef ParentName="VPE_CraftEltexGear">
+		<defName>KotORRecipe_SithMask_assassin</defName>
+		<label>make Sith Assassin mask</label>
+		<description>Make a Sith Assassin mask.</description>
+		<jobString>Making Sith Assassin mask.</jobString>
+		<workAmount>8000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Synthread</li>
+			  </thingDefs>
+			</filter>
+			<count>15</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Plasteel</li>
+			  </thingDefs>
+			</filter>
+			<count>25</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>VPE_Eltex</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>ComponentIndustrial</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<skillRequirements>
+		  <Crafting>10</Crafting>
+		</skillRequirements>
+		<researchPrerequisite Inherit="False"/>
+		<researchPrerequisites>
+			<li>VPE_EltexGear</li>
+			<li>guy762_ResearchKotOR_sith</li>
+		</researchPrerequisites>
+		<products>
+		  <guy762_SithMask_assassin>1</guy762_SithMask_assassin>
+		</products>
+		<recipeUsers>
+		  <li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+	  </RecipeDef>
+
+	  
+	  
+	  <RecipeDef ParentName="VPE_CraftEltexGear">
+		<defName>KotORRecipe_SithMask_warrior</defName>
+		<label>make Sith mask</label>
+		<description>Make a Sith mask.</description>
+		<jobString>Making Sith mask.</jobString>
+		<workAmount>8000</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Synthread</li>
+			  </thingDefs>
+			</filter>
+			<count>15</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Plasteel</li>
+			  </thingDefs>
+			</filter>
+			<count>25</count>
+		  </li>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>VPE_Eltex</li>
+			  </thingDefs>
+			</filter>
+			<count>2</count>
+		  </li>
+		</ingredients>
+		<products>
+		  <guy762_SithMask_warrior>1</guy762_SithMask_warrior>
+		</products>
+		<skillRequirements>
+		  <Crafting>12</Crafting>
+		</skillRequirements>
+		<researchPrerequisite Inherit="False"/>
+		<researchPrerequisites>
+			<li>VPE_EltexGear</li>
+			<li>guy762_ResearchKotOR_sith</li>
+		</researchPrerequisites>
+		<recipeUsers>
+		  <li>guy762_KotORWorkbench</li>
+		</recipeUsers>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+	  </RecipeDef>
+	  
+	  
+</Defs>

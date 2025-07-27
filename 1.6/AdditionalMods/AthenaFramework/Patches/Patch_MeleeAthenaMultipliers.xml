@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	
+	<!--Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation-->
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_vblade"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_vsword"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_vdblade"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_vaxe"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_vglaive"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_sbaton"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_cellmod_ion_estaff"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+
+
+</Patch>

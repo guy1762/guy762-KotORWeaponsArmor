@@ -29,6 +29,7 @@
 	  <tags>
 		<li>KotORShield_basic</li>
 		<li>KotORShield_weak</li>
+		<li>SWKotORSpecificGadgetItem_BasicEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -88,6 +89,7 @@
       </bodyPartGroups>
 	  <tags>
 		<li>KotORShield_weak</li>
+		<li>SWKotORSpecificGadgetItem_ThermalShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -149,6 +151,7 @@
 	  <tags>
 		<li>KotORShield_sith</li>
 		<li>KotORHeroAccessories_yuthura</li>
+		<li>SWKotORSpecificGadgetItem_SithEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -209,6 +212,7 @@
       </bodyPartGroups>
 	  <tags>
 		<li>KotORShield_mid</li>
+		<li>SWKotORSpecificGadgetItem_ArkanianEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -275,6 +279,7 @@
 	  <tags>
 		<li>KotORShield_mid</li>
 		<li>KotORShield_echani</li>
+		<li>SWKotORSpecificGadgetItem_WeakEchaniEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -336,6 +341,7 @@
 		<li>KotORShield_echani</li>
 		<li>KotORHeroAccessories_handmaiden</li>
 		<li>KotORHeroAccessories_juhani</li>
+		<li>SWKotORSpecificGadgetItem_StrongEchaniEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -402,6 +408,7 @@
 		<li>KotORHeroAccessories_canderousMerc</li>
 		<li>KotORHeroAccessories_mission</li>
 		<li>KotORHeroAccessories_zaalbar</li>
+		<li>SWKotORSpecificGadgetItem_VerpineEnergyShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -469,6 +476,7 @@
 	  <tags>
 		<li>KotORShield_mid</li>
 		<li>KotORShield_mando</li>
+		<li>SWKotORSpecificGadgetItem_WeakMandoMeleeShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -538,6 +546,7 @@
 		<li>KotORHeroAccessories_bastila</li>
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_hanharr</li>
+		<li>SWKotORSpecificGadgetItem_StrongMandoMeleeShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -604,6 +613,7 @@
 		<li>KotORShield_hapan</li>
 		<li>KotORHeroAccessories_mission</li>
 		<li>KotORHeroAccessories_zaalbar</li>
+		<li>SWKotORSpecificGadgetItem_GreeHyperShield</li>
 	  </tags>
     </apparel>
 	<tradeTags>

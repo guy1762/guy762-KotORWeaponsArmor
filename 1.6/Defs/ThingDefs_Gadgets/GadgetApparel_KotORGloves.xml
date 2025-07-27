@@ -42,6 +42,7 @@
 		<li>KotOREquipment_basic</li>
 		<li>KotOREquipment_czerkatech</li>
 		<li>KotORHeroAccessories_mission</li>
+		<li>SWKotORSpecificGadgetItem_TarisGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -91,6 +92,7 @@
 		<li>KotORHeroAccessories_bastila</li>
 		<li>KotORHeroAccessories_juhani</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWKotORSpecificGadgetItem_CzerkaDefenseGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -147,6 +149,7 @@
 		<li>KotORGloves_tech</li>
 		<li>SaV_ExchangeGadget</li>
 		<li>KotORHeroAccessories_mission</li>
+		<li>SWKotORSpecificGadgetItem_ExchangeGloves</li>
 	  </tags>
     </apparel>
 	<tradeTags>

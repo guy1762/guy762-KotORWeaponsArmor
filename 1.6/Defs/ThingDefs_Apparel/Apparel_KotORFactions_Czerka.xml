@@ -242,6 +242,10 @@
 		</costList>
 		
 		<apparel Inherit="False">
+			<renderSkipFlags>
+				<li>Hair</li>
+				<li>Eyes</li>
+			</renderSkipFlags>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SWKotORSpecificApparelItem_CzerkaLightBattleHelmet</li>

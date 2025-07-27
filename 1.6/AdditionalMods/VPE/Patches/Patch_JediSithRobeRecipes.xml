@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_JediTunic_light" or defName="guy762_JediTunic_lightOld" or defName="guy762_JediTunic_simple" or defName="guy762_JediTunic_formal" or defName="guy762_JediTunic_trad"]/costList</xpath>
+		<value>
+			<VPE_Eltex>3</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_SithTunic_apprentice"]/costList</xpath>
+		<value>
+			<VPE_Eltex>3</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_SithTunic_assassin"]/costList</xpath>
+		<value>
+			<VPE_Eltex>4</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_SithTunic_warrior"]/costList</xpath>
+		<value>
+			<VPE_Eltex>3</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	
+</Patch>

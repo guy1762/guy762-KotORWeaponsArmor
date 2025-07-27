@@ -608,6 +608,12 @@
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
+	
+	<modExtensions>
+			<li Class="Lightsaber.ModExtension_Conductive" MayRequire="lee.theforce.lightsaber">
+				<shortCircuitChance>1</shortCircuitChance>
+			</li>
+		</modExtensions>
   </ThingDef>
   
   

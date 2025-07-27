@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystal_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystal_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	<!--Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalshort_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalshort_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalsingle_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalsingle_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation-->
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystaldual_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystaldual_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalcross_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalcross_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalcurve_luxum"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>1.5</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAddModExtension">
+	  <xpath>Defs/ModularWeapons.ModularPartDef[defName="guy762_powercrystalcurve_firkann"]</xpath>
+	  <value>
+		 
+			<li Class="AthenaFramework.DamageModifierExtension">
+			  <outgoingModifiers>
+				<li>
+				  <fleshTypes>
+					<li>Mechanoid</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+				<li MayRequire="Killathon.ArtificialBeings.SynCore">
+				  <fleshTypes>
+					<li>ABF_FleshType_Synstruct_Base</li>
+				  </fleshTypes>
+				  <modifier>2</modifier>
+				</li>
+			  </outgoingModifiers>
+			</li>
+	  </value>
+	</Operation>
+
+	
+	
+	
+
+
+</Patch>

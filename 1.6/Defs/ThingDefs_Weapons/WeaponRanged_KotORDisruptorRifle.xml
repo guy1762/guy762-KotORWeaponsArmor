@@ -199,7 +199,7 @@
 	<ThingDef ParentName="KotORRangedModdable_TwoHand">
 		<defName>guy762_disrifle_charric</defName>
 		<label>Charric</label>
-		<description>The Charric is an immensely powerful disruptor rifle. Exceedingly rare, its origin is believed to be somewhere in the Unknown Regions, though what species created it is unknown. The Charric employs maser beams and easily penetrates most armor and shields.\n\nUPGRADE SLOTS:\n- Scop\n- Firing Chamber</description>
+		<description>The Charric is an immensely powerful disruptor rifle. Exceedingly rare, its origin is believed to be somewhere in the Unknown Regions, though what species created it is unknown. The Charric employs maser beams and easily penetrates most armor and shields.\n\nUPGRADE SLOTS:\n- Scope\n- Firing Chamber</description>
 		<techLevel>Spacer</techLevel>
 		<thingClass>ThingWithComps</thingClass>
 		<graphicData>

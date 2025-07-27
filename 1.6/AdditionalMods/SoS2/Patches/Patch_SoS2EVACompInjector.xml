@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		  
+		  
+		  <li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="guy762_Bodysuit"][not(comps)]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="guy762_Bodysuit"][not(comps)]</xpath>
+					<value>
+						<comps />
+					</value>
+				</match>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="guy762_Bodysuit"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="guy762_Bodysuit"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+					<value>
+						<li>
+							<compClass>SaveOurShip2.CompEVA</compClass>
+						</li>
+					</value>
+				</match>
+			</li>
+		  
+		  
+		  <!--li Class="PatchOperationAdd">
+			  <xpath>Defs/ThingDef[defName="guy762_Bodysuit"]</xpath>
+			  <value>
+				<comps>
+					<li>
+					  <compClass>SaveOurShip2.Comp_EVA</compClass>
+					</li>
+				</comps>
+			  </value>
+		  </li-->
+		  
+		  <li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="guy762_LgtBattleArmor_power"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="guy762_LgtBattleArmor_power"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+					<value>
+						<li>
+							<compClass>SaveOurShip2.CompEVA</compClass>
+						</li>
+					</value>
+				</match>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="guy762_MidBattleArmor_powered"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="guy762_MidBattleArmor_powered"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+					<value>
+						<li>
+							<compClass>SaveOurShip2.CompEVA</compClass>
+						</li>
+					</value>
+				</match>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="guy762_MidBattleArmor_corellian"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="guy762_MidBattleArmor_corellian"]/comps[not(li/compClass="SaveOurShip2.CompEVA")]</xpath>
+					<value>
+						<li>
+							<compClass>SaveOurShip2.CompEVA</compClass>
+						</li>
+					</value>
+				</match>
+			</li>
+			
+			
+
+		  
+		  
+		  
+		  
+		  
+		</operations>
+	</Operation>
+
+	
+	
+</Patch>

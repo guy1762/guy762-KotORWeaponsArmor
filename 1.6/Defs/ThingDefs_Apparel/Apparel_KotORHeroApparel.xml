@@ -52,7 +52,11 @@
     <apparel>
       <wornGraphicPath>Apparel/CharacterOutfits/Visas/hood</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
-      <bodyPartGroups>
+      <renderSkipFlags>
+        <li>Hair</li>
+        <li>Eyes</li>
+      </renderSkipFlags>
+	  <bodyPartGroups>
         <li>Eyes</li>
 		<li>UpperHead</li>
       </bodyPartGroups>
@@ -63,6 +67,7 @@
 	  <blocksVision>true</blocksVision>
 	  <tags>
 		<li>OR_apparel_visas</li>
+		<li>SWKotORSpecificApparelItem_VisasHood</li>
 		<li>KotORRoyaltyTag_LSCharacterApparel</li>
 		<li>KotORRoyaltyTag_DSCharacterApparel</li>
 		<li>KotORRoyaltyTag_AnyCharacterApparel</li>
@@ -176,6 +181,7 @@
 		</bodyPartGroups>
 		<tags Inherit="False">
 			<li>OR_apparel_visas</li>
+			<li>SWKotORSpecificApparelItem_VisasRobes</li>
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
@@ -284,6 +290,7 @@
 		</bodyPartGroups>
 		<tags Inherit="False">
 			<li>OR_apparel_jolee</li>
+			<li>SWKotORSpecificApparelItem_JoleeTunic</li>
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
@@ -386,6 +393,7 @@
 		</bodyPartGroups>
 		<tags Inherit="False">
 			<li>OR_apparel_bastila</li>
+			<li>SWKotORSpecificApparelItem_BastilaTunic</li>
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
@@ -486,6 +494,7 @@
 		</bodyPartGroups>
 		<tags Inherit="False">
 			<li>OR_apparel_juhani</li>
+			<li>SWKotORSpecificApparelItem_JuhaniTunic</li>
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>

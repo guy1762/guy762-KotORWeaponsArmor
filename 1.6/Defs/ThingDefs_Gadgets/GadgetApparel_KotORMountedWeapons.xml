@@ -43,6 +43,7 @@
 	  <tags>
 		<li>KotORDroidWeapon_mid</li>
 		<li>KotORDroidWeapon_asndroid</li>
+		<li>SWKotORSpecificDroidWeapon_StunNeedler</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -151,6 +152,7 @@
 	  <tags>
 		<li>KotORDroidWeapon_mid</li>
 		<li>KotORDroidWeapon_asndroid</li>
+		<li>SWKotORSpecificDroidWeapon_ToxicNeedler</li>
 	  </tags>
     </apparel>
 	<tradeTags>

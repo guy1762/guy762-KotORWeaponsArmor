@@ -61,6 +61,7 @@
 	  <tags>
 		<li>KotORBelt_utility</li>
 		<li>SaV_ExchangeGadget</li>
+		<li>SWKotORSpecificGadgetItem_ExchangeUtilityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -125,6 +126,7 @@
 	  <tags>
 		<li>KotORBelt_legendary</li>
 		<li>KotORHeroAccessories_mission</li>
+		<li>SWKotORSpecificGadgetItem_CalrissianUtilityBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>
@@ -179,6 +181,7 @@
 		<li>KotORBelt_legendary</li>
 		<li>KotORHeroAccessories_exile</li>
 		<li>KotORHeroAccessories_bastila</li>
+		<li>SWKotORSpecificGadgetItem_QelDromaBelt</li>
 	  </tags>
     </apparel>
 	<tradeTags>

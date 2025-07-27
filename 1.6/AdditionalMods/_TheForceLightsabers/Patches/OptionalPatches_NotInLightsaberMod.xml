@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>guy762.KotORWeapons</modId>
+        <key>KotORWeaponsSettings_KotORLightsaberBalance</key>
+        <defaultValue>true</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationFindMod" IfModActive="lee.theforce.lightsaber">
+				<mods>
+					<li>Star Wars : The Force - Lightsaber</li>
+				</mods>
+				
+				<match Class="PatchOperationSequence">
+				  <operations>
+					
+					<!-- ATTACK TOOLS -->
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Custom"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>12</power>
+								<chanceFactor>0.05</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>1.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Dual"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>6</power>
+								<chanceFactor>0.1</chanceFactor>
+								<cooldownTime>1.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>2</chanceFactor>
+								<cooldownTime>1</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Inquisitor"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>6</power>
+								<chanceFactor>0.1</chanceFactor>
+								<cooldownTime>1.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>2</chanceFactor>
+								<cooldownTime>1</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Curved"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>10</power>
+								<chanceFactor>0.01</chanceFactor>
+								<cooldownTime>5</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>1.25</chanceFactor>
+								<cooldownTime>1.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.75</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Shoto"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>10</power>
+								<chanceFactor>0.05</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>24</power>
+								<chanceFactor>1.5</chanceFactor>
+								<cooldownTime>2</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>24</power>
+								<chanceFactor>0.5</chanceFactor>
+								<cooldownTime>2</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Crossguard"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>18</power>
+								<chanceFactor>0.1</chanceFactor>
+								<cooldownTime>3</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.75</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>34</power>
+								<chanceFactor>1.25</chanceFactor>
+								<cooldownTime>3.5</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Broadsaber"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>10</power>
+								<chanceFactor>0.05</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.75</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>34</power>
+								<chanceFactor>1.25</chanceFactor>
+								<cooldownTime>3.5</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Darksaber"]</xpath>
+						<value>
+						  
+							<tools Inherit="False">
+							  <li>
+								<label>hilt</label>
+								<capacities>
+								  <li>Blunt</li>
+								</capacities>
+								<!---->
+								<power>12</power>
+								<chanceFactor>0.05</chanceFactor>
+								<cooldownTime>4</cooldownTime>
+							  </li>
+							  <li>
+								<label>tip</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberStab</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>0.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							  <li>
+								<label>edge</label>
+								<capacities>
+								  <li>guy762_ToolCapacity_SaberSlash</li>
+								</capacities>
+								<!---->
+								<power>26</power>
+								<chanceFactor>1.5</chanceFactor>
+								<cooldownTime>2.5</cooldownTime>
+							  </li>
+							</tools>
+							
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					<!-- OTHER STAT BUFFS -->
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Curved"]/equippedStatOffsets</xpath>
+						<value>
+							<MeleeHitChance>0.2</MeleeHitChance>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Dual"]/equippedStatOffsets</xpath>
+						<value>
+							<MeleeHitChance>-0.2</MeleeHitChance>
+						</value>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Inquisitor"]/equippedStatOffsets</xpath>
+						<value>
+							<MeleeHitChance>-0.2</MeleeHitChance>
+						</value>
+					</li>
+					
+
+				  </operations>
+				</match>
+			</Operation>
+        </caseTrue>
+    </Operation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="XmlExtensions.OptionalPatch">
+        <modId>guy762.KotORWeapons</modId>
+        <key>KotORWeaponsSettings_KotORLightsaberCrafting</key>
+        <defaultValue>true</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationFindMod" IfModActive="lee.theforce.lightsaber">
+				<mods>
+					<li>Star Wars : The Force - Lightsaber</li>
+				</mods>
+				
+				<match Class="PatchOperationSequence">
+				  <operations>
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[@Name="Lightsaber_Crafting"]</xpath>
+						<value>
+							<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+						</value>
+					</li>
+					
+					
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/RecipeDef[@Name="Lightsaber_Crafting"]/recipeUsers</xpath>
+						<value>
+							<recipeUsers>
+								<li>FabricationBench</li>
+								<li MayRequire="guy762.KotORWeapons">guy762_KotORWorkbench</li>
+							</recipeUsers>
+						</value>
+					</li>
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Force_CraftLightsaberSingle"]</xpath>
+						<value>
+							<researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+							<workAmount>6000</workAmount>
+							<skillRequirements>
+								<Crafting>6</Crafting>
+							</skillRequirements>
+							<ingredients Inherit="False">
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_lens</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_emitter</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_pcell</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Steel</li>
+								  </thingDefs>
+								</filter>
+								<count>25</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Force_KyberCrystal</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							</ingredients>
+						</value>
+					</li>
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Force_CraftLightsaberCurved"]</xpath>
+						<value>
+							<researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+							<workAmount>10000</workAmount>
+							<skillRequirements>
+								<Melee>14</Melee>
+								<Crafting>6</Crafting>
+							</skillRequirements>
+							<ingredients Inherit="False">
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_lens</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_emitter</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_pcell</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Steel</li>
+								  </thingDefs>
+								</filter>
+								<count>25</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Force_KyberCrystal</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							</ingredients>
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Force_CraftLightsaberShoto"]</xpath>
+						<value>
+							<researchPrerequisite>guy762_ResearchKotOR_lightsabers</researchPrerequisite>
+							<workAmount>5000</workAmount>
+							<skillRequirements>
+								<Crafting>6</Crafting>
+							</skillRequirements>
+							<ingredients Inherit="False">
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_lens</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_emitter</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_pcell</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Steel</li>
+								  </thingDefs>
+								</filter>
+								<count>15</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Force_KyberCrystal</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							</ingredients>
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Force_CraftLightsaberDual"]</xpath>
+						<value>
+							<researchPrerequisite>guy762_ResearchKotOR_advsabers</researchPrerequisite>
+							<workAmount>12000</workAmount>
+							<skillRequirements>
+								<Crafting>8</Crafting>
+							</skillRequirements>
+							<ingredients Inherit="False">
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_lens</li>
+								  </thingDefs>
+								</filter>
+								<count>2</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_emitter</li>
+								  </thingDefs>
+								</filter>
+								<count>2</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_pcell</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Steel</li>
+								  </thingDefs>
+								</filter>
+								<count>50</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Force_KyberCrystal</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							</ingredients>
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/RecipeDef[defName="Force_CraftLightsaberCrossguard"]</xpath>
+						<value>
+							<researchPrerequisite>guy762_ResearchKotOR_advsabers</researchPrerequisite>
+							<workAmount>14000</workAmount>
+							<skillRequirements>
+								<Melee>12</Melee>
+								<Crafting>12</Crafting>
+							</skillRequirements>
+							<ingredients Inherit="False">
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_lens</li>
+								  </thingDefs>
+								</filter>
+								<count>3</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_emitter</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>guy762_saberpart_pcell</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>ComponentIndustrial</li>
+								  </thingDefs>
+								</filter>
+								<count>4</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>ComponentSpacer</li>
+								  </thingDefs>
+								</filter>
+								<count>2</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Steel</li>
+								  </thingDefs>
+								</filter>
+								<count>40</count>
+							  </li>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Force_KyberCrystal</li>
+								  </thingDefs>
+								</filter>
+								<count>1</count>
+							  </li>
+							</ingredients>
+						</value>
+					</li>
+					
+					
+					
+					
+					
+					
+					
+					<!-- <li Class="PatchOperationAdd"> -->
+						<!-- <xpath>Defs/RecipeDef[defName=""]</xpath> -->
+						<!-- <value> -->
+							<!-- <researchPrerequisite>guy762_ResearchKotOR_advsabers</researchPrerequisite> RECIPE FOR INQUISITOR LIGHTSABERS, NEEDS AN ACTUAL RECIPE AND PROBABLY INQUISITOR-EXCLUSIVE RESEARCH -->
+							<!-- <workAmount>14000</workAmount> -->
+							<!-- <skillRequirements> -->
+								<!-- <Crafting>16</Crafting> -->
+							<!-- </skillRequirements> -->
+							<!-- <ingredients Inherit="False"> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>guy762_saberpart_lens</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>2</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>guy762_saberpart_emitter</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>2</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>guy762_saberpart_pcell</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>1</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>ComponentIndustrial</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>8</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>ComponentSpacer</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>2</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>Plasteel</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>75</count> -->
+							  <!-- </li> -->
+							  <!-- <li> -->
+								<!-- <filter> -->
+								  <!-- <thingDefs> -->
+									<!-- <li>Force_KyberCrystal</li> -->
+								  <!-- </thingDefs> -->
+								<!-- </filter> -->
+								<!-- <count>1</count> -->
+							  <!-- </li> -->
+							<!-- </ingredients> -->
+						<!-- </value> -->
+					<!-- </li> -->
+
+
+				  </operations>
+				</match>
+			</Operation>
+        </caseTrue>
+    </Operation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="XmlExtensions.OptionalPatch">
+        <modId>guy762.KotORWeapons</modId>
+        <key>KotORWeaponsSettings_KotORLightsaberUpgradeSlots</key>
+        <defaultValue>true</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationFindMod" IfModActive="lee.theforce.lightsaber">
+				<mods>
+					<li>Star Wars : The Force - Lightsaber</li>
+				</mods>
+				
+				<match Class="PatchOperationSequence">
+				  <operations>
+					
+					
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Force_Lightsaber_Custom" or defName="Force_Lightsaber_Dual" or defName="Force_Lightsaber_Inquisitor" or defName="Force_Lightsaber_Curved" or defName="Force_Lightsaber_Shoto" or defName="Force_Lightsaber_Crossguard" or defName="Force_Darksaber" or defName="Force_Broadsaber" ]/comps/li[1]/allowedCategories</xpath>
+						<value>
+							<allowedCategories>
+								<li>guy762_SWForceLightsabersPartCategory_colorcrystal</li>
+								<li>guy762_SWForceLightsabersPartCategory_focuscrystal</li>
+								<li>guy762_SWForceLightsabersPartCategory_powercrystal</li>
+								<li>Force_PowerCell</li>
+								<li>Force_Lens</li>
+								<li>Force_Emitter</li>
+								<li>Force_Casing</li>
+							</allowedCategories>
+						</value>
+					</li>
+					
+					
+				  </operations>
+				</match>
+			</Operation>
+        </caseTrue>
+    </Operation>
+
+
+
+</Patch>

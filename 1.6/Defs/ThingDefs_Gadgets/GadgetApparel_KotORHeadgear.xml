@@ -24,7 +24,12 @@
 		<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/verpineheadband</wornGraphicPath>
+		<drawData>
+			<defaultData>
+				<layer>84</layer>
+			</defaultData>
+		</drawData>
+	  <wornGraphicPath>Apparel/Headbands/verpineheadband</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -40,6 +45,7 @@
 		<li>SaV_apparel_huttgoon_adv</li>
 		<li>KotORHeadband_fieldofficer</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWKotORSpecificGadgetItem_VerpineHeadband</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -105,6 +111,7 @@
 		<li>SaV_apparel_huttgoon</li>
 		<li>KotORHeadband_fieldofficer</li>
 		<li>KotORHeadband_neuralband</li>
+		<li>SWKotORSpecificGadgetItem_NeuralBand</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -156,13 +163,15 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/lightscangoggles</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
-      </renderSkipFlags>
-      <drawData>
-        <dataNorth>
-          <layer>-3</layer>
-        </dataNorth>
-      </drawData>
+			<li>Eyes</li>
+		</renderSkipFlags>
+	  
+		  <drawData>
+			<dataNorth>
+			  <layer>-3</layer>
+			</dataNorth>
+		  </drawData>
+		
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -172,6 +181,7 @@
 	  <tags>
 		<li>KotORHeadband_combat</li>
 		<li>KotORHeadband_goggles</li>
+		<li>SWKotORSpecificGadgetItem_LightScanGoggles</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -239,13 +249,15 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/bothangoggles</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
-      </renderSkipFlags>
-      <drawData>
-        <dataNorth>
-          <layer>-3</layer>
-        </dataNorth>
-      </drawData>
+			<li>Eyes</li>
+		</renderSkipFlags>
+	  
+		  <drawData>
+			<dataNorth>
+			  <layer>-3</layer>
+			</dataNorth>
+		  </drawData>
+		  
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -256,6 +268,7 @@
 		<li>KotORHeadband_tech</li>
 		<li>KotORHeadband_sapper</li>
 		<li>KotORHeadband_goggles</li>
+		<li>SWKotORSpecificGadgetItem_BothanGoggles</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -291,13 +304,17 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/demovisor</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
+       <li>Eyes</li>
       </renderSkipFlags>
+	  
+	  
       <drawData>
         <dataNorth>
           <layer>-3</layer>
         </dataNorth>
       </drawData>
+	  
+	  
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -308,6 +325,7 @@
 		<li>KotORHeadband_tech</li>
 		<li>KotORHeadband_sapper</li>
 		<li>KotORHeroAccessories_canderousMerc</li>
+		<li>SWKotORSpecificGadgetItem_DemolitionsVisor</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -358,7 +376,7 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/exchangevisor</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
+        <li>Eyes</li>
       </renderSkipFlags>
       <bodyPartGroups>
         <li>Eyes</li>
@@ -373,6 +391,7 @@
 		<li>KotORHeadband_exchange</li>
 		<li>SaV_ExchangeGadget</li>
 		<li>KotORRoyaltyTag_ExchangeShades</li>
+		<li>SWKotORSpecificGadgetItem_ExchangeVisor</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -408,7 +427,7 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/medicalvisor</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
+        <li>Eyes</li>
       </renderSkipFlags>
       <bodyPartGroups>
         <li>Eyes</li>
@@ -419,6 +438,7 @@
       </layers>
 	  <tags>
 		<li>KotORUtility_medic</li>
+		<li>SWKotORSpecificGadgetItem_MedicalVisor</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -472,6 +492,7 @@
 		<li>KotORHeadband_jedi</li>
 		<li>KotORHeadband_regalvisor</li>
 		<li>KotORRoyaltyTag_RegalVisor</li>
+		<li>SWKotORSpecificGadgetItem_RegalVisor</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -515,7 +536,7 @@
     <apparel>
       <wornGraphicPath>Apparel/Headbands/interfacevisor</wornGraphicPath>
 	  <renderSkipFlags>
-        <li>None</li>
+        <li>Eyes</li>
       </renderSkipFlags>
       <bodyPartGroups>
         <li>Eyes</li>
@@ -527,6 +548,7 @@
 	  <tags>
 		<li>KotORHeadband_tech</li>
 		<li>KotORUtility_engi</li>
+		<li>SWKotORSpecificGadgetItem_InterfaceVisor</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -604,6 +626,7 @@
 		<li>KotORHeadband_gasmask</li>
 		<li>KotORHeadband_fieldofficer</li>
 		<li>KotORHeadband_AdvGasmask</li>
+		<li>SWKotORSpecificGadgetItem_BreathMask</li>
 	  </tags>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -700,6 +723,7 @@
 	  <tags>
 		<li>KotORHeadband_utility</li>
 		<li>KotORHeadband_AdvGasmask</li>
+		<li>SWKotORSpecificGadgetItem_RebreatherMask</li>
 	  </tags>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_VisasRobes"]/costList</xpath>
+		<value>
+			<VPE_Eltex>3</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_VisasHood"]/costList</xpath>
+		<value>
+			<VPE_Eltex>1</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_JoleeTunic"]/costList</xpath>
+		<value>
+			<VPE_Eltex>4</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_BastilaTunic"]/costList</xpath>
+		<value>
+			<VPE_Eltex>4</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_JuhaniTunic"]/costList</xpath>
+		<value>
+			<VPE_Eltex>2</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_SionTunic"]/costList</xpath>
+		<value>
+			<VPE_Eltex>5</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_MalakTunic"]/costList</xpath>
+		<value>
+			<VPE_Eltex>6</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_NihilusRobes"]/costList</xpath>
+		<value>
+			<VPE_Eltex>6</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_NihilusMask"]/costList</xpath>
+		<value>
+			<VPE_Eltex>10</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName="guy762_NihilusCloak"]/costList</xpath>
+		<value>
+			<VPE_Eltex>2</VPE_Eltex>
+		</value>
+	</Operation>
+	
+	
+</Patch>

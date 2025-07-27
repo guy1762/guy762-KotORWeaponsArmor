@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WHands.ClutterHandsTDef>
+     <defName>ClutterHandsSettings_StarWarsKotORWeaponsandArmor</defName> <!--_-96925639-->
+      <label>Weapon hand settings</label>
+      <thingClass>Thing</thingClass>
+      <WeaponCompLoader>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_kalta</li> <!-- Jurgan Kalta's Carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_ionpistol</li> <!-- ion blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol</li> <!-- blaster pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle</li> <!-- blaster rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.15)</MainHand>
+              <SecHand>(0.240, -0.100, -0.090)</SecHand>
+              <ThingTargets>
+                 <li>guy762_bowcaster</li> <!-- Bowcaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine</li> <!-- blaster carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle</li> <!-- disruptor rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_carbine</li> <!-- disruptor carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_dispistol</li> <!-- Disruptor Pistol -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_dispistol_luxa</li> <!-- Luxa's Modified Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol</li> <!-- heavy blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.375, 0.100, -0.125)</MainHand>
+              <SecHand>(-0.015, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_sith</li> <!-- Sith Sniper Rifle -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.375, 0.100, -0.125)</MainHand>
+              <SecHand>(-0.015, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_rohlan</li> <!-- Mandalorian Veteran's Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_sanasiki</li> <!-- Sanasiki's Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.035, -0.100, 0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vdubblade</li> <!-- Vibro Double-Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_ionpistol_aratech</li> <!-- Aratech Ionmaster -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_ionpistol_static</li> <!-- Systech Static Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_arkanian</li> <!-- Arkanian Blaster Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_arkanian</li> <!-- Arkanian Heavy Pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_arkanian</li> <!-- Arkanian Pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_bacca</li> <!-- Bacca's Ceremonial Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_baragwin</li> <!-- Baragwin Disruptor-X Weapon -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_bendak</li> <!-- Bendak's Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_cassus</li> <!-- Cassus Fett's Heavy Pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.15)</MainHand>
+              <SecHand>(0.240, -0.100, -0.090)</SecHand>
+              <ThingTargets>
+                 <li>guy762_bowcaster_ceremonial</li> <!-- Ceremonial Bowcaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_charric</li> <!-- Charric -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_cinnigar</li> <!-- Cinnigaran Carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_sith</li> <!-- Sith Assault Gun -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_dispistol_sith</li> <!-- Sith Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_sith</li> <!-- Sith Tremor Sword -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_exchange</li> <!-- Exchange Poison Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.035, -0.100, 0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vdubblade_sith</li> <!-- Sith War Sword -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_stun</li> <!-- Slavemaster Stun Carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.035, -0.100, 0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vdubblade_trandoshan</li> <!-- Trandoshan Double-Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_ionpistol_verpine</li> <!-- Verpine Prototype Ion Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade</li> <!-- Vibroblade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword</li> <!-- Vibrosword -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.15)</MainHand>
+              <SecHand>(0.240, -0.100, -0.090)</SecHand>
+              <ThingTargets>
+                 <li>guy762_bowcaster_war</li> <!-- War Bowcaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.035, -0.100, 0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vdubblade_yusanis</li> <!-- Yusanis' Brand -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.15)</MainHand>
+              <SecHand>(0.240, -0.100, -0.090)</SecHand>
+              <ThingTargets>
+                 <li>guy762_bowcaster_zaalbar</li> <!-- Zaalbar's Bowcaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_zabrak</li> <!-- Zabrak Battle Cannon -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_zabrak</li> <!-- Zabrak Blaster Carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_zabrak</li> <!-- Zabrak Disruptor Cannon -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_zabrak</li> <!-- Zabrak Blaster Pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_zabrak</li> <!-- Zabrak Heavy Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_zabraktystel</li> <!-- Zabrak Tystel Mark III -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.035, -0.100, 0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vdubblade_echani</li> <!-- Echani Double Brand -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_zersium</li> <!-- Zersium Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_echani</li> <!-- Echani Foil -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_baragwin</li> <!-- Baragwin Assault Blade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_echani</li> <!-- Echani Vibroblade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_nadd</li> <!-- Freedon Nadd's Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_genoharadan</li> <!-- GenoHaradan Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_droid</li> <!-- HK-47's Assassin Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_jurgan</li> <!-- Jurgan Kalta's Assault Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_hogra</li> <!-- Jamoh Hogra's Carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_mandalorian</li> <!-- Mandalorian Assault Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_onasi</li> <!-- Onasi Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_prototype</li> <!-- Prototype Vibroblade -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_vao</li> <!-- Mission's Vibroblade -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_republic</li> <!-- Republic Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_plasma</li> <!-- Plasma Projector -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_micropulse</li> <!-- Micro-Pulse Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.15)</MainHand>
+              <SecHand>(0.240, -0.100, -0.090)</SecHand>
+              <ThingTargets>
+                 <li>guy762_bowcaster_merc</li> <!-- Mercenary Bowcaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_dispistol_ripper</li> <!-- Mandalorian Ripper -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_dispistol_disintegrator</li> <!-- Mandalorian Disintegrator -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_hvypistol_mandalorian</li> <!-- Mandalorian Heavy Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.140)</MainHand>
+              <ThingTargets>
+                 <li>guy762_bpistol_mandalorian</li> <!-- Mandalorian Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.280)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vsword_krath</li> <!-- Krath Dire Sword -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_krath</li> <!-- Krath Blood Blade -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.240, 0.100, -0.145)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater</li> <!-- light repeating blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.145)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_medium</li> <!-- medium repeating blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, -0.145)</MainHand>
+              <SecHand>(0.200, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_onderon</li> <!-- Onderon repeating carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, -0.145)</MainHand>
+              <SecHand>(0.200, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_carbine</li> <!-- repeating blaster carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.145)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_enforcer</li> <!-- Combat Enforcer -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.145)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_baragwin</li> <!-- Baragwin Assault Gun -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.240, 0.100, -0.145)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_lgtrepeater_mandalore</li> <!-- Mandalore's Assault Rifle -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.325, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_vblade_tehkla</li> <!-- Tehk'la Blade -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout_needler</li> <!-- Bothan Needler -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout_quickdraw</li> <!-- Bothan Quick Draw -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout</li> <!-- hold out blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout_sith</li> <!-- Sith Assassin Pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout_sithofficer</li> <!-- Sith Officer Pistol -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.175, 0.100, -0.150)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_ionrifle</li> <!-- ion rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.150)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_ionrifle_carbine</li> <!-- ion carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.150)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_ionrifle_verpine</li> <!-- Verpine Droid Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.150)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_ionrifle_bothan</li> <!-- Bothan Droid Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.150)</MainHand>
+              <SecHand>(0.150, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_ionrifle_baragwin</li> <!-- Baragwin Ion-X Weapon -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle_argazdan</li> <!-- Argazdan Riot Buster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle_bothan</li> <!-- Bothan Discord Gun -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle</li> <!-- sonic rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle_carbine</li> <!-- sonic carbine -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle_arkanian</li> <!-- Arkanian Sonic Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.3, 0.100, -0.150)</MainHand>
+              <SecHand>(0.1, -0.100, -0.1)</SecHand>
+              <ThingTargets>
+                 <li>guy762_sonrifle_nagai</li> <!-- Nagai Sonic Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.110)</MainHand>
+              <ThingTargets>
+                 <li>guy762_sonpistol_arkanian</li> <!-- Arkanian Sonic Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.110)</MainHand>
+              <ThingTargets>
+                 <li>guy762_sonpistol_bothan</li> <!-- Bothan Shrieker -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.110)</MainHand>
+              <ThingTargets>
+                 <li>guy762_sonpistol_dashade</li> <!-- Dashade Sonic Disruptor -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.110)</MainHand>
+              <ThingTargets>
+                 <li>guy762_sonpistol_heavy</li> <!-- Heavy Sonic Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.110)</MainHand>
+              <ThingTargets>
+                 <li>guy762_sonpistol</li> <!-- sonic pistol -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.375, 0.100, -0.150)</MainHand>
+              <SecHand>(0.300, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>guy762_hvyrepeater</li> <!-- heavy repeating blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.375, 0.100, -0.150)</MainHand>
+              <SecHand>(0.300, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>guy762_hvyrepeater_baragwin</li> <!-- Baragwin Heavy Repeating Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.375, 0.100, -0.150)</MainHand>
+              <SecHand>(0.300, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>guy762_hvyrepeater_mando</li> <!-- Mandalorian Heavy Repeater -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.375, 0.100, -0.150)</MainHand>
+              <SecHand>(0.300, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>guy762_hvyrepeater_massdriver</li> <!-- Trandoshan Mass Driver -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.375, 0.100, -0.150)</MainHand>
+              <SecHand>(0.300, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>guy762_hvyrepeater_ordo</li> <!-- Ordo's Repeating Blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.150)</MainHand>
+              <SecHand>(0.076, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_brifle_dmr</li> <!-- Watchman Rifle -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.285, 0.100, -0.133)</MainHand>
+              <SecHand>(0.125, -0.100, -0.075)</SecHand>
+              <ThingTargets>
+                 <li>guy762_disrifle_tenloss</li> <!-- Tenloss Disruptor Rifle -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.250, 0.100, -0.040)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle</li> <!-- Slug-Rifle -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.250, 0.100, -0.040)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle_cinnagar</li> <!-- Cinnagaran Battle Rifle -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.250, 0.100, -0.040)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle_tusken</li> <!-- Tusken Cycler -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.350, 0.100, -0.035)</MainHand>
+              <SecHand>(0.100, -0.100, -0.035)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle_SovTusken</li> <!-- Tusken Cycler -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.250, 0.100, -0.040)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle_verpine</li> <!-- Verpine Shatter Gun -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.200, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_mininglaser</li> <!-- Mining Laser -->
+              </ThingTargets>
+          </li>
+		
+          <li>
+              <MainHand>(-0.150, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_microrepeater</li> <!-- micro-repeating blaster -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_microrepeater_narshaddaa</li> <!-- Nar Shaddaa Grinder -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_microrepeater_mando</li> <!-- Mandalorian Micro-Repeater -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_microrepeater_trandoshan</li> <!-- Trandoshan Chopper -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.150, 0.100, -0.150)</MainHand>
+              <ThingTargets>
+                 <li>guy762_microrepeater_mira</li> <!-- Mira's Hold Out Repeater -->
+              </ThingTargets>
+          </li>
+		  
+		  <li>
+              <MainHand>(-0.280, 0.100, -0.125)</MainHand>
+              <SecHand>(0.000, -0.100, -0.135)</SecHand>
+              <ThingTargets>
+                 <li>guy762_carbine_repcom</li> <!-- Commando Special Carbine -->
+              </ThingTargets>
+          </li>
+		  
+
+
+
+          <li>
+              <MainHand>(-0.200, 0.100, -0.200)</MainHand>
+              <SecHand>(0.125, -0.100, 0.125)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vaxe_sith</li> <!-- Sith Executioner Axe -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.200)</MainHand>
+              <SecHand>(0.125, -0.100, 0.125)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vaxe</li> <!-- Vibroaxe -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.200, 0.100, -0.200)</MainHand>
+              <SecHand>(0.125, -0.100, 0.125)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vaxe_hutt</li> <!-- Kajidic Soldier's Axe -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.250)</MainHand>
+              <SecHand>(0.000, -0.100, 0.000)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vglaive_echani</li> <!-- Echani Vibroglaive -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.250)</MainHand>
+              <SecHand>(0.000, -0.100, 0.000)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vglaive</li> <!-- Vibroglaive -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.250, 0.100, -0.250)</MainHand>
+              <SecHand>(0.000, -0.100, 0.000)</SecHand>
+              <ThingTargets>
+                 <li>guy762_vglaive_krath</li> <!-- Krath War Lance -->
+              </ThingTargets>
+          </li>
+
+
+
+          <li>
+              <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_baton</li> <!-- stun baton -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_baton_vulkar</li> <!-- Vulkar Shock Stick -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_baton_rakatan</li> <!-- Rakatan Battle Wand -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_baton_gand</li> <!-- Gand Silencer -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, 0.000)</MainHand>
+              <ThingTargets>
+                 <li>guy762_baton_bothan</li> <!-- Bothan Chuka -->
+              </ThingTargets>
+          </li>
+
+
+
+          <li>
+              <MainHand>(-0.100, 0.100, -0.100)</MainHand>
+              <SecHand>(0.100, -0.100, 0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_electrostaff_geonosian</li> <!-- Geonosian Electrostaff -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.100)</MainHand>
+              <SecHand>(0.100, -0.100, 0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_electrostaff_mando</li> <!-- Jedi Hunter Electrostaff -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.100)</MainHand>
+              <SecHand>(0.100, -0.100, 0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_electrostaff_gand</li> <!-- Gand Shockstaff -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.100)</MainHand>
+              <SecHand>(0.100, -0.100, 0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_electrostaff</li> <!-- electrostaff -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.100)</MainHand>
+              <SecHand>(0.100, -0.100, 0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_electrostaff_vulkar</li> <!-- Vulkar Shock Stick -->
+              </ThingTargets>
+          </li>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <li>
+              <MainHand>(-0.135, 0.100, -0.120)</MainHand>
+              <ThingTargets>
+                 <li>guy762_holdout_jawa</li> <!-- Jawa Ion Striker -->
+              </ThingTargets>
+          </li>
+		  <li>
+              <MainHand>(-0.300, 0.100, -0.013)</MainHand>
+              <SecHand>(0.050, -0.100, 0.025)</SecHand>
+              <ThingTargets>
+                 <li>guy762_slugrifle_kaleesh</li> <!-- Kaleesh Battle Rifle -->
+              </ThingTargets>
+          </li>
+		  
+		  <li>
+              <MainHand>(-0.3, 0.100, -0.125)</MainHand>
+              <SecHand>(-0.025, -0.100, -0.100)</SecHand>
+              <ThingTargets>
+                 <li>guy762_rocketrifle</li> <!-- rocket rifle -->
+              </ThingTargets>
+          </li>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+
+
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+      </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
