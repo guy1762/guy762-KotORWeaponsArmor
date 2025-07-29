@@ -947,8 +947,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>

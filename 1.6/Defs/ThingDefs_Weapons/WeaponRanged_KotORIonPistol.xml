@@ -187,8 +187,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_ionDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_ionDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -295,8 +295,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_ionDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_ionDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>

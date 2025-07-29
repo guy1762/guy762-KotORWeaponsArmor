@@ -176,8 +176,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_trigger_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_trigger_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_trigger_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_trigger_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -285,8 +285,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -367,8 +367,8 @@
 				</baseGraphicData>
 				<partsMounts>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -378,8 +378,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -470,8 +470,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -481,8 +481,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_stunDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_stunDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>

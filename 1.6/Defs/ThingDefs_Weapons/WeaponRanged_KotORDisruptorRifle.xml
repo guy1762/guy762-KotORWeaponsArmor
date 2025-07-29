@@ -370,8 +370,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_disruptorDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_disruptorDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -381,8 +381,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_disruptorDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_disruptorDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -473,8 +473,8 @@
 				</baseGraphicData>
 				<partsMounts>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_disruptorDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_disruptorDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -699,8 +699,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_disruptorDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_disruptorDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>

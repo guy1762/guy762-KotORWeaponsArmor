@@ -275,8 +275,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_beam_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_beam_ionDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_beam_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_beam_ionDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -372,8 +372,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_power_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_power_ionDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_power_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_power_ionDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -383,8 +383,8 @@
 					<layerOrder>1</layerOrder>
 				  </li>
 				  <li>
-					<mountDef>guy762_KotORMount_trigger_NoVerbs</mountDef>
-					<!-- <mountDef>guy762_KotORMount_trigger_ionDMG</mountDef> -->
+					<!-- <mountDef>guy762_KotORMount_trigger_NoVerbs</mountDef> -->
+					<mountDef>guy762_KotORMount_trigger_ionDMG</mountDef>
 					<offset>(0,0)</offset>
 					<layerOrder>1</layerOrder>
 				  </li>
@@ -482,7 +482,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-				  <texPath>KotORIonBolt_baragwinX</texPath>
+				  <texPath>kotorionrifle_baragwin</texPath>
 				  <graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>

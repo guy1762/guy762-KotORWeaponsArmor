@@ -681,7 +681,7 @@
 		  <li>Bomb</li>
 		  <li>guy762_GrenadeDamage_frag</li>
 		  <li>guy762_GrenadeDamage_detpack</li>
-		  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
+		  <li MayRequire="SWCP.GCWVehicles">guy762_ExplosiveDamage_conc</li>
         </blockedDamageDefs>
 		<ignoredDamageDefs>
 		  <li>guy762_RangedDamage_disruptor</li>
@@ -784,7 +784,7 @@
 		  <li>Bomb</li>
 		  <li>guy762_GrenadeDamage_frag</li>
 		  <li>guy762_GrenadeDamage_detpack</li>
-		  <li MayRequire="guy762.NA.MM.SWVehicles">guy762_ExplosiveDamage_conc</li>
+		  <li MayRequire="SWCP.GCWVehicles">guy762_ExplosiveDamage_conc</li>
         </blockedDamageDefs>
 		<ignoredDamageDefs>
 		  <li>guy762_RangedDamage_disruptor</li>
