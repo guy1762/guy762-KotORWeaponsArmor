@@ -503,7 +503,7 @@
 	<ModularWeapons2.ModularPartsDef ParentName="guy762_KotORModularPartBase">
 		<defName>guy762_KotORpartWristgun_flamethrower</defName>
 		<label>flamethrower</label>
-		<labelShort>flamethrower/labelShort>
+		<labelShort>flamethrower</labelShort>
 		<description>Adds an additional attack verb which spews a burst of flame over a short area.</description>
 		<attachedTo>guy762_KotORMount_wristgun</attachedTo>
 		<effects>
