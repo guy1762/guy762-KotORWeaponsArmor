@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  
+  <ThingDef ParentName="guy762_CraftableUtilityBeltBase">
+    <defName>guy762_armband_wristgun</defName>
+    <label>modular wrist launcher</label>
+    <description>A wrist-mounted device of Mandalorian origin, this armored gauntlet has a modular weapons mount that is compatible with most standard-sized droid weapons upgrades. It can also be adapted to fit a wide variety of other weaponry and gadgets as well.</description>
+    <graphicData>
+      <texPath>Items/armband_launcher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<soundInteract>kotorsound_select_ion</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <EquipDelay>3</EquipDelay>
+      <MarketValue>7620</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+	  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.05</ArmorRating_Heat>
+	  
+	  <AccuracyTouch>0.50</AccuracyTouch>
+	  <AccuracyShort>0.40</AccuracyShort>
+	  <AccuracyMedium>0.20</AccuracyMedium>
+	  <AccuracyLong>0.10</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+	  
+	  <WorkToMake>12000</WorkToMake>
+    </statBases>
+	
+	<recipeMaker>
+		<researchPrerequisite>guy762_ResearchKotOR_advupgrade</researchPrerequisite>
+		<skillRequirements>
+			<Shooting>10</Shooting>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<costList>
+		<ComponentIndustrial>8</ComponentIndustrial>
+		<ComponentSpacer>1</ComponentSpacer>
+		<Plasteel>40</Plasteel>
+	</costList>
+	
+	<descriptionHyperlinks>
+		<ThingDef>guy762_KotORWorkbench</ThingDef>
+	</descriptionHyperlinks>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+	  <tags>
+		<li>KotORWristgun</li>
+		<li>KotORHeroAccessories_canderous</li>
+		<li>KotORHeroAccessories_mira</li>
+		<li>KotORHeroAccessories_hanharr</li>
+		<li>SWKotORSpecificGadgetItem_ModularWristgun</li>
+	  </tags>
+    </apparel>
+	<tradeTags>
+      <li>guy762TT_MNCArmor</li>
+	  <li>guy762TT_KotOREquipment_hitech</li>
+    </tradeTags>
+	
+	<comps>
+		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
+			<baseGraphicData>
+			  <texPath>Items/armband_launcher</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+			</baseGraphicData>
+			<partsMounts>
+			  <li>
+				<mountDef>guy762_KotORMount_wristgun</mountDef>
+				<offset>(0,0)</offset>
+				<layerOrder>1</layerOrder>
+			  </li>
+			</partsMounts>
+			<defaultParts>
+			  <li>
+				<partsDef>guy762_KotORpartWristgun_microrocket</partsDef>
+				<attachMountDef>guy762_KotORMount_wristgun</attachMountDef>
+			  </li>
+			</defaultParts>
+		</li>
+	</comps>
+  </ThingDef>
+  
+  
+  
+  
+  
+  <!--ThingDef ParentName="ApparelNoQualityBase">
+    <defName>guy762_armband_mandoLgt</defName>
+    <label>Mandalorian battle gauntlet</label>
+    <description>A wrist-mounted device of Mandalorian origin, this armored gauntlet has a modular weapons mount that is compatible with most standard-sized droid weapons upgrades. It can also be adapted to fit a wide variety of other weaponry and gadgets as well.</description>
+    <graphicData>
+      <texPath>Items/armband_mando1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>5</Mass>
+      <EquipDelay>4</EquipDelay>
+      <MarketValue>2275</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+	  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.05</ArmorRating_Heat>
+	  <AccuracyTouch>0.45</AccuracyTouch>
+	  <AccuracyShort>0.35</AccuracyShort>
+	  <AccuracyMedium>0.15</AccuracyMedium>
+	  <AccuracyLong>0.05</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+	  <tags>
+		<li>KotORWristgun_mando</li>
+	  </tags>
+    </apparel>
+	<tradeTags>
+      <li>guy762TT_MNCArmor</li>
+    </tradeTags>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+	<comps>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_wristgun</li>
+		</partKinds>
+		<majorKinds>
+		  <li>guy762_slot_wristgun</li>
+		</majorKinds>
+		<defaultParts>
+			<li>guy762_wristgun_vibroblade</li>
+		</defaultParts>
+		<randomizeParts>false</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>guy762_armband_mandoMid</defName>
+    <label>Mandalorian assault gauntlet</label>
+    <description>A wrist-mounted device of Mandalorian origin, this armored gauntlet has a modular weapons mount that is compatible with most standard-sized droid weapons upgrades. It can also be adapted to fit a wide variety of other weaponry and gadgets as well.</description>
+    <graphicData>
+      <texPath>Items/armband_mando2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>5</Mass>
+      <EquipDelay>4</EquipDelay>
+      <MarketValue>2275</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+	  <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.1</ArmorRating_Heat>
+	  <AccuracyTouch>0.50</AccuracyTouch>
+	  <AccuracyShort>0.40</AccuracyShort>
+	  <AccuracyMedium>0.20</AccuracyMedium>
+	  <AccuracyLong>0.10</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+	  <tags>
+		<li>KotORWristgun_mando</li>
+	  </tags>
+    </apparel>
+	<tradeTags>
+      <li>guy762TT_MNCArmor</li>
+    </tradeTags>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+	<verbs>
+      <li Class="SelfHediffVerb.VerbProperties_SelfHediff">
+        <label>activate shield</label>
+        
+        <verbClass>SelfHediffVerb.Verb_SelfHediff</verbClass>
+        <hediffDef>guy762_EShield_mando1</hediffDef>
+        
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+        <soundCast>kotorsound_shieldpowerup</soundCast>
+		<violent>false</violent>
+      </li>
+    </verbs>
+	<comps>
+	  <li Class="CompProperties_ApparelReloadable">
+			<maxCharges>5</maxCharges>
+			<destroyOnEmpty>false</destroyOnEmpty>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>usage</chargeNoun>
+			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+		</li>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_wristgun</li>
+		</partKinds>
+		<majorKinds>
+		  <li>guy762_slot_wristgun</li>
+		</majorKinds>
+		<defaultParts>
+			<li>guy762_wristgun_trishot</li>
+		</defaultParts>
+		<randomizeParts>false</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>guy762_armband_mandoHvy</defName>
+    <label>Mandalorian war gauntlet</label>
+    <description>A wrist-mounted device of Mandalorian origin, this armored gauntlet has a modular weapons mount that is compatible with most standard-sized droid weapons upgrades. It can also be adapted to fit a wide variety of other weaponry and gadgets as well.</description>
+    <graphicData>
+      <texPath>Items/armband_mando3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>5</Mass>
+      <EquipDelay>4</EquipDelay>
+      <MarketValue>7620</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+	  <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.15</ArmorRating_Heat>
+	  <AccuracyTouch>0.55</AccuracyTouch>
+	  <AccuracyShort>0.45</AccuracyShort>
+	  <AccuracyMedium>0.25</AccuracyMedium>
+	  <AccuracyLong>0.15</AccuracyLong>
+	  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+	  <tags>
+		<li>KotORWristgun_mando</li>
+	  </tags>
+    </apparel>
+	<tradeTags>
+      <li>guy762TT_MNCArmor</li>
+    </tradeTags>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>false</burnableByRecipe>
+	<verbs>
+      <li Class="SelfHediffVerb.VerbProperties_SelfHediff">
+        <label>activate shield</label>
+        
+        <verbClass>SelfHediffVerb.Verb_SelfHediff</verbClass>
+        <hediffDef>guy762_EShield_mando2</hediffDef>
+        
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+        <soundCast>kotorsound_shieldpowerup</soundCast>
+		<violent>false</violent>
+      </li>
+    </verbs>
+	<comps>
+	  <li Class="CompProperties_ApparelReloadable">
+			<maxCharges>5</maxCharges>
+			<destroyOnEmpty>false</destroyOnEmpty>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>usage</chargeNoun>
+			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+		</li>
+	  <li Class="ModularWeapons.CompProperties_ModularParts">
+		<compClass>ModularWeapons.CompModularParts</compClass>
+		<partKinds>
+		  <li>guy762_slot_wristgun</li>
+		</partKinds>
+		<majorKinds>
+		  <li>guy762_slot_wristgun</li>
+		</majorKinds>
+		<defaultParts>
+			<li>guy762_wristgun_microrocket</li>
+		</defaultParts>
+		<randomizeParts>false</randomizeParts>
+	  </li>
+	</comps>
+  </ThingDef-->
+  
+  
+  
+  
+</Defs>
