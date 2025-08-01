@@ -467,7 +467,7 @@
   <ThingDef ParentName="KotORArmorModdable_soft">
     <defName>guy762_NihilusRobes</defName>
     <label>Darth Nihilus' Robes</label>
-    <description>.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
+    <description>Robe once belonging to Darth Nihilus, who fell by the hand of the Exile. Even years after his death, this garment still carries within it a fragment of Darth Nihilus'  spirit and his insatiable hunger.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
       <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -549,7 +549,7 @@
   <ThingDef ParentName="guy762_HatModdableBase">
     <defName>guy762_NihilusMask</defName>
     <label>Darth Nihilus' Mask</label>
-    <description>.</description>
+    <description>Mask formerly owned by Darth Nihilus, whose spirit was bound within it. Once a symbol of its owner's boundless hunger, it is now a coveted and powerful artifact - a relic for every Dark Side adept.</description>
     <graphicData>
       <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/mask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -621,7 +621,7 @@
   <ThingDef ParentName="KotORArmorModdable_soft">
     <defName>guy762_NihilusCloak</defName>
     <label>Darth Nihilus' Cloak</label>
-    <description>.</description>
+    <description>Cloak once worn by Darth Nihilus, who was slain by the Exile. As black as the remnants of Darth Nihilus' soul.</description>
     <graphicData>
       <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Nihilus/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -904,7 +904,7 @@
   <ThingDef ParentName="KotORArmorModdable_soft">
     <defName>guy762_SionTunic</defName>
     <label>Darth Sion's Armor</label>
-    <description>.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
+    <description>While it was hard to call these cast-offs armor like those worn by soldiers or adepts of the Force, the protection of the legs, pelvis, and dominant arm was more than enough for someone whose body was constantly brought back to life by the dark side of the Force and who could not die. After all, its former owner preferred the freedom from restraint to protection from weapons that did not harm him.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
     <graphicData>
       <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1000,7 +1000,7 @@
   <ThingDef ParentName="KotORArmorModdable_soft">
     <defName>guy762_KreiaRobes_DarthTraya</defName>
     <label>Darth Traya's Robes</label>
-    <description>.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
+    <description>Robe once worn by the manipulative Darth Traya. Now, it is more of a symbolic relic of its former owner’s forgotten philosophy than a powerful Dark Side artifact.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
       <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
       <graphicClass>Graphic_Single</graphicClass>

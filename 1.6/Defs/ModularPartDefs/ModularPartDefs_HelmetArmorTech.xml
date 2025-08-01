@@ -384,12 +384,12 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>KotORRocket_micro</defaultProjectile>
+			<!-- <defaultProjectile>KotORRocket_micro</defaultProjectile> -->
 			<warmupTime>1</warmupTime>
 			<range>17</range>
-			<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-			<burstShotCount>2</burstShotCount>
-			<soundCast>kotorsound_smallrocket</soundCast>
+			<!-- <ticksBetweenBurstShots>0</ticksBetweenBurstShots> -->
+			<!-- <burstShotCount>2</burstShotCount> -->
+			<!-- <soundCast>kotorsound_smallrocket</soundCast> -->
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
@@ -398,6 +398,14 @@
 			<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 			<linkedBodyPartsGroup>Legs</linkedBodyPartsGroup>
 		</verbProperties>
+		<comps>
+            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
+                <projectileDef>KotORRocket_micro</projectileDef>
+                <burstCount>2</burstCount>
+                <ticksBetweenShots>1</ticksBetweenShots>
+                <firingSound>kotorsound_smallrocket</firingSound>
+            </li>
+        </comps>
 	</AbilityDef>
 	
 	

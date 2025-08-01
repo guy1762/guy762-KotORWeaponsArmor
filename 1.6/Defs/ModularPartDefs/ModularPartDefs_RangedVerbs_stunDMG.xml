@@ -548,14 +548,14 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>KotORStunBolt_default</defaultProjectile>
+			<!-- <defaultProjectile>KotORStunBolt_default</defaultProjectile> -->
 			<warmupTime>3.75</warmupTime>
 			<defaultCooldownTime>3</defaultCooldownTime>
 			<range>23</range>
-			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<burstShotCount>9</burstShotCount>
+			<!-- <ticksBetweenBurstShots>10</ticksBetweenBurstShots> -->
+			<!-- <burstShotCount>9</burstShotCount> -->
 			<forcedMissRadius>1.75</forcedMissRadius>
-			<soundCast>kotorsound_pistol</soundCast>
+			<!-- <soundCast>kotorsound_pistol</soundCast> -->
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
@@ -563,6 +563,14 @@
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
 		</verbProperties>
+		<comps>
+            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
+                <projectileDef>KotORStunBolt_default</projectileDef>
+                <burstCount>9</burstCount>
+                <ticksBetweenShots>10</ticksBetweenShots>
+                <firingSound>kotorsound_pistol</firingSound>
+            </li>
+        </comps>
 	</AbilityDef>
 	
 	
@@ -619,14 +627,14 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>KotORStunBolt_default</defaultProjectile>
+			<!-- <defaultProjectile>KotORStunBolt_default</defaultProjectile> -->
 			<warmupTime>4</warmupTime>
 			<defaultCooldownTime>4</defaultCooldownTime>
 			<range>23</range>
-			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-			<burstShotCount>12</burstShotCount>
+			<!-- <ticksBetweenBurstShots>8</ticksBetweenBurstShots> -->
+			<!-- <burstShotCount>12</burstShotCount> -->
 			<forcedMissRadius>2</forcedMissRadius>
-			<soundCast>kotorsound_pistol</soundCast>
+			<!-- <soundCast>kotorsound_pistol</soundCast> -->
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
@@ -634,6 +642,14 @@
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
 		</verbProperties>
+		<comps>
+            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
+                <projectileDef>KotORStunBolt_default</projectileDef>
+                <burstCount>12</burstCount>
+                <ticksBetweenShots>8</ticksBetweenShots>
+                <firingSound>kotorsound_pistol</firingSound>
+            </li>
+        </comps>
 	</AbilityDef>
 	
 	
@@ -699,14 +715,14 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>KotORStunBolt_default</defaultProjectile>
+			<!-- <defaultProjectile>KotORStunBolt_default</defaultProjectile> -->
 			<warmupTime>4.25</warmupTime>
 			<defaultCooldownTime>5</defaultCooldownTime>
 			<range>23</range>
-			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-			<burstShotCount>15</burstShotCount>
+			<!-- <ticksBetweenBurstShots>6</ticksBetweenBurstShots> -->
+			<!-- <burstShotCount>15</burstShotCount> -->
 			<forcedMissRadius>2.25</forcedMissRadius>
-			<soundCast>kotorsound_pistol</soundCast>
+			<!-- <soundCast>kotorsound_pistol</soundCast> -->
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
@@ -714,6 +730,14 @@
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
 		</verbProperties>
+		<comps>
+            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
+                <projectileDef>KotORStunBolt_default</projectileDef>
+                <burstCount>15</burstCount>
+                <ticksBetweenShots>6</ticksBetweenShots>
+                <firingSound>kotorsound_pistol</firingSound>
+            </li>
+        </comps>
 	</AbilityDef>
 	
 	
