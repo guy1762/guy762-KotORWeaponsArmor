@@ -415,6 +415,7 @@
 		</equippedStatOffsets>
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
+		  <li>UniqueWeapon</li>
 		</thingSetMakerTags>
 		<apparel Inherit="False">
 			<tags>

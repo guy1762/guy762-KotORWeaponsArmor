@@ -604,7 +604,7 @@
 		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
-		<relicChance>3</relicChance>
+		<relicChance>3</relicChance><thingSetMakerTags><li>UniqueWeapon</li></thingSetMakerTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -696,7 +696,7 @@
 		<tradeTags>
 			<li>guy762TT_KotORLegendary</li>
 		</tradeTags>
-		<relicChance>3</relicChance>
+		<relicChance>3</relicChance><thingSetMakerTags><li>UniqueWeapon</li></thingSetMakerTags>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>

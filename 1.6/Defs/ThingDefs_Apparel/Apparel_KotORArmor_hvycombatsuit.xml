@@ -390,6 +390,9 @@
 		<IncomingDamageFactor>-0.05</IncomingDamageFactor>
 		<HuntingStealth>0.4</HuntingStealth>
 	</equippedStatOffsets>
+	<thingSetMakerTags>
+		<li>UniqueWeapon</li>
+	</thingSetMakerTags>
     <apparel>
 		<layers>
 			<li>Middle</li>

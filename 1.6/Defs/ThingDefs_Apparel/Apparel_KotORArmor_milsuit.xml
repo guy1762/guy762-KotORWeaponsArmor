@@ -419,6 +419,9 @@
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.125</DecompressionResistance>
 		</equippedStatOffsets>
+		<thingSetMakerTags>
+			<li>UniqueWeapon</li>
+		</thingSetMakerTags>
 		<apparel Inherit="False">
 			<tags>
 				<li>KotORArmor_mid</li>
