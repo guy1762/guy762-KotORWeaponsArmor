@@ -7,7 +7,7 @@
     <label>Verpine ocular enhancer</label>
     <description>Through assorted heads-up displays and sharpened vision, this device increases one's accuracy in combat. The Verpine only manufacture this product for export, having no need of it themselves. They have highly evolved sight, a quality they smugly say the visors mimic but do not exceed.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/verpineheadbandItem</texPath>
+      <texPath>SWApparel/Headbands/verpineheadbandItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -24,7 +24,7 @@
 		<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/verpineheadband</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/verpineheadband</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -55,7 +55,7 @@
     <label>neural band</label>
     <description>Developed after the Exar Kun war, this item bolsters the willpower of the user by electrically reinforcing established mental patterns. Republic troops called it "Little Shocky".</description>
     <graphicData>
-      <texPath>Apparel/Headbands/neuralbandItem</texPath>
+      <texPath>SWApparel/Headbands/neuralbandItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -87,7 +87,7 @@
 	</costList>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/neuralband</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/neuralband</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -124,7 +124,7 @@
 		<HediffDef>guy762_Hediff_LightScan</HediffDef>
 	</descriptionHyperlinks>
 	<graphicData>
-      <texPath>Apparel/Headbands/lightscangogglesItem</texPath>
+      <texPath>SWApparel/Headbands/lightscangogglesItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -154,7 +154,7 @@
 	</costList>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/lightscangoggles</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/lightscangoggles</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -218,7 +218,7 @@
     <label>Bothan sensory goggles</label>
     <description>Bothans place great importance on the tools of the information trade. They would consider these items to be of average quality, though their standards are exceptionally high.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/bothangogglesItem</texPath>
+      <texPath>SWApparel/Headbands/bothangogglesItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -237,7 +237,7 @@
 		<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.3</HackingSpeed>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/bothangoggles</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/bothangoggles</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -271,7 +271,7 @@
     <label>demolitions visor</label>
     <description>This item uses advanced microprocessors to assist the wearer in the visual analysis of microelectronics commonly used in demolitions. The acuity granted also serves to improve general awareness.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/demovisorItem</texPath>
+      <texPath>SWApparel/Headbands/demovisorItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -289,7 +289,7 @@
 		<MortarMissRadiusFactor>-0.4</MortarMissRadiusFactor>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/demovisor</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/demovisor</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -323,7 +323,7 @@
     <label>Exchange visor</label>
     <description>These visors hone an Exchange agent's senses, making them virtually impossible to catch unaware. The enhanced awareness also increases the agent's effectiveness in combat and in setting delicate, complex explosives.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/exchangevisorItem</texPath>
+      <texPath>SWApparel/Headbands/exchangevisorItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -356,7 +356,7 @@
 	</costList>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/exchangevisor</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/exchangevisor</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -388,7 +388,7 @@
     <label>Medical interface visor</label>
     <description>Similar in functionality to the Bio-Stabilizer series of medical equipment, this visor is designed to assist in the care and treatment of injured individuals. By providing constant data and analysis on the condition of the patient, this visor greatly increases the chance of survival of even the most critically injured of patients.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/medicalvisorItem</texPath>
+      <texPath>SWApparel/Headbands/medicalvisorItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -406,7 +406,7 @@
 		<MedicalTendSpeed>1</MedicalTendSpeed>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/medicalvisor</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/medicalvisor</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -435,7 +435,7 @@
     <label>regal visor</label>
     <description>This attractive headgear includes a voice enhancement module that regulates tone and volume of the wearer's speech. It is employed in diplomatic situations where the slightest error could offend.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/regalvisorItem</texPath>
+      <texPath>SWApparel/Headbands/regalvisorItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -455,7 +455,7 @@
 		<TradePriceImprovement>0.2</TradePriceImprovement>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/regalvisor</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/regalvisor</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -487,7 +487,7 @@
     <label>interface visor</label>
     <description>This item provides a mental interface to a store of information on electronic systems common to security, repair, and general computing functions.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/interfacevisorItem</texPath>
+      <texPath>SWApparel/Headbands/interfacevisorItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -513,7 +513,7 @@
 		<ResearchSpeed>0.2</ResearchSpeed>
 	</equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/interfacevisor</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/interfacevisor</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>
@@ -550,7 +550,7 @@
     <label>breath mask</label>
     <description>This is standard issue gear for Republic forces and most professional soldiers, protecting against a variety of gas-based attacks.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/breathmaskItem</texPath>
+      <texPath>SWApparel/Headbands/breathmaskItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -581,7 +581,7 @@
 	</costList>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/breathmask</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/breathmask</wornGraphicPath>
 	  <renderSkipFlags>
         <li>Beard</li>
       </renderSkipFlags>
@@ -638,7 +638,7 @@
     <label>rebreather mask</label>
     <description>A solid improvement of the standard Breath Mask, the Rebreather also adds vigor-enhancing airborne stimulants to the regulated oxygen stream.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/stabilizermaskItem</texPath>
+      <texPath>SWApparel/Headbands/stabilizermaskItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -676,7 +676,7 @@
 	</costList>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/stabilizermask</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/stabilizermask</wornGraphicPath>
 	  <renderSkipFlags>
         <li>Beard</li>
         <li>Eyes</li>
@@ -752,7 +752,7 @@
     <label>bandana</label>
     <description>A simple bandana for covering the forehead.</description>
     <graphicData>
-      <texPath>Apparel/Headbands/bandanaItem</texPath>
+      <texPath>SWApparel/Headbands/bandanaItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -782,7 +782,7 @@
 	</recipeMaker>
 	
     <apparel>
-      <wornGraphicPath>Apparel/Headbands/bandana</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Headbands/bandana</wornGraphicPath>
 	  <renderSkipFlags>
         <li>None</li>
       </renderSkipFlags>

@@ -7,7 +7,7 @@
 		<label>uniform cap</label>
 		<description>A formal cap for military personnel.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/uniform/ensign/hat</texPath>
+		  <texPath>SWApparel/Sith/uniform/ensign/hat</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -36,7 +36,7 @@
 		</costList>
 		
 		<apparel>
-		  <wornGraphicPath>Apparel/Sith/uniform/ensign/hat</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/uniform/ensign/hat</wornGraphicPath>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
 		  </bodyPartGroups>
@@ -72,7 +72,7 @@
 		<label>Sith uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/uniform/ensign/Apparel</texPath>
+		  <texPath>SWApparel/Sith/uniform/ensign/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(250,250,250)</colorTwo>
@@ -111,7 +111,7 @@
 		  <tags Inherit="False">
 			<li>SE_apparel_ensign</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Sith/uniform/ensign/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/uniform/ensign/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -146,7 +146,7 @@
 		<label>Sith Officer cap</label>
 		<description>A formal cap for military personnel.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/uniform/hat</texPath>
+		  <texPath>SWApparel/Sith/uniform/hat</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(50,50,50)</colorTwo>
@@ -181,7 +181,7 @@
 		</costList>
 		
 		<apparel>
-		  <wornGraphicPath>Apparel/Sith/uniform/hat</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/uniform/hat</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -214,7 +214,7 @@
 		<label>Sith Officer uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/uniform/Apparel</texPath>
+		  <texPath>SWApparel/Sith/uniform/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(50,50,50)</colorTwo>
@@ -254,7 +254,7 @@
 		  <tags Inherit="False">
 			<li>SE_apparel_officer</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Sith/uniform/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/uniform/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -289,7 +289,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This full body armor is standard issue for Sith infantry forces.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/trooper/Apparel</texPath>
+			<texPath>SWApparel/Sith/trooper/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -328,7 +328,7 @@
 			<tags>
 				<li>SE_apparel_trooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/trooper/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/trooper/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -373,7 +373,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This helmet is standard issue for Sith infantry forces.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/trooper/Helmet</texPath>
+			<texPath>SWApparel/Sith/trooper/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -418,7 +418,7 @@
 				<!--li>EVA</li-->
 				<li>SE_apparel_trooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/trooper/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/trooper/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -475,7 +475,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This full body armor is standard issue for Sith infantry forces.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/trooper/dulled/Apparel</texPath>    <!--this version has a different mask layer with lower contrast-->
+			<texPath>SWApparel/Sith/trooper/dulled/Apparel</texPath>    <!--this version has a different mask layer with lower contrast-->
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -514,7 +514,7 @@
 			<tags>
 				<li>SE_apparel_elitetrooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/trooper/dulled/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/trooper/dulled/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -567,7 +567,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This helmet is standard issue for Sith infantry forces.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/trooper/dulled/Helmet</texPath>
+			<texPath>SWApparel/Sith/trooper/dulled/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -612,7 +612,7 @@
 				<!--li>EVA</li-->
 				<li>SE_apparel_trooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/trooper/dulled/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/trooper/dulled/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -668,7 +668,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This bulky suit of powered armor was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/commando/Apparel</texPath>
+			<texPath>SWApparel/Sith/commando/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -711,7 +711,7 @@
 			<tags>
 				<li>SE_apparel_shocktrooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/commando/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/commando/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -757,7 +757,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This bulky powered helmet was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/commando/Helmet</texPath>
+			<texPath>SWApparel/Sith/commando/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -803,7 +803,7 @@
 				<!--li>EVA</li-->
 				<li>SE_apparel_shocktrooper</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/commando/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/commando/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -848,7 +848,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This bulky suit of powered armor was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/commando/dulled/Apparel</texPath>
+			<texPath>SWApparel/Sith/commando/dulled/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -891,7 +891,7 @@
 			<tags>
 				<li>SE_apparel_commando</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/commando/dulled/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/commando/dulled/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -945,7 +945,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This bulky powered helmet was originally intended to be worn by a new generation of shock troopers with advanced urban warfare training that would spearhead the Sith's final assault on the core worlds, though only a limited number of units were produced before the destruction of the Star Forge.</description>
 		<graphicData>
-			<texPath>Apparel/Sith/commando/dulled/Helmet</texPath>
+			<texPath>SWApparel/Sith/commando/dulled/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -991,7 +991,7 @@
 				<!--li>EVA</li-->
 				<li>SE_apparel_commando</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/commando/dulled/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/commando/dulled/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -1056,7 +1056,7 @@
     <label>Sith Apprentice tunic</label>
     <description>These are simple robes, kept modest not by a desire to appear humble, but to offer the greatest freedom of movement during battle.</description>
     <graphicData>
-      <texPath>Apparel/Sith/apprentice/Apparel</texPath>
+      <texPath>SWApparel/Sith/apprentice/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1106,7 +1106,7 @@
 		<tags Inherit="False">
 			<li>SE_sithapprentice</li>
 		</tags>
-		<wornGraphicPath>Apparel/Sith/apprentice/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Sith/apprentice/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -1133,7 +1133,7 @@
     <label>hood, masked</label>
     <description>A masked hood for remaining anonymous.</description>
     <graphicData>
-      <texPath>Apparel/Sith/apprentice/hood</texPath>
+      <texPath>SWApparel/Sith/apprentice/hood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1174,7 +1174,7 @@
 		<li>Hair</li>
 		<li>Beard</li>
 	  </renderSkipFlags>
-	  <wornGraphicPath>Apparel/Sith/apprentice/hood</wornGraphicPath>
+	  <wornGraphicPath>SWApparel/Sith/apprentice/hood</wornGraphicPath>
       <bodyPartGroups>
 		<li>UpperHead</li>
 		<li>Mouth</li>
@@ -1214,7 +1214,7 @@
     <label>Sith Assassin tunic</label>
     <description>These are simple robes, kept modest not by a desire to appear humble, but to offer the greatest freedom of movement during battle.</description>
     <graphicData>
-      <texPath>Apparel/Sith/assassin/Apparel</texPath>
+      <texPath>SWApparel/Sith/assassin/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1265,7 +1265,7 @@
 		<tags Inherit="False">
 			<li>SE_sithassassin</li>
 		</tags>
-		<wornGraphicPath>Apparel/Sith/assassin/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Sith/assassin/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -1296,7 +1296,7 @@
     <label>Sith Assassin mask</label>
     <description>The last thing any assassin wants is to choke on their own nerve gas. This Sith mask both channels the force and filters harmful fumes.</description>
     <graphicData>
-      <texPath>Apparel/Sith/assassin/mask</texPath>
+      <texPath>SWApparel/Sith/assassin/mask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1325,7 +1325,7 @@
 				<layer>51</layer>
 			</defaultData>
 	  </drawData-->
-	  <wornGraphicPath>Apparel/Sith/assassin/mask</wornGraphicPath>
+	  <wornGraphicPath>SWApparel/Sith/assassin/mask</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
 		<li>Overhead</li>
@@ -1372,7 +1372,7 @@
     <label>Sith Warrior tunic</label>
     <description>Designed for those who relish personal combat, and know that power comes to those who take it, these robes offer good protection with no hindrance to movement.</description>
     <graphicData>
-      <texPath>Apparel/Sith/warrior/Apparel</texPath>
+      <texPath>SWApparel/Sith/warrior/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1423,7 +1423,7 @@
 		<tags Inherit="False">
 			<li>SE_sithwarrior</li>
 		</tags>
-		<wornGraphicPath>Apparel/Sith/warrior/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Sith/warrior/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -1459,7 +1459,7 @@
 		<HediffDef>guy762_Hediff_sithmask</HediffDef>
 	</descriptionHyperlinks>
 	<graphicData>
-      <texPath>Apparel/Sith/warrior/mask</texPath>
+      <texPath>SWApparel/Sith/warrior/mask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1487,7 +1487,7 @@
 				<layer>51</layer>
 			</defaultData>
 	  </drawData-->
-	  <wornGraphicPath>Apparel/Sith/warrior/mask</wornGraphicPath>
+	  <wornGraphicPath>SWApparel/Sith/warrior/mask</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
 		<li>Overhead</li>
@@ -1574,7 +1574,7 @@
 		<label>Sith Marauder armor (polished)</label>
 		<description>This armor offers superior protection with minimal restriction of movement. This is the armor of a true master, one whose will and authority go unopposed.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/marauder/Apparel</texPath>
+		  <texPath>SWApparel/Sith/marauder/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(100,100,110)</colorTwo>         <!--dark slate blue-->
@@ -1615,7 +1615,7 @@
 			<tags Inherit="False">
 				<li>SE_sithmarauder</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/marauder/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/marauder/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -1646,7 +1646,7 @@
 		<label>Sith Marauder neck guard (polished)</label>
 		<description>.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/marauder/neck</texPath>
+		  <texPath>SWApparel/Sith/marauder/neck</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -1670,7 +1670,7 @@
 					<layer>66</layer>
 				</defaultData>
 		  </drawData>
-		  <wornGraphicPath>Apparel/Sith/marauder/neck</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/marauder/neck</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <layers>
 			<li>Overhead</li>
@@ -1707,7 +1707,7 @@
 		<label>Sith Marauder armor</label>
 		<description>This armor offers superior protection with minimal restriction of movement. This is the armor of a true master, one whose will and authority go unopposed.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/marauder/bandon/Apparel</texPath>
+		  <texPath>SWApparel/Sith/marauder/bandon/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(100,100,110)</colorTwo>         <!--dark slate blue-->
@@ -1748,7 +1748,7 @@
 			<tags Inherit="False">
 				<li>SE_sithmarauder</li>
 			</tags>
-			<wornGraphicPath>Apparel/Sith/marauder/bandon/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Sith/marauder/bandon/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -1779,7 +1779,7 @@
 		<label>Sith Marauder neck guard</label>
 		<description>.</description>
 		<graphicData>
-		  <texPath>Apparel/Sith/marauder/neck</texPath>
+		  <texPath>SWApparel/Sith/marauder/neck</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -1802,7 +1802,7 @@
 					<layer>66</layer>
 				</defaultData>
 		  </drawData>
-		  <wornGraphicPath>Apparel/Sith/marauder/neck</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Sith/marauder/neck</wornGraphicPath>
 		  <layers>
 			<li>Overhead</li>
 		  </layers>

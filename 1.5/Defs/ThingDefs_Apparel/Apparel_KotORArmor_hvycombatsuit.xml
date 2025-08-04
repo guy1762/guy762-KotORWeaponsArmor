@@ -6,7 +6,7 @@
     <label>heavy combat suit</label>
     <description>This version of the combat suit offers more protection than the basic model. It is heavier overall and not quite as flexible, but many consider the tradeoffs worthwhile.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -57,7 +57,7 @@
 			<li>SaV_apparel_roguetrader</li>
 			<li>PReb_apparel_trooper</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -80,7 +80,7 @@
     <label>Eriadu Prototype Armor</label>
     <description>This armor combines good protection and easy movement to allow even a novice to fight like a seasoned veteran, but Eriadu has delayed general production pending further tests.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -115,7 +115,7 @@
 			<li>SaV_apparel_bountyhunterlight</li>
 			<li>SaV_apparel_exchange</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/eriadu/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/eriadu/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -146,7 +146,7 @@
     <label>Bonadan Alloy Heavy Suit</label>
     <description>Bonadan is an emerging industrial society financing their exploration of the galaxy through production of small arms and armor. They favor heavy materials offering solid defense.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -178,7 +178,7 @@
 			<li>KotORArmor_light</li>
 			<li>SaV_apparel_lightmerc</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -209,7 +209,7 @@
     <label>reinforced fiber armor</label>
     <description>Inspired by craftsmen on worlds where metal is in short supply, this type of light armor consists of jung-ju tree fibers bound with synthetics, offering good, flexible protection.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(160,50,40)</colorTwo>
@@ -242,7 +242,7 @@
 			<li>PM_apparel_jediexile</li>
 			<li>SaV_apparel_bountyhunterlight</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -273,7 +273,7 @@
     <label>Zabrak Field Armor</label>
     <description>On the far northern continent of the planet Iridonia, the Zabrak produce expensive armor that nonetheless has become very popular on the galactic markets, due to excellent low-temperature defensive properties.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(80,50,30)</colorTwo>
@@ -310,7 +310,7 @@
 			<li>EXC_apparel_CapoOrVigo</li>
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -341,7 +341,7 @@
     <label>Baragwin Shadow Armor</label>
     <description>A specialty of the Baragwin, this modifiable suit has advanced adaptive camouflage technology that, when combined with a stealth generator, allows it to blend in nearly seamlessly with the background when viewed from any direction. It is generally only sold to respected governments, but a number have found their way into more disreputable distribution channels.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(130,155,185)</colorTwo>
@@ -376,7 +376,7 @@
 			<li>SaV_apparel_chiss</li>
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/baragwin/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/baragwin/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>

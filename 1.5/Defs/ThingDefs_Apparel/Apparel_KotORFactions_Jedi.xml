@@ -10,7 +10,7 @@
     <label>Jedi tunic, light</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1_new/alt/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1_new/alt/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -63,7 +63,7 @@
 			<li>OR_jeditunic_light</li>
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1_new/alt/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1_new/alt/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -94,7 +94,7 @@
     <label>Jedi tunic, simple</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1_new/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1_new/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -148,7 +148,7 @@
 			<li>OR_jeditunic_simple</li>
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1_new/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1_new/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -183,7 +183,7 @@
     <label>Jedi tunic, formal</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments. However, sometimes a uniform that conveys a little more professionalism is required.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_2/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_2/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -235,7 +235,7 @@
 			<li>OR_jeditunic_formal</li>
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_2/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_2/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -272,7 +272,7 @@
     <label>Jedi tunic, traditional</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_3/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_3/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -324,7 +324,7 @@
 			<li>OR_jeditunic_trad</li>
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_3/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_3/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -365,7 +365,7 @@
     <label>cloak, simple</label>
     <description>This is a simple robe worn by ordinary civilians and Jedi alike.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/cloak_1/Apparel</texPath>
+      <texPath>SWApparel/Jedi/cloak_1/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -408,7 +408,7 @@
 			<li>OR_jedi</li>
 			<li>OR_jedicloak_light</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/cloak_1/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/cloak_1/Apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_KotORClothes</li>
@@ -446,7 +446,7 @@
     <label>hood, simple</label>
     <description>A simple hood for remaining anonymous.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/cloak_1/hood</texPath>
+      <texPath>SWApparel/Jedi/cloak_1/hood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -483,7 +483,7 @@
 		  <layer>90</layer>
 	    </dataNorth>
 	  </drawData>
-	  <wornGraphicPath>Apparel/Jedi/cloak_1/hood</wornGraphicPath>
+	  <wornGraphicPath>SWApparel/Jedi/cloak_1/hood</wornGraphicPath>
       <bodyPartGroups>
 		<li>UpperHead</li>
       </bodyPartGroups>
@@ -522,7 +522,7 @@
     <label>heavy Jedi cloak</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/cloak_2/Apparel</texPath>
+      <texPath>SWApparel/Jedi/cloak_2/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -554,7 +554,7 @@
 		<tags Inherit="False">
 			<li>OR_jedi</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/cloak_2/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/cloak_2/Apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_JediApparel</li>
@@ -594,7 +594,7 @@
     <label>Jedi tunic, plain</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(190,135,75)</colorTwo>
@@ -644,7 +644,7 @@
 		<tags Inherit="False">
 			<li>OR_jedi</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>

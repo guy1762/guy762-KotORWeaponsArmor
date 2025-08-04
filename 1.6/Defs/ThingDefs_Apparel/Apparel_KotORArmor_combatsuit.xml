@@ -6,7 +6,7 @@
     <label>combat suit</label>
     <description>Even the most frugal of mercenaries know they need at least some protection from the rigors of combat, although suits of this type are recommended for light skirmishes only.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -53,7 +53,7 @@
 			<li>SithRem_apparel_raider</li>
 			<li>SWKotORSpecificApparelItem_CombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -77,7 +77,7 @@
     <label>Zabrak Combat Suit</label>
     <description>A Zabrak improvement on the combat suit, this armor is good protection where speed and unrestricted movement are more important than bulky plating.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/light/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/light/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(235,230,15)</colorTwo>
@@ -109,7 +109,7 @@
 			<li>SaV_apparel_roguetrader</li>
 			<li>SWKotORSpecificApparelItem_ZabrakCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/light/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/light/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -127,7 +127,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit/light/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit/light/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -146,7 +146,7 @@
     <label>Echani Light Armor</label>
     <description>Echani prefer elegant design to brute force. The Maktites learned this when their stores of thermal weapons were rendered ineffective by simple changes in the Echani light armor.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/echani/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/echani/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <!--colorTwo>(235,230,15)</colorTwo-->
@@ -181,7 +181,7 @@
 			<li>PM_apparel_jediexile</li>
 			<li>SWKotORSpecificApparelItem_EchaniCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/echani/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/echani/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -199,7 +199,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit/echani/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit/echani/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -218,7 +218,7 @@
     <label>Cinnagar Weave Armor</label>
     <description>A complex organic weave protects this armored suit from extremes in temperature. Armor similar to it proved decisive in defending Cinnagar from the Sith under Naga Sadow.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/cinnagar/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/cinnagar/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -255,7 +255,7 @@
 			<li>EXC_apparel_CapoOrVigo</li>
 			<li>SWKotORSpecificApparelItem_CinnagarCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/cinnagar/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/cinnagar/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -274,7 +274,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit/cinnagar/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit/cinnagar/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -293,7 +293,7 @@
     <label>Beast-Rider Commando Armor</label>
     <description>The Beast-Riders of Onderon relied on lightweight, flexible armor such as this to gain some advantage against better-armed Naddist forces. These suits are now commonplace amongst the armed forces of Onderon.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/camo/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/camo/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(165,95,35)</colorTwo>
@@ -328,7 +328,7 @@
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 			<li>SWKotORSpecificApparelItem_OnderonCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/camo/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/camo/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -347,7 +347,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit/camo/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit/camo/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -366,7 +366,7 @@
     <label>Electromesh Suit</label>
     <description>This light combat suit is used by Nagai operatives. It is highly resistant to blaster fire and is designed to allow the Nagai to fully capitalize on their naturally high dexterity. It cannot be modified, however.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit/electromesh/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit/electromesh/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(75,75,75)</colorTwo>
@@ -401,7 +401,7 @@
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 			<li>SWKotORSpecificApparelItem_ElectromeshCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit/electromesh/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit/electromesh/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>

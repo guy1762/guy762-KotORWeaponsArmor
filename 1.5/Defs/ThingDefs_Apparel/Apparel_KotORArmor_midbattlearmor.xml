@@ -6,7 +6,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This isn't the heaviest of armor, but it comes close. Designed for heavy militias, it has the protection needed to keep a soldier alive during ranged combat with massive weapons.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(190,155,120)</colorTwo>
@@ -51,7 +51,7 @@
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_merc</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -89,7 +89,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The micro-hydraulics of this armor provides the operator with both protection and strength enhancement. It is rare outside of professional mercenaries and soldiers.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/powersuit/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/powersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(180,85,60)</colorTwo>
@@ -124,7 +124,7 @@
 				<li>SaV_apparel_bountyhunterstrong</li>
 				<li>EVA</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/powersuit/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/powersuit/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -176,7 +176,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>While much time was spent on the appearance, this armor is still meant for the personal guards of dignitaries, and is therefore highly effective against many forms of attack.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/cinnagar/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/cinnagar/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(140,140,130)</colorTwo>
@@ -207,7 +207,7 @@
 				<li>SaV_apparel_bountyhuntermid</li>
 				<li>SaV_apparel_gangboss</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/cinnagar/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/cinnagar/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -256,7 +256,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Essentially an improved version of powered battle armor, the powersuit employs a system of servomotors to enhance the wearer's strength.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/powersuit/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/powersuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(130,140,170)</colorTwo>
@@ -292,7 +292,7 @@
 				<li>EVA</li>
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/powersuit/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/powersuit/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -344,7 +344,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Using the highly expensive Zal alloy, the Verpine have developed a suit without peer. The only thing greater than the protective capabilities of this armor is the price.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/verpine/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/verpine/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(155,110,40)</colorTwo>
@@ -375,7 +375,7 @@
 				<li>SaV_apparel_starbountyhunter</li>
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/verpine/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/verpine/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>

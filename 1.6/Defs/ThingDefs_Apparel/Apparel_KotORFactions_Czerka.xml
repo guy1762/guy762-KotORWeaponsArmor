@@ -7,7 +7,7 @@
     <label>Czerka laborer worksuit</label>
     <description>These are simple garments that protect little more than the modesty of the wearer.</description>
     <graphicData>
-      <texPath>Apparel/Undersuits/worker/czerka/Apparel</texPath>
+      <texPath>SWApparel/Undersuits/worker/czerka/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(75,115,90)</colorTwo>
@@ -42,7 +42,7 @@
 		<li>czkera_slave</li>
 		<li>SWKotORSpecificApparelItem_CzerkaBodysuit</li>
       </tags>
-      <wornGraphicPath>Apparel/Undersuits/worker/czerka/Apparel</wornGraphicPath>
+      <wornGraphicPath>SWApparel/Undersuits/worker/czerka/Apparel</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <defaultOutfitTags Inherit="False">
 		<li>Worker</li>
@@ -67,7 +67,7 @@
 		<label>Czerka employee uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Undersuits/czerka/Apparel</texPath>
+		  <texPath>SWApparel/Undersuits/czerka/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(220,170,95)</colorTwo>
@@ -107,7 +107,7 @@
 			<li>czerka_worker</li>
 			<li>SWKotORSpecificApparelItem_CzerkaEmployeeClothes</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Undersuits/czerka/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Undersuits/czerka/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -133,7 +133,7 @@
 		<label>Czerka officer uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Undersuits/czerkaofficer/Apparel</texPath>
+		  <texPath>SWApparel/Undersuits/czerkaofficer/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(220,170,95)</colorTwo>
@@ -174,7 +174,7 @@
 			<li>czerka_officer</li>
 			<li>SWKotORSpecificApparelItem_CzerkaOfficerClothes</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Undersuits/czerkaofficer/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Undersuits/czerkaofficer/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -210,7 +210,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Providing solid protection for a minimal cost, this armor is excellent for entrenched troops or guards. A force on the move, however, may find it somewhat constricting.\n\nUPGRADE SLOTS:\n- Headgear Underlay</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/LightBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/LightBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(160,110,35)</colorTwo>
@@ -250,7 +250,7 @@
 				<li>KotORArmor_mid</li>
 				<li>SWKotORSpecificApparelItem_CzerkaLightBattleHelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/LightBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/LightBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>EyeCover</li>
@@ -278,7 +278,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Helmets/LightBattleHelmet</texPath>
+					<texPath>SWApparel/Helmets/LightBattleHelmet</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -301,7 +301,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Providing solid protection for a minimal cost, this armor is excellent for entrenched troops or guards. A force on the move, however, may find it somewhat constricting.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/TSL/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/TSL/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(160,110,35)</colorTwo>
@@ -344,7 +344,7 @@
 				<li>CZC_enforcer</li>
 				<li>SWKotORSpecificApparelItem_CzerkaLightBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/TSL/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/TSL/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -376,7 +376,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/LightBattleArmor/TSL/Apparel</texPath>
+					<texPath>SWApparel/LightBattleArmor/TSL/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>

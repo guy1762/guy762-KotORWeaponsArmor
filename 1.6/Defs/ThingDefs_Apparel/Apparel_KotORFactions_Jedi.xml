@@ -10,7 +10,7 @@
     <label>Jedi tunic, light</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1_new/alt/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1_new/alt/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -64,7 +64,7 @@
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 			<li>SWKotORSpecificApparelItem_LightJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1_new/alt/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1_new/alt/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -81,7 +81,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/Jedi/tunic_1_new/alt/Apparel</texPath>
+				<texPath>SWApparel/Jedi/tunic_1_new/alt/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -101,7 +101,7 @@
     <label>Jedi tunic, simple</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1_new/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1_new/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -156,7 +156,7 @@
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 			<li>SWKotORSpecificApparelItem_SimpleJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1_new/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1_new/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -173,7 +173,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/Jedi/tunic_1_new/Apparel</texPath>
+				<texPath>SWApparel/Jedi/tunic_1_new/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -197,7 +197,7 @@
     <label>Jedi tunic, formal</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments. However, sometimes a uniform that conveys a little more professionalism is required.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_2/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_2/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -250,7 +250,7 @@
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 			<li>SWKotORSpecificApparelItem_FormalJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_2/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_2/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -271,7 +271,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/Jedi/tunic_2/Apparel</texPath>
+				<texPath>SWApparel/Jedi/tunic_2/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -293,7 +293,7 @@
     <label>Jedi tunic, traditional</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_3/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_3/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -346,7 +346,7 @@
 			<li>KotORRoyaltyTag_AnyJediTunic</li>
 			<li>SWKotORSpecificApparelItem_TraditionalJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_3/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_3/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -363,7 +363,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/Jedi/tunic_3/Apparel</texPath>
+				<texPath>SWApparel/Jedi/tunic_3/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -393,7 +393,7 @@
     <label>heavy Jedi cloak</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.</description>
     <graphicData>
-      <texPath>Apparel/Jedi/cloak_2/Apparel</texPath>
+      <texPath>SWApparel/Jedi/cloak_2/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -425,7 +425,7 @@
 		<tags Inherit="False">
 			<li>OR_jedi</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/cloak_2/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/cloak_2/Apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_JediApparel</li>
@@ -471,7 +471,7 @@
     <label>Jedi tunic, plain</label>
     <description>Members of the Jedi Order typically wear plain or unassuming garments.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/Jedi/tunic_1/Apparel</texPath>
+      <texPath>SWApparel/Jedi/tunic_1/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(190,135,75)</colorTwo>
@@ -522,7 +522,7 @@
 			<li>OR_jedi</li>
 			<li>SWKotORSpecificApparelItem_OldJediTunic</li>
 		</tags>
-		<wornGraphicPath>Apparel/Jedi/tunic_1/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/Jedi/tunic_1/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -563,7 +563,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/Jedi/tunic_1/Apparel</texPath>
+				<texPath>SWApparel/Jedi/tunic_1/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>

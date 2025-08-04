@@ -6,7 +6,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Providing solid protection for a minimal cost, this armor is excellent for entrenched troops or guards. A force on the move, however, may find it somewhat constricting.</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(190,0,0)</colorTwo>
@@ -53,7 +53,7 @@
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -101,7 +101,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This molded armor is made of better materials than standard military issue, but is still relatively cheap and easy to mass-produce, making it ideal for light militias and the like.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/bronzium/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/bronzium/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(255,210,0)</colorTwo>
@@ -133,7 +133,7 @@
 				<li>SaV_apparel_gangboss</li>
 				<li>SWKotORSpecificApparelItem_BronziumLightBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/bronzium/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/bronzium/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -166,7 +166,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/LightBattleArmor/bronzium/Apparel</texPath>
+					<texPath>SWApparel/LightBattleArmor/bronzium/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -191,7 +191,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This is an early attempt at power-assisted armor. Dampening fields block the noise of servomotors, unintentionally shielding against external extremes in sonic frequencies as well.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay\n- Armor Tech</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/powered/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/powered/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(245,145,50)</colorTwo>
@@ -229,7 +229,7 @@
 				<li>EVA</li>
 				<li>SWKotORSpecificApparelItem_PoweredLightBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/powered/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/powered/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -262,7 +262,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/LightBattleArmor/powered/Apparel</texPath>
+					<texPath>SWApparel/LightBattleArmor/powered/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -295,7 +295,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Typical of the old Krath military elite, these suits were worn during slave raids on neighboring systems. Slaving is profitable but risky, so little cost is spared in equipment.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay (heavy)</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/krath/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/krath/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(55,230,255)</colorTwo>
@@ -328,7 +328,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_KrathLightBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/krath/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/krath/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -362,7 +362,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/LightBattleArmor/krath/Apparel</texPath>
+					<texPath>SWApparel/LightBattleArmor/krath/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -387,7 +387,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This flexible armor is used by Nagai soldiers. It is highly resistant to blaster fire and is designed to allow the Nagai to fully capitalize on their naturally high dexterity. It cannot be modified, however.</description>
 		<graphicData>
-			<texPath>Apparel/LightBattleArmor/electromesh/Apparel</texPath>
+			<texPath>SWApparel/LightBattleArmor/electromesh/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(75,75,75)</colorTwo>
@@ -418,7 +418,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_ElectromeshLightBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/LightBattleArmor/electromesh/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/LightBattleArmor/electromesh/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>

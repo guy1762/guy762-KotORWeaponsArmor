@@ -10,7 +10,7 @@
     <label>Visas' hood</label>
     <description>https://steamcommunity.com/sharedfiles/filedetails/?id=3378970100</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Visas/hood</texPath>
+      <texPath>SWApparel/CharacterOutfits/Visas/hood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -50,7 +50,7 @@
 	  </recipeMaker>
 	
     <apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Visas/hood</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Visas/hood</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <renderSkipFlags>
         <li>Hair</li>
@@ -124,7 +124,7 @@
     <label>Visas' robes</label>
     <description>.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Visas/Apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Visas/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(60,50,65)</colorTwo>
@@ -186,7 +186,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Visas/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Visas/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -203,7 +203,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Visas/Apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Visas/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -234,7 +234,7 @@
     <label>Jolee's Tunic</label>
     <description>Jolee Bindo remained outside of the Jedi Order in his pursuit of knowledge. This powerful, yet unassuming tunic was believed to have been owned by him, though his current whereabouts is unknown.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Jolee/Apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Jolee/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -294,7 +294,7 @@
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Jolee/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Jolee/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -311,7 +311,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Jolee/Apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Jolee/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -336,7 +336,7 @@
     <label>Bastila's Tunic</label>
     <description>The last Padawan of the famed Nomi Sunrider, Bastila Shan is said to be the youngest Jedi ever to attain full mastery over the art of Battle Meditation.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Bastila/Apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Bastila/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(190,135,95)</colorTwo>
@@ -397,7 +397,7 @@
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Bastila/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Bastila/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -414,7 +414,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Bastila/Apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Bastila/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -438,7 +438,7 @@
     <label>Juhani's Tunic</label>
     <description>Juhani was a Cathar Jedi Guardian said to have accompanied Revan on their quest to find the Star Forge.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Juhani/Apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Juhani/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(150,80,0)</colorTwo>
@@ -498,7 +498,7 @@
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Juhani/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Juhani/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -519,7 +519,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Juhani/Apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Juhani/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -537,7 +537,7 @@
     <defName>guy762_Hair_Juhani</defName>
     <label>Juhani</label>
     <styleGender>Any</styleGender>
-    <texPath>Apparel/CharacterOutfits/Juhani/ponytail</texPath>
+    <texPath>SWApparel/CharacterOutfits/Juhani/ponytail</texPath>
 	<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
     <category>Tribal</category>
     <styleTags>

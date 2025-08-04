@@ -9,7 +9,7 @@
     <label>Darth Malak's Armored Tunic</label>
     <description>It is believed that Darth Malak, the fallen former apprentice of Darth Revan, once possessed this garment. Malak and Revan are credited with starting the Jedi Civil War, which led to the collapse of the Jedi Order\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy).</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -72,7 +72,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
@@ -80,7 +80,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malak/apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -99,7 +99,7 @@
     <label>Darth Malak's Armored Cape</label>
     <description>It is believed that Darth Malak, the fallen former apprentice of Darth Revan, once possessed this garment. Malak and Revan are credited with starting the Jedi Civil War, which led to the collapse of the Jedi Order.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Malak/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Malak/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -149,7 +149,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Malak/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Malak/apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
@@ -183,7 +183,7 @@
       <li>
         <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
 		<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malak/denture</texPath>
+        <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malak/denture</texPath>
         <parentTagDef>Head</parentTagDef>
         <drawData>
           <defaultData>
@@ -248,7 +248,7 @@
   <TattooDef>
     <defName>guy762_FaceTattoo_malak</defName>
     <label>SW_Malak</label>
-    <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malak/Face_Malak</texPath>
+    <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malak/Face_Malak</texPath>
 	<visibleNorth>true</visibleNorth>
     <tattooType>Face</tattooType>
     <category>Punk</category>
@@ -270,7 +270,7 @@
     <label>Darth Revan's Armor</label>
     <description>Created by the mystical technology of the Star Forge, these robes focus the dark side energies of the wearer, fueling their power. The Sith Lord Darth Revan was wearing similar robes when captured by the Jedi, who viewed the garments as an abomination and destroyed them. However the Jedi Council, not being familiar with the origins of the robes, were unaware that the Star Forge would be capable of producing an item of such terrible power a second time.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -313,12 +313,12 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</wornGraphicPath>
     </apparel>
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -342,7 +342,7 @@
     <label>Darth Revan's Mask</label>
     <description>Hero, villain, this legendary mask symbolizes the pivotal moment that started it all.\n\nUPGRADE SLOTS:\n- Headgear Underlay\n- Visor Tech</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -367,7 +367,7 @@
 	<!--costList Inherit="False" />    DONE VIA PATCH!!!-->
     
 	<apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</wornGraphicPath>
       <layers>
 		<li>Overhead</li>
 		<li>EyeCover</li>
@@ -387,7 +387,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Revan/hood</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -412,7 +412,7 @@
     <label>Darth Revan's cloak</label>
     <description>Created by the mystical technology of the Star Forge, these robes focus the dark side energies of the wearer, fueling their power. The Sith Lord Darth Revan was wearing similar robes when captured by the Jedi, who viewed the garments as an abomination and destroyed them. However the Jedi Council, not being familiar with the origins of the robes, were unaware that the Star Forge would be capable of producing an item of such terrible power a second time.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Revan/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Revan/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -449,7 +449,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Revan/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Revan/apparel</wornGraphicPath>
     </apparel>
   </ThingDef>
   
@@ -469,7 +469,7 @@
     <label>Darth Nihilus' Robes</label>
     <description>Robe once belonging to Darth Nihilus, who fell by the hand of the Exile. Even years after his death, this garment still carries within it a fragment of Darth Nihilus'  spirit and his insatiable hunger.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -527,12 +527,12 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</wornGraphicPath>
     </apparel>
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Nihilus/apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -551,7 +551,7 @@
     <label>Darth Nihilus' Mask</label>
     <description>Mask formerly owned by Darth Nihilus, whose spirit was bound within it. Once a symbol of its owner's boundless hunger, it is now a coveted and powerful artifact - a relic for every Dark Side adept.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/mask</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Nihilus/mask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -592,7 +592,7 @@
 	  </recipeMaker>
 	
     <apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Nihilus/mask</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Nihilus/mask</wornGraphicPath>
       <layers>
 		<li>Overhead</li>
 		<li>EyeCover</li>
@@ -623,7 +623,7 @@
     <label>Darth Nihilus' Cloak</label>
     <description>Cloak once worn by Darth Nihilus, who was slain by the Exile. As black as the remnants of Darth Nihilus' soul.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Nihilus/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Nihilus/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -678,7 +678,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/Nihilus/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/Nihilus/apparel</wornGraphicPath>
     </apparel>
   </ThingDef>
   
@@ -707,7 +707,7 @@
     <label>Star Forge Robes</label>
     <description>Created by the mystical technology of the Star Forge, these robes focus the inherent Force abilities of the wearer, fueling their power. Although the Star Forge itself is an artifact of the dark side, these robes were customised using an analysis of the Jedi they were created for, resulting in a powerful light side item that the Jedi can safely use against their enemies without fear of taint or corruption.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -749,7 +749,7 @@
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
@@ -757,7 +757,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -784,7 +784,7 @@
     <label>Star Forge Mask</label>
     <description>Though it wasn't Revan's original mask, this perfect replica was created alongside the Star Forge Robes by a redeemed Revan preparing to face Darth Malak one final time.\n\nUPGRADE SLOTS:\n- Headgear Underlay\n- Visor Tech</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -807,7 +807,7 @@
 	<!--costList Inherit="False" />    DONE VIA PATCH!!!-->
 	
     <apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</wornGraphicPath>
       <layers>
 		<li>Overhead</li>
 		<li>EyeCover</li>
@@ -830,7 +830,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/JediRevan/hood</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -856,7 +856,7 @@
     <label>Star Forge Cloak</label>
     <description>Created by the mystical technology of the Star Forge, these robes focus the inherent Force abilities of the wearer, fueling their power. Although the Star Forge itself is an artifact of the dark side, these robes were customised using an analysis of the Jedi they were created for, resulting in a powerful light side item that the Jedi can safely use against their enemies without fear of taint or corruption.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/JediRevan/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/JediRevan/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -893,7 +893,7 @@
 			<li>KotORRoyaltyTag_LSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Capes/JediRevan/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Capes/JediRevan/apparel</wornGraphicPath>
     </apparel>
   </ThingDef>
   
@@ -906,7 +906,7 @@
     <label>Darth Sion's Armor</label>
     <description>While it was hard to call these cast-offs armor like those worn by soldiers or adepts of the Force, the protection of the legs, pelvis, and dominant arm was more than enough for someone whose body was constantly brought back to life by the dark side of the Force and who could not die. After all, its former owner preferred the freedom from restraint to protection from weapons that did not harm him.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -960,7 +960,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</wornGraphicPath>
     </apparel>
 	<tradeTags>
 		<li>guy762TT_KotORCharacterItem</li>
@@ -968,7 +968,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Sion/apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -1002,7 +1002,7 @@
     <label>Darth Traya's Robes</label>
     <description>Robe once worn by the manipulative Darth Traya. Now, it is more of a symbolic relic of its former owner’s forgotten philosophy than a powerful Dark Side artifact.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1059,12 +1059,12 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</wornGraphicPath>
     </apparel>
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Traya/Traya</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -1082,7 +1082,7 @@
     <defName>guy762_Hair_Traya</defName>
     <label>Darth Traya</label>
     <styleGender>Female</styleGender>
-    <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Traya/Hair/Traya</texPath>
+    <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Traya/Hair/Traya</texPath>
 	<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
     <category>Royal</category>
     <styleTags>
@@ -1113,7 +1113,7 @@
     <label>Exar Kun's light battle suit</label>
     <description>Attributed to Exar Kun, this armor may well have been one of those worn by the Dark Lord prior to his defeat forty years ago. He was rarely without considerable, yet flexible, personal armor.\n\nUPGRADE SLOTS:\n- Armor Underlay (robe)\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1178,7 +1178,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</wornGraphicPath>
 		<useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
 	<tradeTags>
@@ -1188,7 +1188,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/ExarKun/Exar</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -1221,7 +1221,7 @@
     <label>Darth Malgus' powered battle armor</label>
     <description>.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)\n- Armor Tech</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1291,7 +1291,7 @@
 			<li>KotORRoyaltyTag_DSCharacterApparel</li>
 			<li>KotORRoyaltyTag_AnyCharacterApparel</li>
 		</tags>
-		<wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</wornGraphicPath>
 		<useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
 	<tradeTags>
@@ -1301,7 +1301,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</texPath>
+				<texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Malgus</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -1334,7 +1334,7 @@
     <label>Darth Malgus' breath mask</label>
     <description>.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM_south</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1366,7 +1366,7 @@
 	<!-- </costList> -->
 	
     <apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Mask/MalgusM</wornGraphicPath>
 	  <renderSkipFlags>
         <li>Beard</li>
       </renderSkipFlags>
@@ -1418,7 +1418,7 @@
     <label>Darth Malgus' masked hood</label>
     <description>.</description>
     <graphicData>
-      <texPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM_south</texPath>
+      <texPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM_south</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -1450,7 +1450,7 @@
 	<!-- </costList> -->
 	
     <apparel>
-      <wornGraphicPath>Apparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM</wornGraphicPath>
+      <wornGraphicPath>SWApparel/CharacterOutfits/Immortalus_SithLords/Malgus/Hood/MalgusHM</wornGraphicPath>
 	  
 	  <drawData>
 		<defaultData>

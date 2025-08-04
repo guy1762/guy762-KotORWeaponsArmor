@@ -8,7 +8,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Republic soldiers saw this armor all too often during the Mandalorian War. It's understandable that the conflict could drag on when a fanatical enemy is so defensively outfitted.</description>
 		<graphicData>
-			<texPath>Apparel/Mandalorian/NeoCrusader/hood</texPath>
+			<texPath>SWApparel/Mandalorian/NeoCrusader/hood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -61,7 +61,7 @@
 				<li>MNC_helmet_hood</li>
 				<!--li>EVA</li-->
 			</tags>
-			<wornGraphicPath>Apparel/Mandalorian/NeoCrusader/hood</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Mandalorian/NeoCrusader/hood</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -145,7 +145,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Mandalorians are among the most feared combatants in the galaxy, and the quality of their gear may be why. Even the lowliest warrior is a threat in such protective armor.</description>
 		<graphicData>
-			<texPath>Apparel/MidBattleArmor/mando/Apparel</texPath>
+			<texPath>SWApparel/MidBattleArmor/mando/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(160,130,110)</colorTwo>
@@ -195,7 +195,7 @@
 				<li>SaV_outfit_merc</li>
 				<li>KotORRoyaltyTag_AnyMandoArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/MidBattleArmor/mando/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MidBattleArmor/mando/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -250,7 +250,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Republic soldiers saw this armor all too often during the Mandalorian War. It's understandable that the conflict could drag on when a fanatical enemy is so defensively outfitted.</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -296,7 +296,7 @@
 				<li>MNCFactionArmor</li>
 				<li>KotORRoyaltyTag_AnyMandoArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -354,7 +354,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This was the armor of the Mandalorian elite frontline troops, a sight that Republic soldiers were all too familiar with during the war.</description>
 		<graphicData>
-			<texPath>Apparel/Mandalorian/NeoCrusader/Apparel</texPath>
+			<texPath>SWApparel/Mandalorian/NeoCrusader/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -402,7 +402,7 @@
 				<li>SaV_apparel_starbountyhunter</li>
 				<li>KotORRoyaltyTag_AnyMandoArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/Mandalorian/NeoCrusader/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Mandalorian/NeoCrusader/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -463,7 +463,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This armor is reserved for respected veteran Mandalorians. Immensely sturdy, stabilizers diffuse energy throughout the frame, shielding the wearer from disorienting impacts.</description>
 		<graphicData>
-			<texPath>Apparel/Mandalorian/Supercommando/Apparel</texPath>
+			<texPath>SWApparel/Mandalorian/Supercommando/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(160,110,35)</colorTwo>
@@ -507,7 +507,7 @@
 				<li>MNCFactionArmor</li>
 				<li>KotORRoyaltyTag_AnyMandoArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/Mandalorian/Supercommando/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Mandalorian/Supercommando/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -556,7 +556,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Derived from earlier Mandalorian Crusader models used during the Exar Kun war, these helmets offered far greater protection and modularity than the Neo-Crusader hood. Only the most elite Mandalorian veterans were allowed to deviate from Neo-Crusader principals of uniformity by wearing these prized helmets.</description>
 		<graphicData>
-			<texPath>Apparel/Mandalorian/Supercommando/helmet</texPath>
+			<texPath>SWApparel/Mandalorian/Supercommando/helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<!--colorTwo>(160,110,35)</colorTwo-->
@@ -606,7 +606,7 @@
 				<li>MNC_helmet_hood</li>
 				<!--li>EVA</li-->
 			</tags>
-			<wornGraphicPath>Apparel/Mandalorian/Supercommando/helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Mandalorian/Supercommando/helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

@@ -9,7 +9,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This light helmet is traditionally used by the foot-soldiers and underlings of the many Hutt cartels. Helmets of this design have been in active use for well over ten thousand years.\n\nUPGRADE SLOTS:\n- Headgear Underlay</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/CombatHelmet</texPath>
+			<texPath>SWApparel/Helmets/CombatHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(140,80,40)</colorTwo>
@@ -44,7 +44,7 @@
 				<li>SaV_apparel_huttgoon</li>
 				<li>SWKotORSpecificApparelItem_HuttCombatHelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/CombatHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/CombatHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -71,7 +71,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Helmets/CombatHelmet</texPath>
+					<texPath>SWApparel/Helmets/CombatHelmet</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -93,7 +93,7 @@
 		<label>Tantel Armor</label>
 		<description>This light armor is traditionally used by the foot-soldiers and underlings of the many Hutt cartels. Suits of this design have been in active use for well over ten thousand years.\n\nUPGRADE SLOTS:\n- Armor Overlay</description>
 		<graphicData>
-		  <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+		  <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(140,80,40)</colorTwo>
@@ -141,7 +141,7 @@
 				<li>SaV_apparel_huttgoon</li>
 				<li>SWKotORSpecificApparelItem_HuttHeavyCombatSuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -158,7 +158,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+					<texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -188,7 +188,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Cumbersome, but powerful armor, M'uhk'gfa is the battle plate used by elite Gamorrean warriors. Traditionally, each Gamorrean warrior would fashion his own battle plate from metal fragments on the battlefields of their victories.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -214,7 +214,7 @@
 				<li>SaV_outfit_gamorrean</li>
 				<li>SWKotORSpecificApparelItem_GamorreanHeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -245,7 +245,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -273,7 +273,7 @@
 		<label>Tusken Raider mask</label>
 		<description>This intimidating mask is worn by the Tusken Raiders of Tatooine. Merely wearing it is enough to make most people uncomfortable in the wearer's presence, though the bulky filtration system is more than enough to protect the wearer from most environmental toxins.</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/tusken/mask</texPath>
+		  <texPath>SWApparel/Robes/tusken/mask</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(205,215,205)</colorTwo>    <!-- faint olive silver -->
@@ -323,7 +323,7 @@
 			  <layer>90</layer>
 			</dataNorth>
 		  </drawData-->
-		  <wornGraphicPath>Apparel/Robes/tusken/mask</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Robes/tusken/mask</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <layers>
 			<li>Overhead</li>
@@ -372,7 +372,7 @@
 		<label>overcoat, Exchange agent's</label>
 		<description>This is an intimidating long coat stereotypically worn by goons and enforcers of the Exchange.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/trenchcoat/Apparel</texPath>
+		  <texPath>SWApparel/Robes/trenchcoat/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(175,90,90)</colorTwo>    <!-- exchange gadget red -->
@@ -412,7 +412,7 @@
 				<li>KotORRoyaltyTag_ExchangeJacket</li>
 				<li>SWKotORSpecificApparelItem_ExchangeJacket</li>
 			</tags>
-			<wornGraphicPath>Apparel/Robes/trenchcoat/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Robes/trenchcoat/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -439,7 +439,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Robes/trenchcoat/Apparel</texPath>
+					<texPath>SWApparel/Robes/trenchcoat/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>

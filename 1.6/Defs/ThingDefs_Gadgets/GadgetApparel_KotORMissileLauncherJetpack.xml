@@ -8,7 +8,7 @@
     <label>jetpack, launcher</label>
     <description>Favored by the Mandalorian Supercommandos and other specialists, this jetpack comes equipped with a missile launcher that can be loaded with a variety of different missiles.</description>
     <graphicData>
-      <texPath>Apparel/Jetpacks/jetpack_mid</texPath>
+      <texPath>SWApparel/Jetpacks/jetpack_mid</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -53,7 +53,7 @@
 		<li>MNC_jetpack_mid</li>
 		<li>SWKotORSpecificGadgetItem_MissileJetpack</li>
 	  </tags>
-	  <wornGraphicPath>Apparel/Jetpacks/jetpack_mid</wornGraphicPath>
+	  <wornGraphicPath>SWApparel/Jetpacks/jetpack_mid</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<colorGenerator Class="ColorGenerator_Options">
@@ -108,7 +108,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-			  <texPath>Apparel/Jetpacks/jetpack_mid</texPath>
+			  <texPath>SWApparel/Jetpacks/jetpack_mid</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>

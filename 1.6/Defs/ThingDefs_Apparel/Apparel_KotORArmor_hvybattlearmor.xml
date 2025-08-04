@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This is the heaviest armor available for the soldier that requires maximum protection from direct damage. Some consider the fit claustrophobic, but that's the tradeoff for safety.</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!--shaderType>CutoutComplex</shaderType>
 			<colorTwo>(190,0,0)</colorTwo-->
@@ -49,7 +49,7 @@
 				<li>SaV_outfit_elite</li>
 				<li>SWKotORSpecificApparelItem_HeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/Apparel</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -85,7 +85,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Echani Heavy Armor is comparable to typical heavy battle armor in terms of protection, but allows for slightly more mobility.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<!--colorTwo>(175,90,85)</colorTwo-->
@@ -114,7 +114,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_EchaniHeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -146,7 +146,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -175,7 +175,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Battle armor production thrived on Bonadan as the Republic recovered from war. This model heavy durasteel casing provides superior protection when compared to normal Heavy Battle Armor.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(200,230,220)</colorTwo>
@@ -205,7 +205,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_DurasteelHeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -241,7 +241,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -266,7 +266,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Flex Heavy Armor allows for greater mobility than even some medium armor. The primary alloy is still durasteel, but it is treated in methods that are poorly understood by most in the Republic. In fact, it is unclear who manufactures these rare suits of armor.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay (heavy)</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(210,150,60)</colorTwo>
@@ -298,7 +298,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_FlexHeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -330,7 +330,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/durasteel/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/durasteel/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -355,7 +355,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Matrix armor is typically used for starship plating. Adapting it to personal use is expensive and technologically difficult. The armor is particularly resistant to blaster fire.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)\n- Armor Tech</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<!--colorTwo>(210,150,60)</colorTwo-->
@@ -388,7 +388,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_MatrixHeavyBattleArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -420,7 +420,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -474,7 +474,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This flexible armor is made of a variety of exotic minerals. Markings suggest that it was created by a species called the Fenelar.</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/fenelar/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/fenelar/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -502,7 +502,7 @@
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_elite</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/fenelar/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/fenelar/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>

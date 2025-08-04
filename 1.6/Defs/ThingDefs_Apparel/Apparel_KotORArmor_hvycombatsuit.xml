@@ -6,7 +6,7 @@
     <label>heavy combat suit</label>
     <description>This version of the combat suit offers more protection than the basic model. It is heavier overall and not quite as flexible, but many consider the tradeoffs worthwhile.</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -58,7 +58,7 @@
 			<li>PReb_apparel_trooper</li>
 			<li>SWKotORSpecificApparelItem_HeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -81,7 +81,7 @@
     <label>Eriadu Prototype Armor</label>
     <description>This armor combines good protection and easy movement to allow even a novice to fight like a seasoned veteran, but Eriadu has delayed general production pending further tests.\n\nUPGRADE SLOTS:\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -117,7 +117,7 @@
 			<li>SaV_apparel_exchange</li>
 			<li>SWKotORSpecificApparelItem_EriaduHeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/eriadu/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/eriadu/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -135,7 +135,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit_Heavy/eriadu/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -154,7 +154,7 @@
     <label>Bonadan Alloy Heavy Suit</label>
     <description>Bonadan is an emerging industrial society financing their exploration of the galaxy through production of small arms and armor. They favor heavy materials offering solid defense.\n\nUPGRADE SLOTS:\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(210,150,105)</colorTwo>
@@ -187,7 +187,7 @@
 			<li>SaV_apparel_lightmerc</li>
 			<li>SWKotORSpecificApparelItem_BonadanHeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -205,7 +205,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -224,7 +224,7 @@
     <label>reinforced fiber armor</label>
     <description>Inspired by craftsmen on worlds where metal is in short supply, this type of light armor consists of jung-ju tree fibers bound with synthetics, offering good, flexible protection.\n\nUPGRADE SLOTS:\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(160,50,40)</colorTwo>
@@ -258,7 +258,7 @@
 			<li>SaV_apparel_bountyhunterlight</li>
 			<li>SWKotORSpecificApparelItem_FiberHeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -276,7 +276,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -295,7 +295,7 @@
     <label>Zabrak Field Armor</label>
     <description>On the far northern continent of the planet Iridonia, the Zabrak produce expensive armor that nonetheless has become very popular on the galactic markets, due to excellent low-temperature defensive properties.\n\nUPGRADE SLOTS:\n- Armor Overlay</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(80,50,30)</colorTwo>
@@ -333,7 +333,7 @@
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 			<li>SWKotORSpecificApparelItem_ZabrakHeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -351,7 +351,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>
@@ -370,7 +370,7 @@
     <label>Baragwin Shadow Armor</label>
     <description>A specialty of the Baragwin, this modifiable suit has advanced adaptive camouflage technology that, when combined with a stealth generator, allows it to blend in nearly seamlessly with the background when viewed from any direction. It is generally only sold to respected governments, but a number have found their way into more disreputable distribution channels.\n\nUPGRADE SLOTS:\n- Armor Overlay\n- Armor Tech</description>
     <graphicData>
-      <texPath>Apparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
+      <texPath>SWApparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
 	  <colorTwo>(130,155,185)</colorTwo>
@@ -409,7 +409,7 @@
 			<li>KotORRoyaltyTag_AnyHighTier</li>
 			<li>SWKotORSpecificApparelItem_BaragwinHeavyCombatSuit</li>
 		</tags>
-		<wornGraphicPath>Apparel/CombatSuit_Heavy/baragwin/Apparel</wornGraphicPath>
+		<wornGraphicPath>SWApparel/CombatSuit_Heavy/baragwin/Apparel</wornGraphicPath>
 		<useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
 	<tradeTags>
@@ -428,7 +428,7 @@
 	<comps>
 		<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 			<baseGraphicData>
-				<texPath>Apparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
+				<texPath>SWApparel/CombatSuit_Heavy/baragwin/Apparel</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</baseGraphicData>
 			<partsMounts>

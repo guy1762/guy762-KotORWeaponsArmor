@@ -9,7 +9,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This light helmet is traditionally used by the foot-soldiers and underlings of the many Hutt cartels. Helmets of this design have been in active use for well over ten thousand years.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/CombatHelmet</texPath>
+			<texPath>SWApparel/Helmets/CombatHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(140,80,40)</colorTwo>
@@ -43,7 +43,7 @@
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_huttgoon</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/CombatHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/CombatHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -84,7 +84,7 @@
 		<label>Tantel Armor</label>
 		<description>This light armor is traditionally used by the foot-soldiers and underlings of the many Hutt cartels. Suits of this design have been in active use for well over ten thousand years.</description>
 		<graphicData>
-		  <texPath>Apparel/CombatSuit_Heavy/Apparel</texPath>
+		  <texPath>SWApparel/CombatSuit_Heavy/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(140,80,40)</colorTwo>
@@ -131,7 +131,7 @@
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_huttgoon</li>
 			</tags>
-			<wornGraphicPath>Apparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/CombatSuit_Heavy/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -166,7 +166,7 @@
 		<label>hood, leather</label>
 		<description>This is a simple leather hood used by many Kajidic enforcers.</description>
 		<graphicData>
-		  <texPath>Apparel/Undersuits/gamorrean/hat</texPath>
+		  <texPath>SWApparel/Undersuits/gamorrean/hat</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -190,7 +190,7 @@
 		</stuffCategories>
 		
 		<apparel>
-		  <wornGraphicPath>Apparel/Undersuits/gamorrean/hat</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Undersuits/gamorrean/hat</wornGraphicPath>
 		  <renderSkipFlags>
 			<li>Hair</li>
 		  </renderSkipFlags>
@@ -229,7 +229,7 @@
 		<label>Gamorrean leathers</label>
 		<description>These simple garments do not protect the modesty of the wearer, but they do offer a reasonable level of protection according to the leather hide it is fashioned out of.</description>
 		<graphicData>
-		  <texPath>Apparel/Undersuits/gamorrean/Apparel</texPath>
+		  <texPath>SWApparel/Undersuits/gamorrean/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(50,50,50)</colorTwo> <!--  -->
@@ -265,7 +265,7 @@
 			<li>Hands</li>
 			<li>Feet</li>
 		  </bodyPartGroups>
-		  <wornGraphicPath>Apparel/Undersuits/gamorrean/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Undersuits/gamorrean/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -294,7 +294,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Cumbersome, but powerful armor, M'uhk'gfa is the battle plate used by elite Gamorrean warriors. Traditionally, each Gamorrean warrior would fashion his own battle plate from metal fragments on the battlefields of their victories.</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/matrix/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/matrix/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -319,7 +319,7 @@
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_gamorrean</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/matrix/Apparel</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -369,7 +369,7 @@
 		<label>robes, armored</label>
 		<description>While bulky and restrictive, these robes provide solid full-body protection that most other light armors can't offer. The high degree of modularity allows it to compete with even medium armors, and as such, robes like this are favored by many martial cultures like the Gand Findsmen or the Kaleesh.</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/gand/Apparel</texPath>
+		  <texPath>SWApparel/Robes/gand/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -409,7 +409,7 @@
 				<li>SaV_apparel_gand</li>
 				<li>SaV_apparel_kaleesh</li>
 			</tags>
-			<wornGraphicPath>Apparel/Robes/gand/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Robes/gand/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>
@@ -464,7 +464,7 @@
 		<label>hood, heavy</label>
 		<description>A thick hood for keeping safe from harsh weather conditions.</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/jawa/hood</texPath>
+		  <texPath>SWApparel/Robes/jawa/hood</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -508,7 +508,7 @@
 			<li>Hair</li>
 			<li>Beard</li>
 		  </renderSkipFlags>
-		  <wornGraphicPath>Apparel/Robes/jawa/hood</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Robes/jawa/hood</wornGraphicPath>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
 			<li>Mouth</li>
@@ -542,7 +542,7 @@
 		<label>Tusken Raider mask</label>
 		<description>This intimidating mask is worn by the Tusken Raiders of Tatooine. Merely wearing it is enough to make most people uncomfortable in the wearer's presence, though the bulky filtration system is more than enough to protect the wearer from most environmental toxins.</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/tusken/mask</texPath>
+		  <texPath>SWApparel/Robes/tusken/mask</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(205,215,205)</colorTwo>    <!-- faint olive silver -->
@@ -592,7 +592,7 @@
 			  <layer>90</layer>
 			</dataNorth>
 		  </drawData-->
-		  <wornGraphicPath>Apparel/Robes/tusken/mask</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Robes/tusken/mask</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <layers>
 			<li>Overhead</li>
@@ -640,7 +640,7 @@
 		<label>overcoat, Exchange agent's</label>
 		<description>This is an intimidating long coat stereotypically worn by goons and enforcers of the Exchange.</description>
 		<graphicData>
-		  <texPath>Apparel/Robes/trenchcoat/Apparel</texPath>
+		  <texPath>SWApparel/Robes/trenchcoat/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(175,90,90)</colorTwo>    <!-- exchange gadget red -->
@@ -679,7 +679,7 @@
 				<li>EXC_apparel_CapoOrVigo</li>
 				<li>KotORRoyaltyTag_ExchangeJacket</li>
 			</tags>
-			<wornGraphicPath>Apparel/Robes/trenchcoat/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Robes/trenchcoat/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<tradeTags>

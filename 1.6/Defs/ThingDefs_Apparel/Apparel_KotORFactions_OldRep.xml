@@ -9,7 +9,7 @@
 		<label>Republic uniform cap</label>
 		<description>A formal cap for military personnel.</description>
 		<graphicData>
-		  <texPath>Apparel/Republic/officer/hat</texPath>
+		  <texPath>SWApparel/Republic/officer/hat</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(230,185,45)</colorTwo>
@@ -43,7 +43,7 @@
 		</costList>
 		
 		<apparel>
-		  <wornGraphicPath>Apparel/Republic/officer/hat</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Republic/officer/hat</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <bodyPartGroups>
 			<li>UpperHead</li>
@@ -84,7 +84,7 @@
 		<label>Republic uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Republic/ensign/Apparel</texPath>
+		  <texPath>SWApparel/Republic/ensign/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(230,185,45)</colorTwo>
@@ -126,7 +126,7 @@
 			<li>KotORRoyaltyTag_RepublicUniform</li>
 			<li>SWKotORSpecificApparelItem_OldRepublicEnsignUniform</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Republic/ensign/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Republic/ensign/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -150,7 +150,7 @@
 		<label>Republic Officer uniform</label>
 		<description>These are simple garments that protect little more than the modesty of the wearer.</description>
 		<graphicData>
-		  <texPath>Apparel/Republic/officer/Apparel</texPath>
+		  <texPath>SWApparel/Republic/officer/Apparel</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shaderType>CutoutComplex</shaderType>
 		  <colorTwo>(230,185,45)</colorTwo>
@@ -192,7 +192,7 @@
 			<li>KotORRoyaltyTag_RepublicOfficerUniform</li>
 			<li>SWKotORSpecificApparelItem_OldRepublicOfficerUniform</li>
 		  </tags>
-		  <wornGraphicPath>Apparel/Republic/officer/Apparel</wornGraphicPath>
+		  <wornGraphicPath>SWApparel/Republic/officer/Apparel</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <defaultOutfitTags Inherit="False">
 			<li>Worker</li>
@@ -224,7 +224,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This streamlined version of the Republic Mod armor is issued to all Republic-aligned planetary security forces.</description>
 		<graphicData>
-			<texPath>Apparel/Republic/trooper/TSF/Apparel</texPath>
+			<texPath>SWApparel/Republic/trooper/TSF/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -250,7 +250,7 @@
 				<li>PM_apparel_cop</li>
 				<li>SWKotORSpecificApparelItem_TSFOldRepublicTrooperArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/Republic/trooper/TSF/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Republic/trooper/TSF/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -286,7 +286,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This streamlined version of the Republic Fleet helmet is issued to all Republic-aligned planetary security forces.</description>
 		<graphicData>
-			<texPath>Apparel/Republic/trooper/TSF/Helmet</texPath>
+			<texPath>SWApparel/Republic/trooper/TSF/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -309,7 +309,7 @@
 				<li>PM_apparel_cop</li>
 				<li>SWKotORSpecificApparelItem_TSFOldRepublicTrooperHelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Republic/trooper/TSF/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Republic/trooper/TSF/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -362,7 +362,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The Republic has prospered militarily by keeping its troops well supplied with modular armor, ensuring they are always prepared for a variety of battle conditions.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/Republic/trooper/Apparel</texPath>
+			<texPath>SWApparel/Republic/trooper/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -409,7 +409,7 @@
 				<li>KotORRoyaltyTag_AnyRepublicArmor</li>
 				<li>SWKotORSpecificApparelItem_OldRepublicTrooperArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/Republic/trooper/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Republic/trooper/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -440,7 +440,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Republic/trooper/Apparel</texPath>
+					<texPath>SWApparel/Republic/trooper/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -466,7 +466,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The Republic has prospered militarily by keeping its troops well supplied with modular armor, ensuring they are always prepared for a variety of battle conditions.\n\nUPGRADE SLOTS:\n- Headgear Underlay\n- Headgear Overlay</description>
 		<graphicData>
-			<texPath>Apparel/Republic/trooper/Helmet</texPath>
+			<texPath>SWApparel/Republic/trooper/Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -505,7 +505,7 @@
 				<li>KotORRoyaltyTag_AnyRepublicArmor</li>
 				<li>SWKotORSpecificApparelItem_OldRepublicTrooperHelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Republic/trooper/Helmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Republic/trooper/Helmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -529,7 +529,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Republic/trooper/Helmet</texPath>
+					<texPath>SWApparel/Republic/trooper/Helmet</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -569,7 +569,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The Republic's elite commando units possess some of the most advanced armor in the galaxy, surpassing even the finest Mandalorian suits in terms of versatility.\n\nUPGRADE SLOTS:\n- Headgear Underlay\n- Headgear Overlay\n- Helmet Tech</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/RepComHelmet/HeavyBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/RepComHelmet/HeavyBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -600,7 +600,7 @@
 				<li>KotORRoyaltyTag_RepComArmor</li>
 				<li>SWKotORSpecificApparelItem_OldRepublicCommandoHelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/RepComHelmet/HeavyBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/RepComHelmet/HeavyBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -627,7 +627,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/Helmets/RepComHelmet/HeavyBattleHelmet</texPath>
+					<texPath>SWApparel/Helmets/RepComHelmet/HeavyBattleHelmet</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -657,7 +657,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The Republic's elite commando units possess some of the most advanced armor in the galaxy, surpassing even the finest Mandalorian suits in terms of versatility.\n\nUPGRADE SLOTS:\n- Armor Underlay (heavy)\n- Armor Overlay (heavy)\n- Armor Tech</description>
 		<graphicData>
-			<texPath>Apparel/HeavyBattleArmor/repcom/Apparel</texPath>
+			<texPath>SWApparel/HeavyBattleArmor/repcom/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,185,45)</colorTwo>
@@ -686,7 +686,7 @@
 				<li>KotORRoyaltyTag_RepComArmor</li>
 				<li>SWKotORSpecificApparelItem_OldRepublicCommandoArmor</li>
 			</tags>
-			<wornGraphicPath>Apparel/HeavyBattleArmor/repcom/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/HeavyBattleArmor/repcom/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -717,7 +717,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/HeavyBattleArmor/repcom/Apparel</texPath>
+					<texPath>SWApparel/HeavyBattleArmor/repcom/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>

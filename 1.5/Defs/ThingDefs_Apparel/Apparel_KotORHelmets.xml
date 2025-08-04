@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Even the most frugal of mercenaries know they need at least some protection from the rigors of combat, although helmets of this type are recommended for light skirmishes only.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/CombatHelmet</texPath>
+			<texPath>SWApparel/Helmets/CombatHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(210,150,105)</colorTwo>
@@ -43,7 +43,7 @@
 				<li>SaV_apparel_lightmerc</li>
 				<li>PReb_apparel_trooperhelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/CombatHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/CombatHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -79,7 +79,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>After the Great Hyperspace War a thousand years ago, the heirs of Empress Teta militarized their world and industry, a legacy that produced battle armor still sought after today.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/CombatHelmet</texPath>
+			<texPath>SWApparel/Helmets/CombatHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(75,75,75)</colorTwo>
@@ -99,7 +99,7 @@
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_huttgoon_adv</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/CombatHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/CombatHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -150,7 +150,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This standard issue suit provides good protection, but can be heavier and more restrictive than some of its counterparts. Even so, many mercenaries swear the tradeoffs are worth it.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/MilitaryHelmet</texPath>
+			<texPath>SWApparel/Helmets/MilitaryHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -183,7 +183,7 @@
 				<li>PReb_apparel_trooperhelmet</li>
 				<li>PReb_apparel_heavyhelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/MilitaryHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/MilitaryHelmet</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -220,7 +220,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Helmets like these are leftover surplus from the Exar Kun war. These have since been phased out of the Republic Military in favor of lighter-weight designs, but can still be found in many militia armories.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/MilitaryHelmet</texPath>
+			<texPath>SWApparel/Helmets/MilitaryHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(165,110,50)</colorTwo>
@@ -240,7 +240,7 @@
 				<li>KotORArmor_mid</li>
 				<li>PM_apparel_helmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/MilitaryHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/MilitaryHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -281,7 +281,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Helmets like these are leftover surplus from the Exar Kun war. These have since been phased out of the Republic Military in favor of lighter-weight designs, but can still be found in many militia armories.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/RebelHelmet/MilitaryHelmet</texPath>
+			<texPath>SWApparel/Helmets/RebelHelmet/MilitaryHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(90,90,90)</colorTwo>
@@ -314,7 +314,7 @@
 				<li>PReb_apparel_trooperhelmet</li>
 				<li>PReb_apparel_maskedhats</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/RebelHelmet/MilitaryHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/RebelHelmet/MilitaryHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -356,7 +356,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This vintage helmet still proudly bears the markings of the Republic Navy.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/TotJMilHelmet/MilitaryHelmet</texPath>
+			<texPath>SWApparel/Helmets/TotJMilHelmet/MilitaryHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(255,255,10)</colorTwo>
@@ -375,7 +375,7 @@
 			<tags>
 				<li>KotORArmor_mid</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/TotJMilHelmet/MilitaryHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/TotJMilHelmet/MilitaryHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -416,7 +416,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>A flak helmet intended for starfighter pilots, it has a small amount of anti-radiation padding in order to protect the wearer's vital organs from background radiation during extravehicular operations.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/RepPilotHelmet/MilitaryHelmet</texPath>
+			<texPath>SWApparel/Helmets/RepPilotHelmet/MilitaryHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(140,0,0)</colorTwo>
@@ -440,7 +440,7 @@
 				<li>OR_apparel_pilot</li>
 				<li>KotORApparel_pilothelmet</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/RepPilotHelmet/MilitaryHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/RepPilotHelmet/MilitaryHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -501,7 +501,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Providing solid protection for a minimal cost, this armor is excellent for entrenched troops or guards. A force on the move, however, may find it somewhat constricting.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/LightBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/LightBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -537,7 +537,7 @@
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/LightBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/LightBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>EyeCover</li>
@@ -577,7 +577,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>A specialty of the Baragwin, this modifiable helmet has advanced adaptive camouflage technology that, when combined with a stealth generator, allows it to blend in nearly seamlessly with the background when viewed from any direction. It is generally only sold to respected governments, but a number have found their way into more disreputable distribution channels.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/LightBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/LightBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(230,35,55)</colorTwo>
@@ -603,7 +603,7 @@
 				<li>SaV_apparel_chiss</li>
 				<li>SaV_apparel_excassassin</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/LightBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/LightBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>EyeCover</li>
@@ -669,7 +669,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This is the heaviest armor available for the soldier that requires maximum protection from direct damage. Some consider the fit claustrophobic, but that's the tradeoff for safety.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/HeavyBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/HeavyBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -712,7 +712,7 @@
 				<!--li>EVA</li-->
 				<li>KotORArmor_heavy</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/HeavyBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/HeavyBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -748,7 +748,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>The modular visor system and built-in breath mask provides the wearer with both protection and vision enhancement. It is rare outside of professional mercenaries and soldiers.</description>
 		<graphicData>
-			<texPath>Apparel/Helmets/HeavyBattleHelmet</texPath>
+			<texPath>SWApparel/Helmets/HeavyBattleHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<!--colorTwo>(180,85,60)</colorTwo-->
@@ -774,7 +774,7 @@
 				<li>KotORArmor_heavy</li>
 				<li>SaV_apparel_bountyhunterstrong</li>
 			</tags>
-			<wornGraphicPath>Apparel/Helmets/HeavyBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>SWApparel/Helmets/HeavyBattleHelmet</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>

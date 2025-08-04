@@ -7,7 +7,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This standard issue suit provides good protection, but can be heavier and more restrictive than some of its counterparts. Even so, many mercenaries swear the tradeoffs are worth it.</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(190,0,0)</colorTwo>
@@ -46,7 +46,7 @@
 				<li>PReb_apparel_trooper</li>
 				<li>SWKotORSpecificApparelItem_MilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -79,7 +79,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This modular armor is favored by militia forces across the galaxy.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/militia/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/militia/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(165,110,50)</colorTwo>
@@ -105,7 +105,7 @@
 				<li>PM_apparel_jediexile</li>
 				<li>SWKotORSpecificApparelItem_MilitiaMilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/militia/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/militia/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -132,7 +132,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/MilitarySuit/militia/Apparel</texPath>
+					<texPath>SWApparel/MilitarySuit/militia/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -157,7 +157,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>This armor provides solid defense at the cost of some flexibility, although it is still an Echani product and is therefore well suited to quick-moving combat.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/echani/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/echani/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(175,90,85)</colorTwo>
@@ -185,7 +185,7 @@
 				<li>PM_apparel_jediexile</li>
 				<li>SWKotORSpecificApparelItem_EchaniMilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/echani/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/echani/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -212,7 +212,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/MilitarySuit/echani/Apparel</texPath>
+					<texPath>SWApparel/MilitarySuit/echani/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -237,7 +237,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>After the Great Hyperspace War a thousand years ago, the heirs of Empress Teta militarized their world and industry, a legacy that produced battle armor still sought after today.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/cinnagar/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/cinnagar/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(75,165,145)</colorTwo>
@@ -265,7 +265,7 @@
 				<li>EXC_apparel_CapoOrVigo</li>
 				<li>SWKotORSpecificApparelItem_CinnagarMilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/cinnagar/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/cinnagar/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -293,7 +293,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/MilitarySuit/cinnagar/Apparel</texPath>
+					<texPath>SWApparel/MilitarySuit/cinnagar/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -318,7 +318,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>Raxsus Nuli had plans of planetary conquest in the wake of Sith aggression. Though eclipsed by recent events, the Jedi saw the pirate jailed and his Verpine stockpiles auctioned.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/davik/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/davik/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(225,185,110)</colorTwo>
@@ -345,7 +345,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_VerpineMilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/davik/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/davik/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -372,7 +372,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/MilitarySuit/davik/Apparel</texPath>
+					<texPath>SWApparel/MilitarySuit/davik/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
@@ -397,7 +397,7 @@
 		<techLevel>Spacer</techLevel>
 		<description>A modified environmental suit, this armor gives the wearer complete protection from the elements as well as superior combat protection. With additional enhancements, it can be converted into a completely contained environmental system and shield the wearer from outside radiation as well.\n\nUPGRADE SLOTS:\n- Armor Underlay\n- Armor Overlay\n- Armor Tech</description>
 		<graphicData>
-			<texPath>Apparel/MilitarySuit/cinnagar/Apparel</texPath>
+			<texPath>SWApparel/MilitarySuit/cinnagar/Apparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<colorTwo>(190,0,0)</colorTwo>
@@ -429,7 +429,7 @@
 				<li>KotORRoyaltyTag_AnyHighTier</li>
 				<li>SWKotORSpecificApparelItem_BastionMilitarySuit</li>
 			</tags>
-			<wornGraphicPath>Apparel/MilitarySuit/cinnagar/Apparel</wornGraphicPath>
+			<wornGraphicPath>SWApparel/MilitarySuit/cinnagar/Apparel</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -456,7 +456,7 @@
 		<comps>
 			<li Class="ModularWeapons2.CompProperties_ModularWeapon">
 				<baseGraphicData>
-					<texPath>Apparel/MilitarySuit/cinnagar/Apparel</texPath>
+					<texPath>SWApparel/MilitarySuit/cinnagar/Apparel</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</baseGraphicData>
 				<partsMounts>
