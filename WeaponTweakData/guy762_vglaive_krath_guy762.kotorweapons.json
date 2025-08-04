@@ -5,8 +5,8 @@
   "ItemTypeNamespace": "Verse",
   "OffX": 0.239153445,
   "Rotation": 45.0,
-  "ScaleX": 1.5,
-  "ScaleY": 1.5,
+  "ScaleX": 3.0,
+  "ScaleY": 3.0,
   "BladeStart": 0.543915331,
   "BladeEnd": 1.1915344,
   "MeleeWeaponType": 48

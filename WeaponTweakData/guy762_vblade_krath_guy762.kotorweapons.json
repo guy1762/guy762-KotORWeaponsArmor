@@ -4,6 +4,8 @@
   "ItemType": "ThingDef",
   "ItemTypeNamespace": "Verse",
   "OffX": 0.3363075,
+  "ScaleX": 2.0,
+  "ScaleY": 2.0,
   "HandsMode": 1,
   "BladeStart": 0.270523846,
   "BladeEnd": 0.8245487,
