@@ -37,14 +37,20 @@
 		</tradeTags>
 		<verbs>
 			<li>
-			  <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass>
+			  <!-- <verbClass>AthenaPort.Verb_ShootRunningBeam</verbClass> -->
+			  <verbClass>Verb_ShootBeam</verbClass>
+			  <showBurstShotStats>false</showBurstShotStats>
+			  <beamWidth>0.25</beamWidth>
+			  <beamMaxDeviation>0.5</beamMaxDeviation>
+			  <beamCurvature>0.6</beamCurvature>
+			  
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <warmupTime>1.25</warmupTime>
 			  <range>13</range>
 			  <minRange>1.5</minRange>
 			  <stopBurstWithoutLos>false</stopBurstWithoutLos>
-			  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 			  <burstShotCount>6</burstShotCount>
+			  <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 			  <beamDamageDef>guy762_BeamDamage_energy</beamDamageDef>
 			  <soundCastTail>GunTail_Medium</soundCastTail>
 			  <muzzleFlashScale>9</muzzleFlashScale>

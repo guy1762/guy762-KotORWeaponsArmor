@@ -87,25 +87,25 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
+			<defaultProjectile>KotORBlasterBolt_default</defaultProjectile>
 			<warmupTime>1.5</warmupTime>
 			<range>23</range>
-			<!-- <ticksBetweenBurstShots>0</ticksBetweenBurstShots> -->
-			<!-- <burstShotCount>3</burstShotCount> -->
-			<!-- <soundCast>kotorsound_SBDtrishot</soundCast> -->
+			<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+			<burstShotCount>3</burstShotCount>
+			<soundCast>kotorsound_SBDtrishot</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
 			<onlyManualCast>true</onlyManualCast>
 		</verbProperties>
-		<comps>
-            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
-                <projectileDef>KotORBlasterBolt_default</projectileDef>
-                <burstCount>3</burstCount>
-                <ticksBetweenShots>1</ticksBetweenShots>
-                <firingSound>kotorsound_SBDtrishot</firingSound>
-            </li>
-        </comps>
+		<!-- <comps> -->
+            <!-- <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst"> -->
+                <!-- <projectileDef>KotORBlasterBolt_default</projectileDef> -->
+                <!-- <burstCount>3</burstCount> -->
+                <!-- <ticksBetweenShots>1</ticksBetweenShots> -->
+                <!-- <firingSound>kotorsound_SBDtrishot</firingSound> -->
+            <!-- </li> -->
+        <!-- </comps> -->
 	</AbilityDef>
 	
 	
@@ -310,25 +310,25 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<!-- <defaultProjectile>KotORRocket_micro</defaultProjectile> -->
+			<defaultProjectile>KotORRocket_micro</defaultProjectile>
 			<warmupTime>3</warmupTime>
 			<range>25</range>
-			<!-- <ticksBetweenBurstShots>30</ticksBetweenBurstShots> -->
-			<!-- <burstShotCount>3</burstShotCount> -->
-			<!-- <soundCast>kotorsound_rocket</soundCast> -->
+			<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+			<burstShotCount>3</burstShotCount>
+			<soundCast>kotorsound_rocket</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
 			<onlyManualCast>true</onlyManualCast>
 		</verbProperties>
-		<comps>
-            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
-                <projectileDef>KotORRocket_micro</projectileDef>
-                <burstCount>3</burstCount>
-                <ticksBetweenShots>30</ticksBetweenShots>
-                <firingSound>kotorsound_rocket</firingSound>
-            </li>
-        </comps>
+		<!-- <comps> -->
+            <!-- <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst"> -->
+                <!-- <projectileDef>KotORRocket_micro</projectileDef> -->
+                <!-- <burstCount>3</burstCount> -->
+                <!-- <ticksBetweenShots>30</ticksBetweenShots> -->
+                <!-- <firingSound>kotorsound_rocket</firingSound> -->
+            <!-- </li> -->
+        <!-- </comps> -->
 	</AbilityDef>
 	
 	
@@ -714,25 +714,25 @@
 		<verbProperties>
 			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<!-- <defaultProjectile>KotORMissile_whistlingbird</defaultProjectile> -->
+			<defaultProjectile>KotORMissile_whistlingbird</defaultProjectile>
 			<warmupTime>3</warmupTime>
 			<range>17</range>
-			<!-- <ticksBetweenBurstShots>10</ticksBetweenBurstShots> -->
-			<!-- <burstShotCount>8</burstShotCount> -->
-			<!-- <soundCast>kotorsound_smallrocket</soundCast> -->
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<burstShotCount>8</burstShotCount>
+			<soundCast>kotorsound_smallrocket</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<ai_IsWeapon>true</ai_IsWeapon>
 			<onlyManualCast>true</onlyManualCast>
 		</verbProperties>
-		<comps>
-            <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst">
-                <projectileDef>KotORMissile_whistlingbird</projectileDef>
-                <burstCount>8</burstCount>
-                <ticksBetweenShots>10</ticksBetweenShots>
-                <firingSound>kotorsound_smallrocket</firingSound>
-            </li>
-        </comps>
+		<!-- <comps> -->
+            <!-- <li Class="EBSGFramework.CompProperties_AbilityLaunchProjectileBurst"> -->
+                <!-- <projectileDef>KotORMissile_whistlingbird</projectileDef> -->
+                <!-- <burstCount>8</burstCount> -->
+                <!-- <ticksBetweenShots>10</ticksBetweenShots> -->
+                <!-- <firingSound>kotorsound_smallrocket</firingSound> -->
+            <!-- </li> -->
+        <!-- </comps> -->
 	</AbilityDef>
 	
 	

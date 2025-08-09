@@ -54,7 +54,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>3.75</warmupTime>
@@ -133,7 +133,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>4</warmupTime>
@@ -221,7 +221,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>4.25</warmupTime>
@@ -339,7 +339,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>3.75</warmupTime>
@@ -418,7 +418,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>4</warmupTime>
@@ -506,7 +506,7 @@
 		<showOnCharacterCard>false</showOnCharacterCard>
 		<cooldownTicksRange>300</cooldownTicksRange>
 		<verbProperties>
-			<verbClass>ModularWeapons2.Verb_AbilityUseUBGL</verbClass>
+			<verbClass>Verb_CastAbility</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<!-- <defaultProjectile>KotORBlasterBolt_default</defaultProjectile> -->
 			<warmupTime>4.25</warmupTime>
