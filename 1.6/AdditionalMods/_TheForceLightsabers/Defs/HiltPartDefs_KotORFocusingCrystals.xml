@@ -205,7 +205,7 @@
   <Lightsaber.HiltPartDef ParentName="guy762_SWForceLightsabers_FocusCrystalPartBASE">
     <defName>guy762_SWForceLightsabers_CrystalPart_lorrdian</defName>
     <label>Crystal, Lorrdian Gemstone</label>
-    <description>Strangely, this crystal is usually encountered scattered in the orbit of primarily forest worlds. It is brittle but versatile, and a Master Jedi can get it to produce many effects.</description>
+    <description>During their subjugation, the Lorrdians were banned from speaking to each other and thus learned to use subtle gestures and ticks to communicate. The few Force-Adepts found after the Jedi freed the population of slaves has imprinted these gemstones with the Force to enhance the ability to read an opponent.</description>
     <requiredComponent>guy762_crystalitem_lorrdian</requiredComponent>
 	
 	<equippedStatOffsets>

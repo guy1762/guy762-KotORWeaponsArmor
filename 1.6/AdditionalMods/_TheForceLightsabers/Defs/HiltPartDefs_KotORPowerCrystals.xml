@@ -180,7 +180,8 @@
   <Lightsaber.HiltPartDef ParentName="guy762_SWForceLightsabers_PowerCrystalPartBASE">
     <defName>guy762_SWForceLightsabers_CrystalPart_ultimapearl</defName>
     <label>Crystal, Ultima Pearl</label>
-    <description>An unusual choice for a lightsaber focusing crystal, this rare stone can be found on Calamari. Difficult to properly install in a lightsaber, this valuable stone has powerful effects.</description>
+    <!-- <description>An unusual choice for a lightsaber focusing crystal, this rare stone can be found on Calamari. Difficult to properly install in a lightsaber, this valuable stone has powerful effects.</description> -->
+    <description>An unusual choice for a lightsaber power crystal, this rare stone can be found on Calamari. Difficult to properly install in a lightsaber, this valuable stone has powerful effects.</description>
     <requiredComponent>guy762_crystalitem_ultima</requiredComponent>
 	
 	<equippedStatOffsets>
@@ -245,7 +246,7 @@
   <Lightsaber.HiltPartDef ParentName="guy762_SWForceLightsabers_PowerCrystalPartBASE">
     <defName>guy762_SWForceLightsabers_CrystalPart_qixoni</defName>
     <label>Crystal, Qixoni</label>
-    <description>Found only on an obscure colony world near Telos, these rare crystals have an almost Kyber-like connection to the Force. When installed in a lightsaber, these crystals bolster one's sensitivity to the Force to an unrivaled degree, turning those with even the most tenuous connection into a capable adept.</description>
+    <description>Qixoni crystals were formed on a planet that was destroyed millenia ago when its star went supernova. They are exceedingly rare and also quite powerful.</description>
     <requiredComponent>guy762_crystalitem_qixoni</requiredComponent>
 	
 	<equippedStatOffsets>
