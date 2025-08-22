@@ -285,8 +285,9 @@
 		  <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 		  <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
 		  <ArmorRating_Heat>0.01</ArmorRating_Heat>
-		  <Insulation_Cold>25</Insulation_Cold>
-		  <Insulation_Heat>25</Insulation_Heat>
+		  
+		  <Insulation_Heat>50</Insulation_Heat>
+		  
 		  <EquipDelay>5</EquipDelay>
 		  <WorkToMake>15000</WorkToMake>
 		</statBases>
@@ -367,7 +368,7 @@
 	  
 	  
 	  
-	  <ThingDef ParentName="KotORArmorModdable_soft">
+	<ThingDef ParentName="KotORArmorModdable_soft">
 		<defName>guy762_Jacket_exchange</defName>
 		<label>overcoat, Exchange agent's</label>
 		<description>This is an intimidating long coat stereotypically worn by goons and enforcers of the Exchange.\n\nUPGRADE SLOTS:\n- Armor Underlay</description>
@@ -385,8 +386,10 @@
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.3</ArmorRating_Heat>
-			<Insulation_Cold>25</Insulation_Cold>
-			<Insulation_Heat>25</Insulation_Heat>
+			
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
