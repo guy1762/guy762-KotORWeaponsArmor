@@ -359,6 +359,7 @@
 				<chargeNoun>micro-rocket</chargeNoun>
 				<ammoDef>guy762_DroidWeapon_microrocket</ammoDef>
 				<ammoCountPerCharge>2</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
 			
 				<replenishAfterCooldown>false</replenishAfterCooldown>
 			</ability>
