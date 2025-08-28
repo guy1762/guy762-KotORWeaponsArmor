@@ -120,6 +120,7 @@
 	</statBases>
 	<equippedStatOffsets>
 	  <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+	  <Force_FPMaxOffset MayRequire="lee.theforce.standalone">0.05</Force_FPMaxOffset>
 	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.05</SWPotF_ForcePoints_Recovery>
       <PsychicSensitivity>0.1</PsychicSensitivity>
     </equippedStatOffsets>
