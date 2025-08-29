@@ -48,7 +48,7 @@
 		  <li>RewardStandardQualitySuper</li>
 		  <li>SWKotORSpecificApparelItem_LightBattleArmor</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
@@ -125,7 +125,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardMidFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
@@ -221,7 +221,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>
@@ -319,7 +319,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>KRA_trooper</li>
@@ -411,7 +411,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_nagai</li>

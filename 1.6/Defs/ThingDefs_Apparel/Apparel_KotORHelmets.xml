@@ -37,7 +37,7 @@
 		  <li>Metallic</li>
 		</stuffCategories>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_lightmerc</li>
@@ -95,7 +95,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_huttgoon_adv</li>
@@ -182,7 +182,7 @@
 		  <li>Metallic</li>
 		</stuffCategories>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>PM_apparel_helmet</li>
@@ -244,7 +244,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>PM_apparel_helmet</li>
@@ -312,7 +312,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>71</layer>
@@ -394,7 +394,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SWKotORSpecificApparelItem_VintageMilitaryHelmet</li>
@@ -466,7 +466,7 @@
 		  <PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">0.5</PilotingAbility>
 		</equippedStatOffsets>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>84</layer>
@@ -576,7 +576,7 @@
 			<Plasteel>8</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<renderSkipFlags>
 				<li>Hair</li>
 				<li>Eyes</li>
@@ -646,7 +646,7 @@
 			<HuntingStealth>0.4</HuntingStealth>
 		</equippedStatOffsets>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<renderSkipFlags>
 				<li>Hair</li>
 				<li>Eyes</li>
@@ -774,7 +774,7 @@
 		  <li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<!--li>EVA</li-->
 				<li>KotORArmor_heavy</li>
@@ -839,7 +839,7 @@
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>
 		</equippedStatOffsets>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<!--li>EVA</li-->
 				<li>KotORArmor_heavy</li>

@@ -38,7 +38,7 @@
 		  <li>Metallic</li>
 		</stuffCategories>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_midmerc</li>
@@ -98,7 +98,7 @@
 			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>PM_trooperarmor</li>
@@ -176,7 +176,7 @@
 			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_midmerc</li>
@@ -256,7 +256,7 @@
 			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.15</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_midmerc</li>
@@ -337,7 +337,7 @@
 			<MeleeDodgeChance>-0.2</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_crimelord</li>
@@ -422,7 +422,7 @@
 		<thingSetMakerTags>
 			<li>UniqueWeapon</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_apparel_chiss</li>

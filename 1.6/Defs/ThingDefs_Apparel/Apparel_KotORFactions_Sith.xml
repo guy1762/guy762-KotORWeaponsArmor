@@ -213,11 +213,10 @@
 	</thingCategories>
 	
     <apparel>
-      <!--drawData>
-			<defaultData>
-				<layer>51</layer>
-			</defaultData>
-	  </drawData-->
+		<renderSkipFlags>
+			<li>Hair</li>
+			<li>Eyes</li>
+		</renderSkipFlags>
 	  <wornGraphicPath>SWApparel/Sith/assassin/mask</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
@@ -384,11 +383,10 @@
 	</thingCategories>
 	
     <apparel>
-      <!--drawData>
-			<defaultData>
-				<layer>51</layer>
-			</defaultData>
-	  </drawData-->
+		<renderSkipFlags>
+			<li>Hair</li>
+			<li>Eyes</li>
+		</renderSkipFlags>
 	  <wornGraphicPath>SWApparel/Sith/warrior/mask</wornGraphicPath>
 	  <useWornGraphicMask>true</useWornGraphicMask>
       <layers>

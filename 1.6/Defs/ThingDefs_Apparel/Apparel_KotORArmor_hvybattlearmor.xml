@@ -42,7 +42,7 @@
 		  <li>RewardStandardMidFreq</li>
 		  <li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_commando</li>
@@ -107,7 +107,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardMidFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_echani</li>
@@ -197,7 +197,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardMidFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_elite</li>
@@ -290,7 +290,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_elite</li>
@@ -380,7 +380,7 @@
 		  <li>RewardStandardLowFreq</li>
 		  <li>UniqueWeapon</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_elite</li>
@@ -497,7 +497,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_elite</li>

@@ -265,7 +265,7 @@
 			<Plasteel>80</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>SE_apparel_trooper</li>
 				<li>SWKotORSpecificApparelItem_SilverSithTrooperArmor</li>
@@ -362,7 +362,7 @@
 			<Plasteel>35</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>67</layer>
@@ -475,7 +475,7 @@
 			<Plasteel>80</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>SE_apparel_elitetrooper</li>
 				<li>SWKotORSpecificApparelItem_ColorableSithTrooperArmor</li>
@@ -580,7 +580,7 @@
 			<Plasteel>35</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>67</layer>
@@ -696,7 +696,7 @@
 			<KOTOR_AlloyDurasteel>40</KOTOR_AlloyDurasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>SE_apparel_shocktrooper</li>
 				<li>SWKotORSpecificApparelItem_SilverSithCommandoArmor</li>
@@ -799,7 +799,7 @@
 			<KOTOR_AlloyDurasteel>20</KOTOR_AlloyDurasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>67</layer>
@@ -908,7 +908,7 @@
 			<KOTOR_AlloyDurasteel>40</KOTOR_AlloyDurasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>SE_apparel_commando</li>
 				<li>SWKotORSpecificApparelItem_ColorableSithCommandoArmor</li>
@@ -1019,7 +1019,7 @@
 			<KOTOR_AlloyDurasteel>20</KOTOR_AlloyDurasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<drawData>
 				<defaultData>
 					<layer>67</layer>

@@ -241,7 +241,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<renderSkipFlags>
 				<li>Hair</li>
 				<li>Eyes</li>
@@ -337,7 +337,7 @@
 			<MeleeDodgeChance>-0.3</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.1</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_mid</li>
 				<li>SaV_outfit_merc</li>

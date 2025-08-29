@@ -195,7 +195,7 @@
 		  <li>RewardStandardMidFreq</li>
 		  <li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<!--li>EVA</li-->
 				<li>KotORArmor_heavy</li>
@@ -307,7 +307,7 @@
 		  <li>RewardStandardMidFreq</li>
 		  <li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>SaV_outfit_elite</li>
 				<li>MNC_outfit_mid</li>
@@ -425,7 +425,7 @@
 		  <li>RewardStandardQualitySuper</li>
 		  <li>UniqueWeapon</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>MNC_outfit_heavy</li>
 				<li>MNCFactionArmor</li>
@@ -541,7 +541,7 @@
 			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>MNC_outfit_supercom</li>
 				<li>MNC_outfit_mandalore</li>

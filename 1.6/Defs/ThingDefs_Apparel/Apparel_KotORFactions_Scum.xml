@@ -38,7 +38,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_light</li>
 				<li>SaV_apparel_huttgoon</li>
@@ -208,7 +208,7 @@
 		<thingSetMakerTags>
 		  <li>RewardStandardMidFreq</li>
 		</thingSetMakerTags>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>SaV_outfit_gamorrean</li>

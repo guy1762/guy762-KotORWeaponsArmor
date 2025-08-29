@@ -245,7 +245,7 @@
 			<MeleeDodgeChance>-0.1</MeleeDodgeChance>
 			<IncomingDamageFactor>-0.05</IncomingDamageFactor>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>PM_apparel_cop</li>
 				<li>SWKotORSpecificApparelItem_TSFOldRepublicTrooperArmor</li>
@@ -304,7 +304,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>PM_apparel_cop</li>
 				<li>SWKotORSpecificApparelItem_TSFOldRepublicTrooperHelmet</li>
@@ -402,7 +402,7 @@
 			<KOTOR_FabricArmorweave>20</KOTOR_FabricArmorweave>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>OR_apparel_trooper</li>
 				<li>KotORRoyaltyTag_BasicRepublicOutfit</li>
@@ -498,7 +498,7 @@
 			<Plasteel>25</Plasteel>
 		</costList>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>OR_apparel_trooper</li>
 				<li>OR_apparel_helmet_cap</li>
@@ -592,7 +592,7 @@
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
 		</equippedStatOffsets>
 		
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<!--li>EVA</li-->
 				<li>KotORArmor_heavy</li>
@@ -678,7 +678,7 @@
 			<MeleeDamageFactor>0.1</MeleeDamageFactor>
 			<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
-		<apparel Inherit="False">
+		<apparel>
 			<tags>
 				<li>KotORArmor_heavy</li>
 				<li>KotORRoyaltyTag_BasicRepublicOutfit</li>
