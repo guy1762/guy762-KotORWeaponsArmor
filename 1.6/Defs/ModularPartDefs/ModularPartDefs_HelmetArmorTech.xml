@@ -358,7 +358,7 @@
 				<soundReload>kotorsound_select_SotE</soundReload>
 				<chargeNoun>micro-rocket</chargeNoun>
 				<ammoDef>guy762_DroidWeapon_microrocket</ammoDef>
-				<ammoCountPerCharge>2</ammoCountPerCharge>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
 			
 				<replenishAfterCooldown>false</replenishAfterCooldown>
