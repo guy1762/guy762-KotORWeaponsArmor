@@ -30,7 +30,7 @@
 	<equippedStatOffsets>
 		<PsychicSensitivity>0.1</PsychicSensitivity>
         <PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
-		<Force_FPMaxOffset MayRequire="lee.theforce.standalone">0.125</Force_FPMaxOffset>
+		<Force_FPMaxOffset MayRequire="lee.theforce.standalone">1.125</Force_FPMaxOffset>
 		<SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.125</SWPotF_ForcePoints_Recovery>
 	</equippedStatOffsets>
 	
@@ -256,7 +256,7 @@
 	  <SocialImpact>0.4</SocialImpact>
       <PsychicSensitivity>0.4</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>0.4</PsychicEntropyRecoveryRate>
-	  <Force_FPMaxOffset MayRequire="lee.theforce.standalone">0.5</Force_FPMaxOffset>
+	  <Force_FPMaxOffset MayRequire="lee.theforce.standalone">1.5</Force_FPMaxOffset>
 	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.5</SWPotF_ForcePoints_Recovery>
     </equippedStatOffsets>
 
@@ -359,7 +359,7 @@
 	<equippedStatOffsets>
       <PsychicSensitivity>0.4</PsychicSensitivity>
 	  <PsychicEntropyRecoveryRate>0.3</PsychicEntropyRecoveryRate>
-	  <Force_FPMaxOffset MayRequire="lee.theforce.standalone">0.25</Force_FPMaxOffset>
+	  <Force_FPMaxOffset MayRequire="lee.theforce.standalone">1.25</Force_FPMaxOffset>
 	  <SWPotF_ForcePoints_Recovery MayRequire="guy762.Lee.KotORPotF">0.25</SWPotF_ForcePoints_Recovery>
 	  <MeditationFocusGain>0.3</MeditationFocusGain>
     </equippedStatOffsets>

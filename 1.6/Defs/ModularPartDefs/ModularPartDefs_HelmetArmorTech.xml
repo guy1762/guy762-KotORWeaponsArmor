@@ -514,7 +514,7 @@
 	
 	
 	
-	<ModularWeapons2.ModularPartsDef MayRequire="kentington.saveourship2" Name="guy762_KotORpartArmorTech_dex" ParentName="guy762_KotORModularPartBase">
+	<ModularWeapons2.ModularPartsDef MayRequire="kentington.saveourship2" Name="guy762_KotORpartArmorTech_EVA" ParentName="guy762_KotORModularPartBase">
 		<defName>guy762_KotORpartArmorTech_EVA</defName>
 		<label>EVA verniers</label>
 		<labelShort>EVA verniers</labelShort>
