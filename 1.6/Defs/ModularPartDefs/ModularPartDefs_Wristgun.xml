@@ -269,7 +269,7 @@
 		<defName>guy762_KotORpartWristgun_microrocket</defName>
 		<label>micro-rocket launcher</label>
 		<labelShort>micro-rockets</labelShort>
-		<description>Adds an additional attack verb which fires a burst of micro-rockets.</description>
+		<description>Adds an additional attack verb which fires a burst of micro-rockets. The actual item must be loaded as ammo after this part is installed.</description>
 		<attachedTo>guy762_KotORMount_wristgun</attachedTo>
 		<effects>
 		
@@ -291,7 +291,8 @@
 		  
 		</effects>
 		<costList>
-		  <guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket>
+		  <!-- <guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket> -->
+		  <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<!-- <researchPrerequisites> -->
 		  <!-- <li>guy762_ResearchKotOR_advupgrade</li> -->
@@ -345,7 +346,7 @@
 		<defName>guy762_KotORpartWristgun_seeker</defName>
 		<label>seeker-missile launcher</label>
 		<labelShort>seeker-missile</labelShort>
-		<description>Adds an additional attack verb which fires a homing seeker-missile.</description>
+		<description>Adds an additional attack verb which fires a homing seeker-missile. The actual item must be loaded as ammo after this part is installed.</description>
 		<attachedTo>guy762_KotORMount_wristgun</attachedTo>
 		<effects>
 		
@@ -367,7 +368,8 @@
 		  
 		</effects>
 		<costList>
-		  <guy762_DroidWeapon_seekerrocket>1</guy762_DroidWeapon_seekerrocket>
+		  <!-- <guy762_DroidWeapon_seekerrocket>1</guy762_DroidWeapon_seekerrocket> -->
+		  <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<!-- <researchPrerequisites> -->
 		  <!-- <li>guy762_ResearchKotOR_advupgrade</li> -->
@@ -597,7 +599,7 @@
 		<defName>guy762_KotORpartWristgun_saberdart</defName>
 		<label>Saber-dart needler</label>
 		<labelShort>Saber-dart</labelShort>
-		<description>Adds an additional attack verb which fires a single highly-poisonous dart.</description>
+		<description>Adds an additional attack verb which fires a single highly-poisonous dart. The actual item must be loaded as ammo after this part is installed.</description>
 		<attachedTo>guy762_KotORMount_wristgun</attachedTo>
 		<effects>
 		
@@ -619,7 +621,8 @@
 		  
 		</effects>
 		<costList>
-			<guy762_WristGunUpgrade_saberdart>1</guy762_WristGunUpgrade_saberdart>
+			<!-- <guy762_WristGunUpgrade_saberdart>1</guy762_WristGunUpgrade_saberdart> -->
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 		  <li>guy762_ResearchKotOR_advupgrade</li>
@@ -673,7 +676,7 @@
 		<defName>guy762_KotORpartWristgun_whistlingbird</defName>
 		<label>"Whistling Birds"</label>
 		<labelShort>"Whistling Birds"</labelShort>
-		<description>Adds an additional attack verb which fires a burst of homing micro-missiles.</description>
+		<description>Adds an additional attack verb which fires a burst of homing micro-missiles. The actual item must be loaded as ammo after this part is installed.</description>
 		<attachedTo>guy762_KotORMount_wristgun</attachedTo>
 		<effects>
 		
@@ -695,7 +698,8 @@
 		  
 		</effects>
 		<costList>
-			<guy762_WristGunUpgrade_whistlingbird>1</guy762_WristGunUpgrade_whistlingbird>
+			<!-- <guy762_WristGunUpgrade_whistlingbird>1</guy762_WristGunUpgrade_whistlingbird> -->
+			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 		  <li>guy762_ResearchKotOR_advupgrade</li>

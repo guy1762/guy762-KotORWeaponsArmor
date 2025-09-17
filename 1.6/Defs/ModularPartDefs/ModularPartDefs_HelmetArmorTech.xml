@@ -343,7 +343,7 @@
 		<defName>guy762_KotORpartArmorTech_kneerocket</defName>
 		<label>knee-mounted micro-rocket launcher</label>
 		<labelShort>knee-mounted micro-rocket launcher</labelShort>
-		<description>.</description>
+		<description>The actual item must be loaded as ammo after this part is installed.</description>
 		<attachedTo>guy762_KotORMount_armortech</attachedTo>
 		<effects>
 		
@@ -366,7 +366,8 @@
 		  
 		</effects>
 		<costList>
-			<guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket>
+			<!-- <guy762_DroidWeapon_microrocket>1</guy762_DroidWeapon_microrocket> -->
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 		  <li>guy762_ResearchKotOR_advupgrade</li>
