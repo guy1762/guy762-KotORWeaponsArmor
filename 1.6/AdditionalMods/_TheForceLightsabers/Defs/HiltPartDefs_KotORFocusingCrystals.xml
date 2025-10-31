@@ -61,7 +61,7 @@
     <defName>guy762_SWForceLightsabers_CrystalPart_velmorite</defName>
     <label>Crystal, Velmorite</label>
     <description>Found only on the planet Velmor, these crystals produce a very fine beam that is easy to wield skillfully.</description>
-    <requiredComponent>guy762_crystalitem_ruusan</requiredComponent>
+    <requiredComponent>guy762_crystalitem_velmorite</requiredComponent>
 	
 	<equippedStatOffsets>
       <MeleeCooldownFactor>-0.1</MeleeCooldownFactor>

@@ -5,7 +5,7 @@
   <Lightsaber.HiltPartCategoryDef>
 	<defName>guy762_SWForceLightsabersPartCategory_colorcrystal</defName>
 	<label>Color Crystal</label>
-	<canChangeColor>False</canChangeColor>
+	<canChangeColor>True</canChangeColor>
   </Lightsaber.HiltPartCategoryDef>
 	
   <Lightsaber.HiltPartDef Abstract="True" Name="guy762_SWForceLightsabers_ColorCrystalPartBASE">
