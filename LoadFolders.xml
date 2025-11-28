@@ -21,7 +21,7 @@
 		<li>/</li>
 		<li>1.6</li>
 		<li IfModActive="Roolo.DualWield">1.6/AdditionalMods/DualWield</li>
-		<li IfModActive="smartkar.athenaframework">1.6/AdditionalMods/AthenaFramework</li>
+		<!-- <li IfModActive="smartkar.athenaframework">1.6/AdditionalMods/AthenaFramework</li> -->
 		<!-- <li IfModActive="EBSG.Framework">1.6/AdditionalMods/EBSGFramework</li> -->
 		
 		<li IfModActive="Mlie.ShowMeYourHands">1.6/AdditionalMods/ShowMeYourHands</li>
