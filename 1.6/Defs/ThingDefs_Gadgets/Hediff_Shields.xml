@@ -33,7 +33,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -190,7 +190,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -290,7 +290,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -376,7 +376,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -472,7 +472,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -570,7 +570,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -759,7 +759,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_RangedDamage_KOstun</li>
 		  
 		  <li>guy762_RangedDamage_AntiVehicleEnergy</li>
@@ -858,7 +858,7 @@
 		  <li>guy762_ExplosiveDamage_energy</li>
 		  <li>guy762_GrenadeDamage_energy</li>
 		  <li>guy762_GrenadeDamage_thermaldet</li>
-		  <li MayRequire="Ludeon.RimWorld.Biotech">Beam</li>
+		  <li>Beam</li>
 		  <li>guy762_MeleeDamage_energy</li>
 		  <li>guy762_MeleeDamage_ecut</li>
 		  <li>guy762_MeleeDamage_estab</li>
