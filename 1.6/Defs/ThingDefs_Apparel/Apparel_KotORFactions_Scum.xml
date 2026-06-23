@@ -268,7 +268,7 @@
 	  
 	
 	  
-	  <ThingDef ParentName="guy762_HatCraftableBase">
+	<ThingDef ParentName="guy762_HatCraftableBase">
 		<defName>guy762_TuskenMask</defName>
 		<label>Tusken Raider mask</label>
 		<description>This intimidating mask is worn by the Tusken Raiders of Tatooine. Merely wearing it is enough to make most people uncomfortable in the wearer's presence, though the bulky filtration system is more than enough to protect the wearer from most environmental toxins.</description>
@@ -352,7 +352,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-	  </ThingDef>
+	</ThingDef>
 	  
 	  
 	  
