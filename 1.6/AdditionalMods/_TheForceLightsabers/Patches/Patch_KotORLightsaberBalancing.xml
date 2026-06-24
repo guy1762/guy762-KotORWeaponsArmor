@@ -10,6 +10,13 @@
 		<match Class="PatchOperationSequence">
 		  <operations>
 			
+			<!-- <li Class="PatchOperationAdd"> -->
+				<!-- <xpath>Defs/ThingDef[@Name="Force_LightsaberBase"]/equippedStatOffsets</xpath> -->
+				<!-- <value> -->
+					<!-- <SWCPStat_InfantryWeaponClass_lightsaber>1</SWCPStat_InfantryWeaponClass_lightsaber> -->
+				<!-- </value> -->
+			<!-- </li> -->
+			
 			<!-- ATTACK TOOLS -->
 			
 			<li Class="PatchOperationAdd">
@@ -355,7 +362,127 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Force_Ezra_BlasterLightsaber"]</xpath>
+				<value>
+				  
+					<tools Inherit="False">
+					  <li>
+						<label>hilt</label>
+						<capacities>
+						  <li>Blunt</li>
+						</capacities>
+						<!---->
+						<power>12</power>
+						<chanceFactor>0.05</chanceFactor>
+						<cooldownTime>4</cooldownTime>
+					  </li>
+					  <li>
+						<label>tip</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberStab</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>0.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					  <li>
+						<label>edge</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberSlash</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>1.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					</tools>
+					
+				</value>
+			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Force_Protosaber"]</xpath>
+				<value>
+				  
+					<tools Inherit="False">
+					  <li>
+						<label>hilt</label>
+						<capacities>
+						  <li>Blunt</li>
+						</capacities>
+						<!---->
+						<power>12</power>
+						<chanceFactor>0.05</chanceFactor>
+						<cooldownTime>4</cooldownTime>
+					  </li>
+					  <li>
+						<label>tip</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberStab</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>0.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					  <li>
+						<label>edge</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberSlash</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>1.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					</tools>
+					
+				</value>
+			</li>
+			
+			
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Force_SoulSaber"]</xpath>
+				<value>
+				  
+					<tools Inherit="False">
+					  <li>
+						<label>hilt</label>
+						<capacities>
+						  <li>Blunt</li>
+						</capacities>
+						<!---->
+						<power>12</power>
+						<chanceFactor>0.05</chanceFactor>
+						<cooldownTime>4</cooldownTime>
+					  </li>
+					  <li>
+						<label>tip</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberStab</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>0.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					  <li>
+						<label>edge</label>
+						<capacities>
+						  <li>guy762_ToolCapacity_SaberSlash</li>
+						</capacities>
+						<!---->
+						<power>26</power>
+						<chanceFactor>1.5</chanceFactor>
+						<cooldownTime>2.5</cooldownTime>
+					  </li>
+					</tools>
+					
+				</value>
+			</li>
 			
 			
 			
